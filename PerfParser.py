@@ -15,11 +15,15 @@ class PerfParser:
         stdout_dir="stdout/valid",
         category_to_file_path="tags/category_to_file.json",
         tags_path="tags/tags.json",
+        normalize=True,
     ):
         self.perf_dir = Path(perf_dir)
         self.stdout_dir = Path(stdout_dir)
         self.cnfs = self._get_cnf_names()
         self.function_map = FunctionMap(category_to_file_path, tags_path)
+
+        # normalize self_pct's to guarantee they add to 100%
+        self.normalize = normalize
 
         self.cnf_stats = self._init_cnf_stats()
         self.aggregate_stats = self._aggregate_cnf_stats()
@@ -107,7 +111,12 @@ class PerfParser:
 
             for stat in stats:
                 function_name = stat["symbol"]
-                function_time = stat["norm_self_pct"] * cnf_time
+                self_pct = (
+                    stat["norm_self_pct"]
+                    if self.normalize
+                    else (stat["self_pct"] / 100.0)
+                )
+                function_time = self_pct * cnf_time
 
                 function_times[function_name] = (
                     function_times.get(function_name, 0) + function_time

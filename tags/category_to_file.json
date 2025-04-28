@@ -1,0 +1,50 @@
+{
+    "compile": [
+        "src/operations/smooth.cpp",
+        "src/operations/entail.cpp",
+        "src/auxiliary/determined.cpp",
+        "src/operations/count.cpp",
+        "src/compiler/separators.cpp",
+        "src/compiler/compile.cpp",
+        "src/main.cpp",
+        "src/operations/decomposable.cpp",
+        "src/auxiliary/split_clause.cpp"
+    ],
+    "utility": [
+        "src/utility.cpp",
+        "src/operations/save_load.cpp",
+        "src/mcc21.cpp"
+    ],
+    "hdtree": [
+        "src/hdtree/quality.cpp",
+        "src/hdtree/patoh.cpp",
+        "src/hdtree/construct.cpp",
+        "src/hdtree/verify.cpp",
+        "src/hdtree/hgr.cpp",
+        "src/hdtree/order.cpp",
+        "src/hdtree/partition.cpp",
+        "src/hdtree/minfill.cpp",
+        "src/hdtree/save_load.cpp"
+    ],
+    "sat": [
+        "src/sat/preprocessing.cpp",
+        "src/sat/conflict_analysis.cpp",
+        "src/sat/unit_resolution.cpp",
+        "src/managers/cnf_manager.cpp",
+        "src/auxiliary/extended_resolution.cpp",
+        "src/sat/save_load.cpp"
+    ],
+    "nnf": [
+        "src/operations/nnf_operations.cpp",
+        "src/managers/nnf_manager.cpp",
+        "src/compiler/verify.cpp"
+    ],
+    "cache": [
+        "src/compiler/cnf_key.cpp",
+        "src/managers/cache_manager.cpp",
+        "src/compiler/vars.cpp"
+    ],
+    "dtree": [
+        "src/managers/dtree_manager.cpp"
+    ]
+}

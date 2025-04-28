@@ -1,0 +1,4725 @@
+[
+    {
+        "_type": "tag",
+        "name": "Free",
+        "path": "src/compiler/verify.cpp",
+        "pattern": "/^BOOLEAN Free(struct var *var) { return var->pliteral->rlevel==0 && var->nliteral->rlevel==0; }$/",
+        "line": 21,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "Graph",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^Graph::Graph(struct cnf *cnf){$/",
+        "line": 37,
+        "kind": "function",
+        "signature": "(struct cnf * cnf)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "Graph",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^class Graph{$/",
+        "file": true,
+        "line": 17,
+        "kind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "MC_nnf",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^void MC_nnf(char **int_str,char **float_str,double *log_10, struct nnf *nnf,V_COUNT var_count)$/",
+        "line": 114,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char ** int_str,char ** float_str,double * log_10,struct nnf * nnf,V_COUNT var_count)"
+    },
+    {
+        "_type": "tag",
+        "name": "MC_smoothall_nnf",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^void MC_smoothall_nnf(char **int_str,char **float_str, double *log_10, struct nnf *nnf)$/",
+        "line": 200,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char ** int_str,char ** float_str,double * log_10,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "PaToh_partition",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^void PaToh_partition(int c,int n, $/",
+        "line": 129,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int c,int n,int * cwghts,int * xpins,int * pins,int * nwghts,int ubfactor,int * partvec,int * cut,int * partweights)"
+    },
+    {
+        "_type": "tag",
+        "name": "WMC_smoothall_nnf",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^void WMC_smoothall_nnf(char **num_str,char **den_str,char **float_str,double *log_10,$/",
+        "line": 278,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char ** num_str,char ** den_str,char ** float_str,double * log_10,struct nnf * nnf,struct cnf * cnf,BOOLEAN destroy_nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "act_occ",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^inline C_COUNT act_occ(struct var *var) $/",
+        "line": 98,
+        "typeref": "typename:C_COUNT",
+        "kind": "function",
+        "signature": "(struct var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "activate",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void activate(struct dtree *dtree) $/",
+        "line": 283,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "active_separator_count",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^V_COUNT active_separator_count(V_COUNT count,struct dtree *dtree) $/",
+        "line": 144,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(V_COUNT count,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "addEdge",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void Graph::addEdge(int i, int j){$/",
+        "line": 59,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int i,int j)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "add_binary_clause_to_buckets",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN add_binary_clause_to_buckets(struct literal *l1, struct literal *l2,struct binary_clause/",
+        "line": 431,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * l1,struct literal * l2,struct binary_clause ** p_buckets,struct binary_clause ** n_buckets,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_cache_entry",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void add_cache_entry(struct cache_entry *entry, unsigned long hashcode, struct cache_manager *ma/",
+        "line": 152,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_entry * entry,unsigned long hashcode,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_clause",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void add_clause(struct clause *clause, struct cnf_manager *manager)$/",
+        "line": 217,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_conflict_driven_clause",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void add_conflict_driven_clause(struct cnf_manager *manager)$/",
+        "line": 253,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_e_clause_b_clauses",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN add_e_clause_b_clauses(struct clause *clause,struct binary_clause **p_buckets,struct bin/",
+        "line": 339,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct binary_clause ** p_buckets,struct binary_clause ** n_buckets,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_literal",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN add_literal(struct literal *l, struct binary_clause **buckets)$/",
+        "line": 373,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * l,struct binary_clause ** buckets)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_pvar_trivial_clauses",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void add_pvar_trivial_clauses(unsigned pvc, struct cnf *cnf) {$/",
+        "line": 409,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned pvc,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_unit_clause",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN add_unit_clause(struct literal *lit,struct binary_clause **p_buckets,struct binary_claus/",
+        "line": 398,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * lit,struct binary_clause ** p_buckets,struct binary_clause ** n_buckets,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "add_watched_clause",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void add_watched_clause(struct clause *clause, struct literal *literal)$/",
+        "line": 71,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct literal * literal)"
+    },
+    {
+        "_type": "tag",
+        "name": "allocate_nnf_memory_block",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void allocate_nnf_memory_block(struct nnf_manager *manager) $/",
+        "line": 122,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "allocate_nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE allocate_nnf_node(unsigned char type,NNF_COUNT children_count,struct nnf_manager *manag/",
+        "line": 154,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(unsigned char type,NNF_COUNT children_count,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "allocate_patoh",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^void allocate_patoh(struct hgr *hgr)$/",
+        "line": 287,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "analyze_conflict",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void analyze_conflict(struct literal **cc_literals,V_COUNT conflicting_level,struct cnf_manager /",
+        "line": 295,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal ** cc_literals,V_COUNT conflicting_level,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "and_hashcode",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^HASHCODE and_hashcode(NNF_COUNT cc,NNF_NODE *c)$/",
+        "line": 348,
+        "typeref": "typename:HASHCODE",
+        "kind": "function",
+        "signature": "(NNF_COUNT cc,NNF_NODE * c)"
+    },
+    {
+        "_type": "tag",
+        "name": "apply_to_vars",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^void apply_to_vars(struct dtree *dtree, void (foo)(struct var*, struct dtree *))$/",
+        "line": 16,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,void (foo)(struct var *,struct dtree *))"
+    },
+    {
+        "_type": "tag",
+        "name": "assert_cd_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN assert_cd_literal(struct cnf_manager *manager) $/",
+        "line": 437,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "assert_unit_clause",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN assert_unit_clause(struct literal *literal, struct cnf_manager *manager)$/",
+        "line": 498,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * literal,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "assert_unit_clauses",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN assert_unit_clauses(struct cnf_manager *manager)$/",
+        "line": 521,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "assertion_level",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^V_COUNT assertion_level(struct cnf_manager *manager)$/",
+        "line": 346,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "at_assertion_level",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^BOOLEAN at_assertion_level(struct cnf_manager *manager)$/",
+        "line": 352,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "at_contradiction_level",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^BOOLEAN at_contradiction_level(struct cnf_manager *manager)$/",
+        "line": 357,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "balanced_compose_hdtrees",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^struct hdtree *balanced_compose_hdtrees(struct hdtree *hdtree,unsigned size)$/",
+        "line": 190,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,unsigned size)"
+    },
+    {
+        "_type": "tag",
+        "name": "better_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^BOOLEAN better_hdtree(void)$/",
+        "line": 249,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(void)"
+    },
+    {
+        "_type": "tag",
+        "name": "binary_resolution",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN binary_resolution(struct cnf_manager *manager)$/",
+        "line": 497,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "bits2bytes",
+        "path": "src/utility.cpp",
+        "pattern": "/^unsigned long bits2bytes(unsigned long n) $/",
+        "line": 71,
+        "typeref": "typename:unsigned long",
+        "kind": "function",
+        "signature": "(unsigned long n)"
+    },
+    {
+        "_type": "tag",
+        "name": "c2d",
+        "path": "README.md",
+        "pattern": "/^# c2d$/",
+        "line": 1,
+        "kind": "chapter"
+    },
+    {
+        "_type": "tag",
+        "name": "check_constrained",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void check_constrained(V_COUNT pvc, struct dtree *dtree)$/",
+        "line": 269,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT pvc,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "check_constrained_",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void check_constrained_(struct dtree *dtree, BOOLEAN exist_above)$/",
+        "line": 279,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,BOOLEAN exist_above)"
+    },
+    {
+        "_type": "tag",
+        "name": "check_decomposable",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^BOOLEAN check_decomposable(struct nnf *nnf)$/",
+        "line": 214,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "check_determinism",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^BOOLEAN check_determinism(struct nnf *nnf, struct cnf *cnf)$/",
+        "line": 248,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "check_entail",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^BOOLEAN check_entail(struct nnf *nnf, struct cnf *cnf)$/",
+        "line": 234,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "child_of",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN child_of(NNF_ID2 i,struct nnfn *node)$/",
+        "line": 346,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "classical_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^int classical_cnf(struct cnf *cnf) {$/",
+        "line": 560,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "clause2nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE clause2nnf_node(struct clause *clause,struct nnf_manager *nnf_manager)$/",
+        "line": 505,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct nnf_manager * nnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "clause2string",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^char *clause2string(struct clause *clause)$/",
+        "line": 766,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(struct clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "clean_cache",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void clean_cache(struct cache_entry *entry, struct cache_manager *manager)$/",
+        "line": 211,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_entry * entry,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "clear_best_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^void clear_best_hdtree(struct hgr *hgr)$/",
+        "line": 75,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "clear_decomposition_buffers",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void clear_decomposition_buffers(struct hgr *hgr)$/",
+        "line": 410,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "clear_implied_literal_marks",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void clear_implied_literal_marks(struct cnf_manager *manager) {$/",
+        "line": 15,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "clear_leaf_bits",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^unsigned clear_leaf_bits(mpz_t bvector, struct hdtree *hdtree) {$/",
+        "line": 67,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(mpz_t bvector,struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "clear_vsets",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void clear_vsets(struct hdtree *hdtree) {$/",
+        "line": 257,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "cmp_hdtrees",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^BOOLEAN cmp_hdtrees(struct hdtree *hdtree1, struct hdtree *hdtree2)$/",
+        "line": 326,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree1,struct hdtree * hdtree2)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2ddnnf",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^struct nnf *cnf2ddnnf(struct cnf *cnf, V_COUNT *pvc)$/",
+        "line": 308,
+        "typeref": "struct:nnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,V_COUNT * pvc)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2ddnnf_cmd_line",
+        "path": "src/main.cpp",
+        "pattern": "/^struct nnf_manager *cnf2ddnnf_cmd_line(struct cnf *cnf,char *block_order_in_fname,$/",
+        "line": 728,
+        "typeref": "struct:nnf_manager *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,char * block_order_in_fname,char * dtree_in_fname,char * dtree_out_fname,char * exist_fname,char * force_fname,char * determined_fname,char * decompose_except_fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2hdtree",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^struct hdtree *cnf2hdtree(struct cnf *cnf,struct hgr *hgr,int hdtree_type,unsigned *edge_order)$/",
+        "line": 38,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,struct hgr * hgr,int hdtree_type,unsigned * edge_order)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2hgr",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr *cnf2hgr(struct cnf *cnf) $/",
+        "line": 24,
+        "typeref": "struct:hgr *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2minfill_blockorder",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^unsigned *cnf2minfill_blockorder(struct cnf *cnf, unsigned *block_num){$/",
+        "line": 325,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned * block_num)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2minfill_order",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^unsigned *cnf2minfill_order(struct cnf *cnf) {$/",
+        "line": 321,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf2minfill_order_timed",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^unsigned *cnf2minfill_order_timed(struct cnf *cnf,int time_out) {$/",
+        "line": 266,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,int time_out)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf_extended_resolution",
+        "path": "src/auxiliary/extended_resolution.cpp",
+        "pattern": "/^struct cnf *cnf_extended_resolution(struct cnf *cnf,unsigned tsize,unsigned *qcount, $/",
+        "line": 20,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned tsize,unsigned * qcount,unsigned ** qvars,unsigned ** block_order)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf_rsplit_clauses",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^struct cnf *cnf_rsplit_clauses(struct cnf *cnf,unsigned *qcount, unsigned **qvars, unsigned **bl/",
+        "line": 52,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned * qcount,unsigned ** qvars,unsigned ** block_order)"
+    },
+    {
+        "_type": "tag",
+        "name": "cnf_split_clauses",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^struct cnf *cnf_split_clauses(struct cnf *cnf,unsigned tsize,unsigned *qcount, $/",
+        "line": 210,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned tsize,unsigned * qcount,unsigned ** qvars,unsigned ** block_order)"
+    },
+    {
+        "_type": "tag",
+        "name": "collision_list_size",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void collision_list_size(struct cache_manager *manager, int *max, double *ave, double *ave_key,d/",
+        "line": 341,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_manager * manager,int * max,double * ave,double * ave_key,double * max_key,double * min_key)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_cnf",
+        "path": "src/compiler/compile.cpp",
+        "pattern": "/^NNF_NODE compile_cnf(struct dtree_manager *dtree_manager_, $/",
+        "line": 81,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct dtree_manager * dtree_manager_,struct cnf_manager * cnf_manager_,struct nnf_manager * nnf_manager_,struct cache_manager * cache_manager_)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_decomposed",
+        "path": "src/compiler/compile.cpp",
+        "pattern": "/^NNF_NODE compile_decomposed(struct dtree *dtree, $/",
+        "line": 293,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct literal ** first_literal,struct dtree * ancestor)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_dt",
+        "path": "src/compiler/compile.cpp",
+        "pattern": "/^NNF_NODE compile_dt(struct dtree *dtree, V_COUNT ascount, C_COUNT depth,$/",
+        "line": 165,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,V_COUNT ascount,C_COUNT depth,struct literal ** first_literal,struct dtree * ancestor)"
+    },
+    {
+        "_type": "tag",
+        "name": "complement_var_indices_in_fname",
+        "path": "src/utility.cpp",
+        "pattern": "/^unsigned *complement_var_indices_in_fname(unsigned var_count,char *fname)$/",
+        "line": 145,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(unsigned var_count,char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "complimentary_NNF_NODEs",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN complimentary_NNF_NODEs(struct nnfn *n1,struct nnfn *n2)$/",
+        "line": 370,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * n1,struct nnfn * n2)"
+    },
+    {
+        "_type": "tag",
+        "name": "complimentary_nnf_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN complimentary_nnf_nodes(NNF_NODE n1,NNF_NODE n2)$/",
+        "line": 751,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE n1,NNF_NODE n2)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_clause_size",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^V_COUNT compute_clause_size(LITERAL *literals) {$/",
+        "line": 144,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(LITERAL * literals)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_context_sizes",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void compute_context_sizes(unsigned cutset_size,struct hgr_edges *context,$/",
+        "line": 502,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned cutset_size,struct hgr_edges * context,unsigned * left_context_size,unsigned * right_context_size,unsigned * separator_size)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_cutset_size",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^unsigned compute_cutset_size(struct hgr *hgr)$/",
+        "line": 542,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_in_vars",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void compute_in_vars(struct hdtree *hdtree, struct hgr *hgr, struct cnf *cnf) {$/",
+        "line": 115,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hgr * hgr,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_out_vars",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void compute_out_vars(struct hdtree *hdtree) {$/",
+        "line": 153,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_sum_sizes",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^void compute_sum_sizes(struct hdtree *hdtree,mpz_t cls_sum, mpz_t cut_sum, mpz_t cxt_sum) $/",
+        "line": 292,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,mpz_t cls_sum,mpz_t cut_sum,mpz_t cxt_sum)"
+    },
+    {
+        "_type": "tag",
+        "name": "compute_vsets",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void compute_vsets(struct hdtree *hdtree) {$/",
+        "line": 175,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "conjoin_nnfs",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE conjoin_nnfs(NNF_NODE n1,NNF_NODE n2,struct nnf_manager *manager)$/",
+        "line": 736,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_NODE n1,NNF_NODE n2,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "conjoin_nnfs_lits",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE conjoin_nnfs_lits(NNF_NODE n1,NNF_NODE n2,struct literal **stack_start,$/",
+        "line": 705,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_NODE n1,NNF_NODE n2,struct literal ** stack_start,struct literal ** stack_end,struct dtree * dtree,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "conjoin_relevant_lits",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE conjoin_relevant_lits(struct literal **stack_start,struct literal **stack_end,$/",
+        "line": 643,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct literal ** stack_start,struct literal ** stack_end,struct dtree * dtree,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "constrained_elm_order",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^unsigned *constrained_elm_order(struct cnf *cnf,unsigned *evc, unsigned **exist_vars) {$/",
+        "line": 434,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned * evc,unsigned ** exist_vars)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_cache_manager",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^struct cache_manager *construct_cache_manager (struct cnf_manager *cnf_manager,$/",
+        "line": 19,
+        "typeref": "struct:cache_manager *",
+        "kind": "function",
+        "signature": "(struct cnf_manager * cnf_manager,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_cnf_clauses",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void construct_cnf_clauses(C_COUNT *clause_order,struct cnf_manager *manager, struct cnf *cnf)$/",
+        "line": 228,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(C_COUNT * clause_order,struct cnf_manager * manager,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_cnf_manager",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^struct cnf_manager *construct_cnf_manager(V_COUNT *var_order,C_COUNT *clause_order,struct cnf *c/",
+        "line": 49,
+        "typeref": "struct:cnf_manager *",
+        "kind": "function",
+        "signature": "(V_COUNT * var_order,C_COUNT * clause_order,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_cnf_vars_and_literals",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void construct_cnf_vars_and_literals(V_COUNT *var_order,struct cnf_manager *manager)$/",
+        "line": 164,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT * var_order,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_conflict_report",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void construct_conflict_report(V_COUNT clevel, struct literal **cc_literals, struct cnf_manager /",
+        "line": 167,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT clevel,struct literal ** cc_literals,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_dtree_manager",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^struct dtree_manager *construct_dtree_manager(struct hdtree *hdtree,struct cnf_manager *cnf_mana/",
+        "line": 26,
+        "typeref": "struct:dtree_manager *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_nnf_manager",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^struct nnf_manager *construct_nnf_manager(struct cnf_manager *cnf_manager)$/",
+        "line": 1088,
+        "typeref": "struct:nnf_manager *",
+        "kind": "function",
+        "signature": "(struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_un_table",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^struct un_table *construct_un_table(NNF_COUNT2 capacity,struct nnf *nnf)$/",
+        "line": 233,
+        "typeref": "struct:un_table *",
+        "kind": "function",
+        "signature": "(NNF_COUNT2 capacity,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_valuation",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^struct valuation *construct_valuation(struct nnf *nnf, struct cnf *cnf)$/",
+        "line": 31,
+        "typeref": "struct:valuation *",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "containsEdge",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^bool Graph::containsEdge(int i, int j){$/",
+        "line": 69,
+        "typeref": "typename:bool",
+        "kind": "function",
+        "signature": "(int i,int j)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "copy",
+        "path": "src/auxiliary/determined.cpp",
+        "pattern": "/^inline void copy(LITERAL *dest_clause, LITERAL *src_clause,unsigned len)$/",
+        "line": 32,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(LITERAL * dest_clause,LITERAL * src_clause,unsigned len)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^inline void copy(int *dest_clause, int *src_clause,unsigned len)$/",
+        "line": 34,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int * dest_clause,int * src_clause,unsigned len)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_buffer",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void copy_buffer(struct hgr_edge **buffer,unsigned size, struct hgr_edges *edges)$/",
+        "line": 441,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edge ** buffer,unsigned size,struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_literals",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void copy_literals(unsigned type,NNF_ID2 *i,struct nnfn *nodes,mpz_t *bit_vector,NNF_ID2 *map)$/",
+        "line": 193,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned type,NNF_ID2 * i,struct nnfn * nodes,mpz_t * bit_vector,NNF_ID2 * map)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_nodes_while_smoothing",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void copy_nodes_while_smoothing(struct nnf *nnf,NNF_ID2 *i,struct nnfn *new_nodes,struct smoothi/",
+        "line": 258,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,NNF_ID2 * i,struct nnfn * new_nodes,struct smoothing_node * smoothing_nodes,NNF_ID2 * or_node_map,NNF_ID2 * pl_map,NNF_ID2 * nl_map)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_nodes_while_smoothing_min",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void copy_nodes_while_smoothing_min(struct nnf *nnf,NNF_ID2 *i,struct nnfn *new_nodes,struct smo/",
+        "line": 425,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,NNF_ID2 * i,struct nnfn * new_nodes,struct smoothing_node * smoothing_nodes,NNF_ID2 * pl_map,NNF_ID2 * nl_map)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_or_nodes",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void copy_or_nodes(NNF_ID2 *i,struct nnfn *nodes,mpz_t *bit_vector,NNF_ID2 *map,NNF_ID2 *pl_map,/",
+        "line": 211,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 * i,struct nnfn * nodes,mpz_t * bit_vector,NNF_ID2 * map,NNF_ID2 * pl_map,NNF_ID2 * nl_map)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_smoothing_node",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void copy_smoothing_node(struct nnfn *new_node,struct smoothing_node *sn,NNF_ID2 *or_node_map,NN/",
+        "line": 238,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * new_node,struct smoothing_node * sn,NNF_ID2 * or_node_map,NNF_ID2 * new_indices)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_two_buffers",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void copy_two_buffers(unsigned cutset_size,struct hgr_edge **buffer,unsigned size, struct hgr_ed/",
+        "line": 419,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned cutset_size,struct hgr_edge ** buffer,unsigned size,struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_nnf_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void count_nnf_nodes(NNF_NODE node,NNF_COUNT *nc,NNF_COUNT *ec)$/",
+        "line": 852,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE node,NNF_COUNT * nc,NNF_COUNT * ec)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_unit_clauses",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^V_COUNT count_unit_clauses(struct cnf_manager *manager)$/",
+        "line": 296,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "cvar_cmp",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^int cvar_cmp(const void *a, const void *b) { $/",
+        "line": 252,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "deactivate",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void deactivate(struct dtree *dtree) $/",
+        "line": 300,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "decide_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN decide_literal(struct literal *literal, struct cnf_manager *manager) $/",
+        "line": 375,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * literal,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "decided_var",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN decided_var(struct var *var) $/",
+        "line": 16,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "decision_level",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^V_COUNT decision_level(struct cnf_manager *manager)$/",
+        "line": 340,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_decompose_except_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_decompose_except_vars(unsigned count, unsigned *var_indices,struct cnf_manager *man/",
+        "line": 598,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned count,unsigned * var_indices,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_decompose_except_vars_array",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_decompose_except_vars_array(unsigned *decompose_except_vars,struct cnf_manager *cnf/",
+        "line": 678,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned * decompose_except_vars,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_decompose_except_vars_file",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_decompose_except_vars_file(char *decompose_except_fname,struct cnf_manager *cnf_man/",
+        "line": 724,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * decompose_except_fname,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_determined_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_determined_vars(unsigned count, unsigned *var_indices,struct cnf_manager *manager)$/",
+        "line": 615,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned count,unsigned * var_indices,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_determined_vars_array",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_determined_vars_array(unsigned *determined_vars,struct cnf_manager *cnf_manager)$/",
+        "line": 666,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned * determined_vars,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_determined_vars_file",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_determined_vars_file(char *determined_fname,struct cnf_manager *cnf_manager)$/",
+        "line": 713,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * determined_fname,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_exist_quantify_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_exist_quantify_vars(unsigned count, unsigned *var_indices,struct cnf_manager *manag/",
+        "line": 581,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned count,unsigned * var_indices,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_exist_quantify_vars_array",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_exist_quantify_vars_array(unsigned *exist_vars,struct cnf_manager *cnf_manager)$/",
+        "line": 655,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned * exist_vars,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_exist_quantify_vars_file",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_exist_quantify_vars_file(char *exist_fname,struct cnf_manager *cnf_manager)$/",
+        "line": 702,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * exist_fname,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_force_order_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_force_order_vars(unsigned count, unsigned *var_indices,struct cnf_manager *manager)$/",
+        "line": 568,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned count,unsigned * var_indices,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_force_order_vars_array",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_force_order_vars_array(unsigned *force_vars,struct cnf_manager *cnf_manager)$/",
+        "line": 644,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned * force_vars,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_force_order_vars_file",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_force_order_vars_file(char *force_fname,struct cnf_manager *cnf_manager)$/",
+        "line": 691,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * force_fname,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_node_dead",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void declare_node_dead(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 176,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_node_duplicate",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void declare_node_duplicate(NNF_ID2 i,NNF_ID2 j,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 186,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,NNF_ID2 j,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_projected_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void declare_projected_cnf(struct cnf *cnf)$/",
+        "line": 484,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_valid_binary_clauses",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void declare_valid_binary_clauses(struct cnf_manager *manager)$/",
+        "line": 473,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_watched_literals",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_watched_literals(struct clause *clause,BOOLEAN random)$/",
+        "line": 468,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct clause * clause,BOOLEAN random)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_weighted_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void declare_weighted_cnf(struct cnf *cnf)$/",
+        "line": 473,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_zero_card_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_zero_card_vars(unsigned count, unsigned *var_indices,struct cnf_manager *manager)$/",
+        "line": 629,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned count,unsigned * var_indices,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "declare_zero_card_vars_file",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void declare_zero_card_vars_file(char *zero_card_fname,struct cnf_manager *cnf_manager)$/",
+        "line": 735,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * zero_card_fname,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "decompose_except_index",
+        "path": "src/main.cpp",
+        "pattern": "/^BOOLEAN decompose_except_index(unsigned index)$/",
+        "line": 150,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(unsigned index)"
+    },
+    {
+        "_type": "tag",
+        "name": "decomposed_dtree",
+        "path": "src/compiler/verify.cpp",
+        "pattern": "/^BOOLEAN decomposed_dtree(struct dtree *dtree)$/",
+        "line": 69,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "decrease_edges_marks",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void decrease_edges_marks(struct hgr_edges *edges)$/",
+        "line": 362,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "default_order_hl",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^unsigned *default_order_hl(struct hgr *hgr)$/",
+        "line": 29,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "default_order_lh",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^unsigned *default_order_lh(struct hgr *hgr)$/",
+        "line": 20,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "del_conflict_driven_clause",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void del_conflict_driven_clause(struct cnf_manager *manager)$/",
+        "line": 266,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "delete_cache_entry",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void delete_cache_entry(struct cache_entry *entry, struct cache_entry *prev, struct cache_manage/",
+        "line": 116,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_entry * entry,struct cache_entry * prev,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "deref",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void deref(NNF_ID2 i,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 133,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "determined_index",
+        "path": "src/main.cpp",
+        "pattern": "/^BOOLEAN determined_index(unsigned index)$/",
+        "line": 143,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(unsigned index)"
+    },
+    {
+        "_type": "tag",
+        "name": "disjoin_e_literals",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE disjoin_e_literals(NNF_NODE *negatives,NNF_COUNT cc,NNF_NODE *literals,struct nnf_manag/",
+        "line": 550,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_NODE * negatives,NNF_COUNT cc,NNF_NODE * literals,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "disjoin_literals",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE disjoin_literals(NNF_COUNT cc,NNF_NODE *literals,struct nnf_manager *manager)$/",
+        "line": 483,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_COUNT cc,NNF_NODE * literals,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "disjoin_nnfs",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE disjoin_nnfs(struct var *dvar,NNF_NODE n1,NNF_NODE n2,struct nnf_manager *manager)$/",
+        "line": 813,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct var * dvar,NNF_NODE n1,NNF_NODE n2,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "disjoin_nnfs_i",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE disjoin_nnfs_i(V_COUNT index,NNF_NODE n1,NNF_NODE n2,struct nnf_manager *manager)$/",
+        "line": 823,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(V_COUNT index,NNF_NODE n1,NNF_NODE n2,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "drop_cache_entries",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void drop_cache_entries(struct cache_manager *manager) $/",
+        "line": 237,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "dsplit_clauses",
+        "path": "src/auxiliary/determined.cpp",
+        "pattern": "/^struct cnf *dsplit_clauses(struct cnf *cnf, unsigned thr)$/",
+        "line": 39,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned thr)"
+    },
+    {
+        "_type": "tag",
+        "name": "dsplit_clauses_aux",
+        "path": "src/auxiliary/determined.cpp",
+        "pattern": "/^struct cnf *dsplit_clauses_aux(struct cnf *cnf, unsigned thr)$/",
+        "line": 55,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned thr)"
+    },
+    {
+        "_type": "tag",
+        "name": "dtree_skeleton2hdtree",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^struct hdtree *dtree_skeleton2hdtree(unsigned *dtree_skeleton,struct hgr *hgr)$/",
+        "line": 35,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(unsigned * dtree_skeleton,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "duplicate_nodes",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN duplicate_nodes(struct hgr_node *n1, struct hgr_node *n2)$/",
+        "line": 210,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_node * n1,struct hgr_node * n2)"
+    },
+    {
+        "_type": "tag",
+        "name": "e_clause2nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE e_clause2nnf_node(struct clause *clause,struct nnf_manager *nnf_manager)$/",
+        "line": 599,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct nnf_manager * nnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "echo_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void echo_cnf(FILE *filep,struct cnf *cnf)$/",
+        "line": 623,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(FILE * filep,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "edge_appears_in",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void edge_appears_in(BOOLEAN *left, BOOLEAN *right,struct hgr_edge *edge)$/",
+        "line": 477,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(BOOLEAN * left,BOOLEAN * right,struct hgr_edge * edge)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_concat",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *edges_concat(struct hgr_edges *edges1, struct hgr_edges *edges2)$/",
+        "line": 401,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges1,struct hgr_edges * edges2)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_copy",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *edges_copy(struct hgr_edges *edges)$/",
+        "line": 334,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_intersection",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *edges_intersection(struct hgr_edges *edges1, struct hgr_edges *edges2) {$/",
+        "line": 436,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges1,struct hgr_edges * edges2)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_minus",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *edges_minus(struct hgr_edges *edges1,struct hgr_edges *edges2)$/",
+        "line": 457,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges1,struct hgr_edges * edges2)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_remove_edge",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void edges_remove_edge(struct hgr_edges *edges,unsigned id)$/",
+        "line": 380,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges,unsigned id)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_subset",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN edges_subset(struct hgr_edges *edges1,struct hgr_edges *edges2)$/",
+        "line": 487,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges1,struct hgr_edges * edges2)"
+    },
+    {
+        "_type": "tag",
+        "name": "edges_union",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *edges_union(struct hgr_edges *edges1, struct hgr_edges *edges2)$/",
+        "line": 412,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges1,struct hgr_edges * edges2)"
+    },
+    {
+        "_type": "tag",
+        "name": "eliminated",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^BOOLEAN eliminated(struct separator *separator)$/",
+        "line": 131,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct separator * separator)"
+    },
+    {
+        "_type": "tag",
+        "name": "empty_node",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN empty_node(struct hgr_node *n) { return n->edge_count==0; }$/",
+        "line": 512,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_node * n)"
+    },
+    {
+        "_type": "tag",
+        "name": "erase_level",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void erase_level(V_COUNT level, struct cnf_manager *cnf_manager)$/",
+        "line": 340,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT level,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "evaluate_nnf",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^BOOLEAN evaluate_nnf(struct nnf *nnf, struct valuation *val)$/",
+        "line": 71,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct valuation * val)"
+    },
+    {
+        "_type": "tag",
+        "name": "exist_quantify_nnf",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void exist_quantify_nnf(V_COUNT *vars,struct nnf *nnf)$/",
+        "line": 744,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT * vars,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "extract_nnf_from_manager",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^struct nnf *extract_nnf_from_manager(struct nnf_manager *manager)$/",
+        "line": 983,
+        "typeref": "struct:nnf *",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "extract_nnf_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void extract_nnf_nodes(NNF_NODE n,NNF_COUNT *id,struct nnfn **next_nnf_node)$/",
+        "line": 1008,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE n,NNF_COUNT * id,struct nnfn ** next_nnf_node)"
+    },
+    {
+        "_type": "tag",
+        "name": "false_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN false_node(struct nnfn *node)$/",
+        "line": 96,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_dfs_edges",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^void fill_dfs_edges(V_COUNT **order,struct hdtree *hdtree)$/",
+        "line": 194,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT ** order,struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_dfs_nodes",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^void fill_dfs_nodes(C_COUNT **order,struct hdtree *hdtree)$/",
+        "line": 208,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(C_COUNT ** order,struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_index_map",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^void fill_index_map(struct hdtree *hdtree,unsigned *map,unsigned *new_index) $/",
+        "line": 81,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,unsigned * map,unsigned * new_index)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_negatives",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void fill_negatives(NNF_NODE *negatives,NNF_COUNT cc,NNF_NODE *literals,struct nnf_manager *mana/",
+        "line": 579,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * negatives,NNF_COUNT cc,NNF_NODE * literals,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_nodes_in_order",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^void fill_nodes_in_order(struct hdtree *hdtree,unsigned **dtree_skeleton,unsigned *index_map)$/",
+        "line": 91,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,unsigned ** dtree_skeleton,unsigned * index_map)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_patoh_arrays",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^void fill_patoh_arrays(struct hgr *hgr)$/",
+        "line": 244,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "fill_separators",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void fill_separators(struct dtree *dtree)$/",
+        "line": 479,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "find_hdtree_bucket",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^unsigned find_hdtree_bucket(struct hdtree *hdtree, unsigned start_bucket, unsigned *imap,struct /",
+        "line": 136,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,unsigned start_bucket,unsigned * imap,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "find_max",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^struct separator *find_max(struct separator **items, V_COUNT n, $/",
+        "line": 62,
+        "typeref": "struct:separator *",
+        "kind": "function",
+        "signature": "(struct separator ** items,V_COUNT n,C_COUNT (* item_score)(struct separator *),C_COUNT (* item_score_tie)(struct separator *))"
+    },
+    {
+        "_type": "tag",
+        "name": "fix_corner_cases",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void fix_corner_cases(struct cnf *cnf) {$/",
+        "line": 340,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "fname_with_added_extension",
+        "path": "src/utility.cpp",
+        "pattern": "/^char *fname_with_added_extension(char *fname,const char *new_extension) {$/",
+        "line": 33,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(char * fname,const char * new_extension)"
+    },
+    {
+        "_type": "tag",
+        "name": "fname_with_new_extension",
+        "path": "src/utility.cpp",
+        "pattern": "/^char *fname_with_new_extension(char *fname,const char *new_extension) {$/",
+        "line": 10,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(char * fname,const char * new_extension)"
+    },
+    {
+        "_type": "tag",
+        "name": "fold_in_grandchildren",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void fold_in_grandchildren(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 448,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_bucket",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^void free_bucket(struct binary_clause **buckets, V_COUNT i)$/",
+        "line": 360,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct binary_clause ** buckets,V_COUNT i)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_cache_entry",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void free_cache_entry(struct cache_entry *entry)$/",
+        "line": 55,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_entry * entry)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_cache_manager",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^unsigned free_cache_manager(struct cache_manager *manager)$/",
+        "line": 66,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_clauses",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void free_clauses(unsigned cc, int** clauses)$/",
+        "line": 334,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned cc,int ** clauses)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void free_cnf(struct cnf *cnf)$/",
+        "line": 672,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_cnf_manager",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void free_cnf_manager(struct cnf_manager *cnf_manager)$/",
+        "line": 92,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void free_dtree(struct dtree *dtree) $/",
+        "line": 92,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_dtree_manager",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void free_dtree_manager(struct dtree_manager *dtree_manager)$/",
+        "line": 82,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_dtree_skeleton",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void free_dtree_skeleton(unsigned *dtree_skeleton)$/",
+        "line": 622,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned * dtree_skeleton)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void free_edges(struct hgr_edges *edges)$/",
+        "line": 327,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_hdtree",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^void free_hdtree(struct hdtree *hdtree)$/",
+        "line": 131,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_hgr",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void free_hgr(struct hgr *hgr) {$/",
+        "line": 165,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_nnf",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^NNF_COUNT2 free_nnf(struct nnf *nnf)$/",
+        "line": 58,
+        "typeref": "typename:NNF_COUNT2",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_nnf_manager",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void free_nnf_manager(struct nnf_manager *manager)$/",
+        "line": 1139,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_patoh",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^void free_patoh(struct hgr *hgr)$/",
+        "line": 304,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_un_table",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void free_un_table(struct un_table *unt)$/",
+        "line": 306,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct un_table * unt)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_valuation",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^void free_valuation(struct valuation *val)$/",
+        "line": 54,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct valuation * val)"
+    },
+    {
+        "_type": "tag",
+        "name": "getNeighbors",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^set<int> *Graph::getNeighbors(int i){$/",
+        "line": 78,
+        "typeref": "typename:set<int> *",
+        "kind": "function",
+        "signature": "(int i)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "getNeighbors",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void Graph::getNeighbors(int i, set<int>& neighbors){$/",
+        "line": 74,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int i,set<int> & neighbors)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "get_and_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE get_and_node(NNF_COUNT cc,NNF_NODE *c,struct nnf_manager *manager)$/",
+        "line": 392,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_COUNT cc,NNF_NODE * c,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_best_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^struct hdtree *get_best_hdtree()$/",
+        "line": 213,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "()"
+    },
+    {
+        "_type": "tag",
+        "name": "get_clauses",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^void get_clauses(struct cnf *cnf, unsigned *cc, int*** clauses) {$/",
+        "line": 121,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned * cc,int *** clauses)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_cnf_from_file",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^struct cnf *get_cnf_from_file(char *fname,BOOLEAN skip_binary_trivial_clauses) {$/",
+        "line": 22,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(char * fname,BOOLEAN skip_binary_trivial_clauses)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_cnf_key",
+        "path": "src/compiler/cnf_key.cpp",
+        "pattern": "/^BYTE *get_cnf_key(struct dtree *dtree, struct dtree_manager *dtree_manager) $/",
+        "line": 82,
+        "typeref": "typename:BYTE *",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_dtree_vars",
+        "path": "src/compiler/verify.cpp",
+        "pattern": "/^void get_dtree_vars(mpz_t vars, struct dtree *dtree) $/",
+        "line": 60,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(mpz_t vars,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_nnf_vars",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void get_nnf_vars(mpz_t vars, NNF_NODE node, struct nnf_manager *manager) $/",
+        "line": 198,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(mpz_t vars,NNF_NODE node,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_or_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE get_or_node(V_COUNT var_index,NNF_NODE child1, NNF_NODE child2,struct nnf_manager *mana/",
+        "line": 430,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(V_COUNT var_index,NNF_NODE child1,NNF_NODE child2,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_ref_counts",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^NNF_COUNT2 *get_ref_counts(struct nnf *nnf)$/",
+        "line": 678,
+        "typeref": "typename:NNF_COUNT2 *",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_size",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^unsigned *get_size(struct cnf *cnf) {$/",
+        "line": 39,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_smoothing_node",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^struct smoothing_node *get_smoothing_node(NNF_ID2 node,mpz_t *missing_vars)$/",
+        "line": 171,
+        "typeref": "struct:smoothing_node *",
+        "kind": "function",
+        "signature": "(NNF_ID2 node,mpz_t * missing_vars)"
+    },
+    {
+        "_type": "tag",
+        "name": "has_conflicting_literals",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN has_conflicting_literals(struct nnfn *node,struct nnf *nnf)$/",
+        "line": 382,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "has_true_child",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN has_true_child(struct nnfn *node,struct nnf *nnf)$/",
+        "line": 358,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "hash_code",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^inline HASHCODE hash_code(BYTE *key, unsigned long key_size, unsigned long capacity)$/",
+        "line": 256,
+        "typeref": "typename:HASHCODE",
+        "kind": "function",
+        "signature": "(BYTE * key,unsigned long key_size,unsigned long capacity)"
+    },
+    {
+        "_type": "tag",
+        "name": "hdtree2dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^struct dtree *hdtree2dtree(struct var *vars, struct clause *clauses, struct dtree *parent, $/",
+        "line": 120,
+        "typeref": "struct:dtree *",
+        "kind": "function",
+        "signature": "(struct var * vars,struct clause * clauses,struct dtree * parent,struct hdtree * hdtree,struct cnf_manager * cnf_manager,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "hdtree2dtree_skeleton",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^unsigned *hdtree2dtree_skeleton(struct hdtree *hdtree,struct hgr *hgr)$/",
+        "line": 109,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "hdtree2edge_order",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^V_COUNT *hdtree2edge_order(struct hdtree *hdtree,struct hgr *hgr)$/",
+        "line": 160,
+        "typeref": "typename:V_COUNT *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "hdtree2node_order",
+        "path": "src/hdtree/construct.cpp",
+        "pattern": "/^C_COUNT *hdtree2node_order(struct hdtree *hdtree,struct hgr *hgr)$/",
+        "line": 183,
+        "typeref": "typename:C_COUNT *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "hdtree_sizes_max",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^C_COUNT hdtree_sizes_max(struct hdtree *hdtree,V_COUNT *m_cls_size,V_COUNT *m_cut_size,V_COUNT */",
+        "line": 362,
+        "typeref": "typename:C_COUNT",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,V_COUNT * m_cls_size,V_COUNT * m_cut_size,V_COUNT * m_cxt_size,V_COUNT * m_sep_size,C_COUNT * height)"
+    },
+    {
+        "_type": "tag",
+        "name": "hgr2hdtree_onetry",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^struct hdtree *hgr2hdtree_onetry(C_COUNT depth, struct hgr_edges *context,$/",
+        "line": 168,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(C_COUNT depth,struct hgr_edges * context,struct hdtree * parent,struct hgr * hgr,BOOLEAN * terminated)"
+    },
+    {
+        "_type": "tag",
+        "name": "hgr2hdtree_order",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^struct hdtree *hgr2hdtree_order(unsigned *order,struct hgr *hgr)$/",
+        "line": 60,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(unsigned * order,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "hgr2hdtree_partition",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^struct hdtree *hgr2hdtree_partition(struct hgr *hgr)$/",
+        "line": 154,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "hgr2hdtree_partition_timed",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^struct hdtree *hgr2hdtree_partition_timed(struct hgr *hgr, V_COUNT mf_cluster_size, int timeout)$/",
+        "line": 62,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct hgr * hgr,V_COUNT mf_cluster_size,int timeout)"
+    },
+    {
+        "_type": "tag",
+        "name": "hgr_edge_cmp",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^int hgr_edge_cmp(const void *a, const void *b) { $/",
+        "line": 194,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "hit_rate",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^double hit_rate(struct cache_manager *manager) {$/",
+        "line": 48,
+        "typeref": "typename:double",
+        "kind": "function",
+        "signature": "(struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "in_dtree_bsearch",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^BOOLEAN in_dtree_bsearch(struct var *var, struct dtree *dtree)$/",
+        "line": 234,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct var * var,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "in_dtree_scope",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^BOOLEAN in_dtree_scope(struct var *var, struct dtree *dtree)$/",
+        "line": 108,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct var * var,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "in_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN in_edges(struct hgr_edge *edge, struct hgr_edges *edges)$/",
+        "line": 369,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_edge * edge,struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "increase_edges_marks",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void increase_edges_marks(struct hgr_edges *edges)$/",
+        "line": 356,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "index2clausep",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^struct clause *index2clausep(C_COUNT i, struct cnf_manager *manager) $/",
+        "line": 40,
+        "typeref": "struct:clause *",
+        "kind": "function",
+        "signature": "(C_COUNT i,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "index2literalp",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^struct literal *index2literalp(LITERAL i, struct cnf_manager *manager) $/",
+        "line": 32,
+        "typeref": "struct:literal *",
+        "kind": "function",
+        "signature": "(LITERAL i,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "index2varp",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^struct var *index2varp(V_COUNT i, struct cnf_manager *manager) $/",
+        "line": 26,
+        "typeref": "struct:var *",
+        "kind": "function",
+        "signature": "(V_COUNT i,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "init_literal_values",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^void init_literal_values(struct valuation *val, unsigned var_count) {$/",
+        "line": 46,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct valuation * val,unsigned var_count)"
+    },
+    {
+        "_type": "tag",
+        "name": "init_vsets",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void init_vsets(struct hdtree *hdtree) {$/",
+        "line": 238,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_best_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^void initialize_best_hdtree(struct hgr *hgr)$/",
+        "line": 59,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_clause",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void initialize_clause(C_COUNT index,V_COUNT size,BOOLEAN e_clause,LITERAL *ls,struct clause *cl/",
+        "line": 281,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(C_COUNT index,V_COUNT size,BOOLEAN e_clause,LITERAL * ls,struct clause * clause,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_cnf_manager",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void initialize_cnf_manager(struct cnf_manager *manager)$/",
+        "line": 317,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_current_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^void initialize_current_hdtree(struct hgr *hgr)$/",
+        "line": 123,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_decompose_except_vars",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void initialize_decompose_except_vars(struct dtree *dtree,BOOLEAN m)$/",
+        "line": 325,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,BOOLEAN m)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_decomposition_buffers",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void initialize_decomposition_buffers(struct hgr *hgr)$/",
+        "line": 402,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_dtree_separators",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void initialize_dtree_separators(struct dtree *dtree, struct cnf_manager *cnf_manager)$/",
+        "line": 510,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_hdtree",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^void initialize_hdtree(struct hdtree *hdtree,struct hdtree *parent,struct hgr_edges *context,uns/",
+        "line": 213,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hdtree * parent,struct hgr_edges * context,unsigned * index)"
+    },
+    {
+        "_type": "tag",
+        "name": "initialize_watched_literals",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void initialize_watched_literals(struct cnf_manager *manager)$/",
+        "line": 512,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "insert_cnf_cache",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void insert_cnf_cache(BYTE *key, NNF_NODE value, struct dtree *dtree, struct cache_manager *mana/",
+        "line": 286,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(BYTE * key,NNF_NODE value,struct dtree * dtree,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "insert_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void insert_node(NNF_ID2 i,HASHCODE hashcode,struct un_table *unt)$/",
+        "line": 296,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,HASHCODE hashcode,struct un_table * unt)"
+    },
+    {
+        "_type": "tag",
+        "name": "int_cmp",
+        "path": "src/utility.cpp",
+        "pattern": "/^int int_cmp(const void *a, const void *b) { $/",
+        "line": 53,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "internal_hdtree",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^BOOLEAN internal_hdtree(C_COUNT depth, struct hgr_edges *cutset,$/",
+        "line": 255,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(C_COUNT depth,struct hgr_edges * cutset,struct hgr_edges * left_context,struct hgr_edges * right_context,struct hgr_edges * separator,struct hgr_edges * context,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "internal_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN internal_node(struct nnfn *node)$/",
+        "line": 109,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "is_binary_clause",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^BOOLEAN is_binary_clause(struct clause *clause, struct literal **l1, struct literal **l2)$/",
+        "line": 317,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct literal ** l1,struct literal ** l2)"
+    },
+    {
+        "_type": "tag",
+        "name": "is_header",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^inline BOOLEAN is_header(const char *header, FILE *ifp)$/",
+        "line": 447,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(const char * header,FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "is_heap",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^bool is_heap(vector<pair<int, int> >& varPool, int root){$/",
+        "line": 227,
+        "typeref": "typename:bool",
+        "kind": "function",
+        "signature": "(vector<pair<int,int>> & varPool,int root)"
+    },
+    {
+        "_type": "tag",
+        "name": "is_show_line",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^BOOLEAN is_show_line(FILE *ifp)$/",
+        "line": 461,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "is_weight_line",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^BOOLEAN is_weight_line(FILE *ifp)$/",
+        "line": 467,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "java_hash_code",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^HASHCODE java_hash_code(register BYTE *key, register unsigned long count) $/",
+        "line": 307,
+        "typeref": "typename:HASHCODE",
+        "kind": "function",
+        "signature": "(register BYTE * key,register unsigned long count)"
+    },
+    {
+        "_type": "tag",
+        "name": "keep_hdtree_if_better",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^void keep_hdtree_if_better(struct hdtree *hdtree)$/",
+        "line": 145,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "leaf_dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^BOOLEAN leaf_dtree(struct dtree *dtree)$/",
+        "line": 76,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "leaf_hdtree",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^struct hdtree *leaf_hdtree(C_COUNT depth, struct hgr_edges *context,$/",
+        "line": 310,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(C_COUNT depth,struct hgr_edges * context,struct hdtree * parent,struct hgr_node * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "leaf_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN leaf_node(struct nnfn *node)$/",
+        "line": 103,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "learned_clause_size",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^V_COUNT learned_clause_size(struct cnf_manager *manager)$/",
+        "line": 328,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "learned_literal",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^struct literal *learned_literal(struct cnf_manager *manager)$/",
+        "line": 315,
+        "typeref": "struct:literal *",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "len",
+        "path": "src/auxiliary/determined.cpp",
+        "pattern": "/^inline unsigned len(LITERAL *clause)$/",
+        "line": 24,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(LITERAL * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "length",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^inline unsigned length(int *clause)$/",
+        "line": 26,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(int * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "length",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^unsigned length(struct hdtree *hdtree)$/",
+        "line": 46,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "linear_compose_hdtrees",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^struct hdtree *linear_compose_hdtrees(struct hdtree *hdtree)$/",
+        "line": 155,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "literal2nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE literal2nnf_node(struct literal *l,struct nnf_manager *manager)$/",
+        "line": 305,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct literal * l,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "literal_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN literal_node(struct nnfn *node)$/",
+        "line": 86,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "literal_weight",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^double literal_weight(LITERAL literal_index, struct cnf *cnf) {$/",
+        "line": 566,
+        "typeref": "typename:double",
+        "kind": "function",
+        "signature": "(LITERAL literal_index,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "literals2string",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^char *literals2string(struct literal **literals, V_COUNT n)$/",
+        "line": 735,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(struct literal ** literals,V_COUNT n)"
+    },
+    {
+        "_type": "tag",
+        "name": "living_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN living_node(struct nnfn *node)$/",
+        "line": 116,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "load_dtree_skeleton_from_file",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^unsigned *load_dtree_skeleton_from_file(char *fname)$/",
+        "line": 579,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "load_hdtree_from_file",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^struct hdtree *load_hdtree_from_file(char *fname,struct hgr *hgr)$/",
+        "line": 141,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(char * fname,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "load_nnf_from_file",
+        "path": "src/operations/save_load.cpp",
+        "pattern": "/^struct nnf *load_nnf_from_file(char *fname)$/",
+        "line": 97,
+        "typeref": "struct:nnf *",
+        "kind": "function",
+        "signature": "(char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "lookup_cnf_cache",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^NNF_NODE lookup_cnf_cache(BYTE *key, struct dtree *dtree, struct cache_manager *manager)$/",
+        "line": 262,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(BYTE * key,struct dtree * dtree,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "lookup_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN lookup_node(NNF_ID2 *result,struct nnfn *node,struct nnf *nnf,struct un_table *unt)$/",
+        "line": 268,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_ID2 * result,struct nnfn * node,struct nnf * nnf,struct un_table * unt)"
+    },
+    {
+        "_type": "tag",
+        "name": "lookup_or_compile_dt",
+        "path": "src/compiler/compile.cpp",
+        "pattern": "/^NNF_NODE lookup_or_compile_dt(struct dtree *dtree, struct dtree *ancestor)$/",
+        "line": 383,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct dtree * ancestor)"
+    },
+    {
+        "_type": "tag",
+        "name": "main",
+        "path": "src/main.cpp",
+        "pattern": "/^int main(int argc, char *argv[])$/",
+        "line": 164,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(int argc,char * argv[])"
+    },
+    {
+        "_type": "tag",
+        "name": "make_node_false",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void make_node_false(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 166,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "make_node_true",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void make_node_true(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 158,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "mark_clauses",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void mark_clauses(C_COUNT n, struct clause **clauses, C_COUNT mark) $/",
+        "line": 760,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(C_COUNT n,struct clause ** clauses,C_COUNT mark)"
+    },
+    {
+        "_type": "tag",
+        "name": "mark_hgr_nodes",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void mark_hgr_nodes(struct hgr *hgr,unsigned mark)$/",
+        "line": 515,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr,unsigned mark)"
+    },
+    {
+        "_type": "tag",
+        "name": "mark_vars",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void mark_vars(V_COUNT n, struct var **vars, V_COUNT mark) $/",
+        "line": 753,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT n,struct var ** vars,V_COUNT mark)"
+    },
+    {
+        "_type": "tag",
+        "name": "mark_vars_at_level",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^void mark_vars_at_level(struct literal **lits, struct cnf_manager *manager, V_COUNT& q_count, $/",
+        "line": 31,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal ** lits,struct cnf_manager * manager,V_COUNT & q_count,V_COUNT clevel,V_COUNT & AL,V_COUNT & ccl_count,V_COUNT & clevel_count,struct literal * this_lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "marked_edge",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN marked_edge(struct hgr_edge *e) { return e->mark==1; }$/",
+        "line": 511,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_edge * e)"
+    },
+    {
+        "_type": "tag",
+        "name": "marked_node",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN marked_node(struct hgr_node *n) { return n->mark==1; }$/",
+        "line": 510,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_node * n)"
+    },
+    {
+        "_type": "tag",
+        "name": "max_item",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^void *max_item(void **items, V_COUNT n, C_COUNT (*item_score)(void*))$/",
+        "line": 18,
+        "typeref": "typename:void *",
+        "kind": "function",
+        "signature": "(void ** items,V_COUNT n,C_COUNT (* item_score)(void *))"
+    },
+    {
+        "_type": "tag",
+        "name": "mc_out",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void mc_out(struct nnf *nnf, struct cnf *cnf) $/",
+        "line": 79,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "mcc21",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void mcc21(struct cnf *input_cnf) {$/",
+        "line": 25,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * input_cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "minFillScore",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^int minFillScore(Graph& g, int i){$/",
+        "line": 240,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(Graph & g,int i)"
+    },
+    {
+        "_type": "tag",
+        "name": "move_watched_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void move_watched_literal(struct literal **now_watched, struct literal **then_watched, struct cl/",
+        "line": 111,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal ** now_watched,struct literal ** then_watched,struct clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpf_get_floatstr",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^char *mpf_get_floatstr(mpf_t f) {$/",
+        "line": 46,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(mpf_t f)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_add",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_add (mp_ptr __gmp_wp, mp_srcptr __gmp_xp, mp_size_t __gmp_xsize, mp_srcptr __gmp_yp, mp_size/",
+        "line": 2139,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mp_ptr __gmp_wp,mp_srcptr __gmp_xp,mp_size_t __gmp_xsize,mp_srcptr __gmp_yp,mp_size_t __gmp_ysize)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_add_1",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_add_1 (mp_ptr __gmp_dst, mp_srcptr __gmp_src, mp_size_t __gmp_size, mp_limb_t __gmp_n) __GMP/",
+        "line": 2152,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mp_ptr __gmp_dst,mp_srcptr __gmp_src,mp_size_t __gmp_size,mp_limb_t __gmp_n)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_cmp",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_cmp (mp_srcptr __gmp_xp, mp_srcptr __gmp_yp, mp_size_t __gmp_size) __GMP_NOTHROW$/",
+        "line": 2165,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mp_srcptr __gmp_xp,mp_srcptr __gmp_yp,mp_size_t __gmp_size)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_neg",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_neg (mp_ptr __gmp_rp, mp_srcptr __gmp_up, mp_size_t __gmp_n)$/",
+        "line": 2220,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mp_ptr __gmp_rp,mp_srcptr __gmp_up,mp_size_t __gmp_n)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_sub",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_sub (mp_ptr __gmp_wp, mp_srcptr __gmp_xp, mp_size_t __gmp_xsize, mp_srcptr __gmp_yp, mp_size/",
+        "line": 2194,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mp_ptr __gmp_wp,mp_srcptr __gmp_xp,mp_size_t __gmp_xsize,mp_srcptr __gmp_yp,mp_size_t __gmp_ysize)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_sub_1",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_sub_1 (mp_ptr __gmp_dst, mp_srcptr __gmp_src, mp_size_t __gmp_size, mp_limb_t __gmp_n) __GMP/",
+        "line": 2207,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mp_ptr __gmp_dst,mp_srcptr __gmp_src,mp_size_t __gmp_size,mp_limb_t __gmp_n)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpn_zero_p",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpn_zero_p (mp_srcptr __gmp_p, mp_size_t __gmp_n) __GMP_NOTHROW$/",
+        "line": 2178,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mp_srcptr __gmp_p,mp_size_t __gmp_n)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpq_abs",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpq_abs (mpq_ptr __gmp_w, mpq_srcptr __gmp_u)$/",
+        "line": 1884,
+        "typeref": "typename:__GMP_EXTERN_INLINE void",
+        "kind": "function",
+        "signature": "(mpq_ptr __gmp_w,mpq_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpq_get_floatstr",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^char *mpq_get_floatstr(mpq_t r) {$/",
+        "line": 87,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(mpq_t r)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpq_neg",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpq_neg (mpq_ptr __gmp_w, mpq_srcptr __gmp_u)$/",
+        "line": 1894,
+        "typeref": "typename:__GMP_EXTERN_INLINE void",
+        "kind": "function",
+        "signature": "(mpq_ptr __gmp_w,mpq_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_abs",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_abs (mpz_ptr __gmp_w, mpz_srcptr __gmp_u)$/",
+        "line": 1715,
+        "typeref": "typename:__GMP_EXTERN_INLINE void",
+        "kind": "function",
+        "signature": "(mpz_ptr __gmp_w,mpz_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_fits_uint_p",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_fits_uint_p (mpz_srcptr __gmp_z) __GMP_NOTHROW$/",
+        "line": 1741,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_fits_ulong_p",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_fits_ulong_p (mpz_srcptr __gmp_z) __GMP_NOTHROW$/",
+        "line": 1752,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_fits_ushort_p",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_fits_ushort_p (mpz_srcptr __gmp_z) __GMP_NOTHROW$/",
+        "line": 1763,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_get_floatstr",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^char *mpz_get_floatstr(mpz_t i) {$/",
+        "line": 77,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(mpz_t i)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_get_ui",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_get_ui (mpz_srcptr __gmp_z) __GMP_NOTHROW$/",
+        "line": 1774,
+        "typeref": "typename:__GMP_EXTERN_INLINE unsigned long",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_getlimbn",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_getlimbn (mpz_srcptr __gmp_z, mp_size_t __gmp_n) __GMP_NOTHROW$/",
+        "line": 1802,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_limb_t",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z,mp_size_t __gmp_n)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_log_10",
+        "path": "src/operations/count.cpp",
+        "pattern": "/^double mpz_log_10(mpz_t x) {$/",
+        "line": 27,
+        "typeref": "typename:double",
+        "kind": "function",
+        "signature": "(mpz_t x)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_neg",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_neg (mpz_ptr __gmp_w, mpz_srcptr __gmp_u)$/",
+        "line": 1813,
+        "typeref": "typename:__GMP_EXTERN_INLINE void",
+        "kind": "function",
+        "signature": "(mpz_ptr __gmp_w,mpz_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_perfect_square_p",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_perfect_square_p (mpz_srcptr __gmp_a)$/",
+        "line": 1826,
+        "typeref": "typename:__GMP_EXTERN_INLINE int",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_a)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_popcount",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_popcount (mpz_srcptr __gmp_u) __GMP_NOTHROW$/",
+        "line": 1844,
+        "typeref": "typename:__GMP_EXTERN_INLINE mp_bitcnt_t",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_set_q",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_set_q (mpz_ptr __gmp_w, mpq_srcptr __gmp_u)$/",
+        "line": 1862,
+        "typeref": "typename:__GMP_EXTERN_INLINE void",
+        "kind": "function",
+        "signature": "(mpz_ptr __gmp_w,mpq_srcptr __gmp_u)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_size",
+        "path": "src/headers/gmp.h",
+        "pattern": "/^mpz_size (mpz_srcptr __gmp_z) __GMP_NOTHROW$/",
+        "line": 1873,
+        "typeref": "typename:__GMP_EXTERN_INLINE size_t",
+        "kind": "function",
+        "signature": "(mpz_srcptr __gmp_z)"
+    },
+    {
+        "_type": "tag",
+        "name": "mpz_sub",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void mpz_sub(mpz_t x, mpz_t y, mpz_t z) {$/",
+        "line": 168,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(mpz_t x,mpz_t y,mpz_t z)"
+    },
+    {
+        "_type": "tag",
+        "name": "n2p_literal_nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE n2p_literal_nnf_node(NNF_NODE node,struct nnf_manager *manager)$/",
+        "line": 321,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_NODE node,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "neg_literal_nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE neg_literal_nnf_node(NNF_NODE node,struct nnf_manager *manager)$/",
+        "line": 313,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_NODE node,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "negative_literal",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN negative_literal(NNF_NODE n) { return get_node_type(n)==NL_NNF_NODE; }$/",
+        "line": 386,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE n)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_and_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE new_and_node(NNF_COUNT children_count,NNF_NODE *children,struct nnf_manager *manager)$/",
+        "line": 247,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(NNF_COUNT children_count,NNF_NODE * children,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_hgr_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *new_hgr_edges(unsigned size)$/",
+        "line": 318,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(unsigned size)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_literal_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE new_literal_node(unsigned char type,V_COUNT var_index,NNF_COUNT card,struct nnf_manager/",
+        "line": 232,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(unsigned char type,V_COUNT var_index,NNF_COUNT card,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_nnf_structure",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^struct nnf *new_nnf_structure(NNF_COUNT nc, NNF_COUNT ec, V_COUNT vc)$/",
+        "line": 43,
+        "typeref": "struct:nnf *",
+        "kind": "function",
+        "signature": "(NNF_COUNT nc,NNF_COUNT ec,V_COUNT vc)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_one_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE new_one_node(struct nnf_manager *manager)$/",
+        "line": 219,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_or_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE new_or_node(V_COUNT index,NNF_NODE child1,NNF_NODE child2,struct nnf_manager *manager)$/",
+        "line": 279,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(V_COUNT index,NNF_NODE child1,NNF_NODE child2,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "new_zero_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_NODE new_zero_node(struct nnf_manager *manager)$/",
+        "line": 205,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_decomposable",
+        "path": "src/operations/decomposable.cpp",
+        "pattern": "/^BOOLEAN nnf_decomposable(struct nnf *nnf)$/",
+        "line": 16,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_entails_clause",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^BOOLEAN nnf_entails_clause(struct nnf *nnf,int *clause,struct valuation *val)$/",
+        "line": 115,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,int * clause,struct valuation * val)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_entails_cnf",
+        "path": "src/operations/entail.cpp",
+        "pattern": "/^BOOLEAN nnf_entails_cnf(struct nnf *nnf, struct cnf *cnf)$/",
+        "line": 134,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_list_count",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^NNF_COUNT nnf_list_count(NNF_NODE n)$/",
+        "line": 1167,
+        "typeref": "typename:NNF_COUNT",
+        "kind": "function",
+        "signature": "(NNF_NODE n)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_memory",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void nnf_memory(NNF_COUNT2 *tm,NNF_COUNT2 *nm, NNF_COUNT2 *em,struct nnf *nnf)$/",
+        "line": 32,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_COUNT2 * tm,NNF_COUNT2 * nm,NNF_COUNT2 * em,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_node_cmp",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^int nnf_node_cmp(const void *a, const void *b) $/",
+        "line": 332,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_node_entails_nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN nnf_node_entails_nnf_node(NNF_NODE n1, NNF_NODE n2)$/",
+        "line": 796,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE n1,NNF_NODE n2)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_weakly_decomposable",
+        "path": "src/operations/decomposable.cpp",
+        "pattern": "/^BOOLEAN nnf_weakly_decomposable(struct nnf *nnf)$/",
+        "line": 104,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "no_decisions",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^BOOLEAN no_decisions(struct cnf_manager *manager)$/",
+        "line": 334,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "no_determined_vars",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN no_determined_vars(struct hgr_edges *edges) $/",
+        "line": 133,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "node2edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^struct hgr_edges *node2edges(struct hgr_node *node)$/",
+        "line": 342,
+        "typeref": "struct:hgr_edges *",
+        "kind": "function",
+        "signature": "(struct hgr_node * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "node_id_cmp",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^int node_id_cmp(const void *a, const void *b) { $/",
+        "line": 204,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "node_id_cmp_r",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^int node_id_cmp_r(const void *a, const void *b) { $/",
+        "line": 213,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(const void * a,const void * b)"
+    },
+    {
+        "_type": "tag",
+        "name": "node_subsumes_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN node_subsumes_node(NNF_ID2 i,struct nnfn *inode,NNF_ID2 j,struct nnfn *jnode,struct nnf /",
+        "line": 499,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,struct nnfn * inode,NNF_ID2 j,struct nnfn * jnode,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "or_hashcode",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^HASHCODE or_hashcode(NNF_NODE child1, NNF_NODE child2)$/",
+        "line": 358,
+        "typeref": "typename:HASHCODE",
+        "kind": "function",
+        "signature": "(NNF_NODE child1,NNF_NODE child2)"
+    },
+    {
+        "_type": "tag",
+        "name": "orderWidth",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^size_t orderWidth(Graph& g, vector<int>& order){$/",
+        "line": 254,
+        "typeref": "typename:size_t",
+        "kind": "function",
+        "signature": "(Graph & g,vector<int> & order)"
+    },
+    {
+        "_type": "tag",
+        "name": "order_var_clauses_based_on_dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void order_var_clauses_based_on_dtree(struct dtree *dtree, struct cnf_manager *cnf_manager)$/",
+        "line": 413,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "pack_var_2bits",
+        "path": "src/compiler/cnf_key.cpp",
+        "pattern": "/^inline void pack_var_2bits(struct var *var, struct dtree *dtree) $/",
+        "line": 51,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct var * var,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "pair_less_than",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^bool pair_less_than(pair<int, int>& a, pair<int, int>& b){$/",
+        "line": 174,
+        "typeref": "typename:bool",
+        "kind": "function",
+        "signature": "(pair<int,int> & a,pair<int,int> & b)"
+    },
+    {
+        "_type": "tag",
+        "name": "partition_hgr",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^void partition_hgr(int ubfactor,struct hgr *hgr)$/",
+        "line": 50,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int ubfactor,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "partitioned_hgr",
+        "path": "src/hdtree/patoh.cpp",
+        "pattern": "/^BOOLEAN partitioned_hgr(struct hgr *hgr)$/",
+        "line": 104,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "pmc_out",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void pmc_out(struct nnf *nnf, struct cnf *cnf, V_COUNT pvc) $/",
+        "line": 170,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf,V_COUNT pvc)"
+    },
+    {
+        "_type": "tag",
+        "name": "pop_var_relevance",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^void pop_var_relevance(struct var **stack_bottom,struct dtree *dtree,struct dtree_manager *dtree/",
+        "line": 142,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct var ** stack_bottom,struct dtree * dtree,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "pop_vars_scope",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^void pop_vars_scope(struct dtree *dtree, struct dtree *ancestor)$/",
+        "line": 96,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct dtree * ancestor)"
+    },
+    {
+        "_type": "tag",
+        "name": "preprocess",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^struct cnf *preprocess(struct cnf *cnf)$/",
+        "line": 23,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_bytes",
+        "path": "src/main.cpp",
+        "pattern": "/^void print_bytes(const char *string,unsigned long bytes)$/",
+        "line": 723,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * string,unsigned long bytes)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void print_cnf(struct cnf *cnf)$/",
+        "line": 663,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_cnf_cache_properties",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void print_cnf_cache_properties(struct cache_manager *cache_manager, FILE *filep)$/",
+        "line": 318,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_manager * cache_manager,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_cnf_manager_properties",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void print_cnf_manager_properties(struct cnf_manager *cnf_manager, FILE *filep)$/",
+        "line": 770,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * cnf_manager,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_cnf_properties",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void print_cnf_properties(struct cnf *cnf)$/",
+        "line": 684,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_dtree_manager_properties",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void print_dtree_manager_properties(struct dtree_manager *dtree_manager, FILE *filep)$/",
+        "line": 648,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree_manager * dtree_manager,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_hgr_edge",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void print_hgr_edge(struct hgr_edge *edge)$/",
+        "line": 662,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edge * edge)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_hgr_node",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void print_hgr_node(struct hgr_node *node)$/",
+        "line": 655,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_node * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_hgr_properties",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void print_hgr_properties(struct hgr *hgr)$/",
+        "line": 669,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_nnf_manager_properties",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void print_nnf_manager_properties(struct nnf_manager *manager, FILE *filep)$/",
+        "line": 1199,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf_manager * manager,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "printf_clause",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void printf_clause(struct clause *clause)$/",
+        "line": 55,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "printf_dtree_vars",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void printf_dtree_vars(struct dtree *dtree)$/",
+        "line": 632,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "printf_var",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void printf_var(struct var *var) { printf(\"v%lu \",var->index); }$/",
+        "line": 319,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "process_eclauses",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN process_eclauses(struct literal *literal, V_COUNT slevel, struct cnf_manager *cnf_manage/",
+        "line": 298,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * literal,V_COUNT slevel,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "process_file",
+        "path": "scripts/find.pl",
+        "pattern": "/^sub process_file {$/",
+        "line": 12,
+        "kind": "subroutine"
+    },
+    {
+        "_type": "tag",
+        "name": "projected_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^int projected_cnf(struct cnf *cnf) {$/",
+        "line": 555,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "push_items_to_end",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^long push_items_to_end(void **items, V_COUNT n,BOOLEAN (*test)(void *))$/",
+        "line": 39,
+        "typeref": "typename:long",
+        "kind": "function",
+        "signature": "(void ** items,V_COUNT n,BOOLEAN (* test)(void *))"
+    },
+    {
+        "_type": "tag",
+        "name": "push_var_relevance",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^struct var **push_var_relevance(struct dtree *dtree,struct dtree_manager *dtree_manager)$/",
+        "line": 134,
+        "typeref": "struct:var **",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "push_vars_scope",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^void push_vars_scope(struct dtree *dtree)$/",
+        "line": 85,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_line",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^int read_line(char *line,unsigned long *i, FILE *ifp) $/",
+        "line": 316,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(char * line,unsigned long * i,FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_literal_weight",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void read_literal_weight(struct cnf *cnf,FILE *ifp)$/",
+        "line": 521,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_projected_vars",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void read_projected_vars(struct cnf *cnf,unsigned *pvc,FILE *ifp)$/",
+        "line": 495,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf,unsigned * pvc,FILE * ifp)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_unsigned",
+        "path": "src/utility.cpp",
+        "pattern": "/^unsigned *read_unsigned(unsigned *count,char *fname)$/",
+        "line": 80,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(unsigned * count,char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_unsigned_array",
+        "path": "src/utility.cpp",
+        "pattern": "/^unsigned *read_unsigned_array(unsigned *count,unsigned *array)$/",
+        "line": 106,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(unsigned * count,unsigned * array)"
+    },
+    {
+        "_type": "tag",
+        "name": "read_unsigned_given_count",
+        "path": "src/utility.cpp",
+        "pattern": "/^unsigned *read_unsigned_given_count(unsigned count,char *fname)$/",
+        "line": 123,
+        "typeref": "typename:unsigned *",
+        "kind": "function",
+        "signature": "(unsigned count,char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "record_unit_clause",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^void record_unit_clause(struct literal *l, struct cnf_manager *manager)$/",
+        "line": 308,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal * l,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "reduce_and_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void reduce_and_node(NNF_ID2 i,struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts,struct u/",
+        "line": 604,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts,struct un_table * unt)"
+    },
+    {
+        "_type": "tag",
+        "name": "reduce_hgr",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void reduce_hgr(struct hgr *hgr)$/",
+        "line": 532,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "reduce_or_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void reduce_or_node(NNF_ID2 i,struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts,struct un/",
+        "line": 633,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts,struct un_table * unt)"
+    },
+    {
+        "_type": "tag",
+        "name": "ref",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void ref(NNF_ID2 i,NNF_COUNT2 *ref_counts)$/",
+        "line": 127,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 i,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "removeAndConnect",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void Graph::removeAndConnect(int v){$/",
+        "line": 150,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int v)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "removeAndConnect",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void Graph::removeAndConnect(int v, set<int>& affectedVertices){$/",
+        "line": 82,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int v,set<int> & affectedVertices)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "removeEdge",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void Graph::removeEdge(int i, int j){$/",
+        "line": 64,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int i,int j)",
+        "scope": "Graph",
+        "scopeKind": "class"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_duplicate_nodes",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void remove_duplicate_nodes(struct hgr *hgr)$/",
+        "line": 222,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void remove_edges(struct hgr_edges *edges,struct hgr *hgr)$/",
+        "line": 625,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edges * edges,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_edges",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void remove_edges(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 145,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_edges_to_true_children",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^ NNF_COUNT2 remove_edges_to_true_children(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_coun/",
+        "line": 516,
+        "typeref": "typename:NNF_COUNT2",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_empty_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^unsigned remove_empty_edges(struct hgr *hgr)$/",
+        "line": 607,
+        "typeref": "typename:unsigned",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_marked_nodes_and_their_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void remove_marked_nodes_and_their_edges(struct hgr *hgr)$/",
+        "line": 634,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_subsumed_children",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void remove_subsumed_children(struct nnfn *node,struct nnf *nnf,NNF_COUNT2 *ref_counts)$/",
+        "line": 551,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf,NNF_COUNT2 * ref_counts)"
+    },
+    {
+        "_type": "tag",
+        "name": "remove_watched_clause",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void remove_watched_clause(struct clause *clause, struct literal *literal) $/",
+        "line": 93,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct clause * clause,struct literal * literal)"
+    },
+    {
+        "_type": "tag",
+        "name": "replace_duplicate_children",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void replace_duplicate_children(struct nnfn *node,struct nnf *nnf)$/",
+        "line": 334,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnfn * node,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "resolved",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN resolved(NNF_NODE *r1, NNF_NODE *r2, NNF_NODE n1, NNF_NODE n2)$/",
+        "line": 761,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE * r1,NNF_NODE * r2,NNF_NODE n1,NNF_NODE n2)"
+    },
+    {
+        "_type": "tag",
+        "name": "resolved_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN resolved_literal(struct literal *lit)$/",
+        "line": 30,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "restore_hgr",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void restore_hgr(struct hgr *hgr)$/",
+        "line": 583,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "retrieve_decomposition",
+        "path": "src/hdtree/partition.cpp",
+        "pattern": "/^void retrieve_decomposition(unsigned cutset_size, unsigned left_context_size, $/",
+        "line": 457,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned cutset_size,unsigned left_context_size,unsigned right_context_size,unsigned separator_size,struct hgr_edges * cutset,struct hgr_edges * left_context,struct hgr_edges * right_context,struct hgr_edges * separator,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "return_duplicate_nodes",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void return_duplicate_nodes(struct hgr *hgr)$/",
+        "line": 304,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "run_c2d",
+        "path": "scripts/compare.pl",
+        "pattern": "/^sub run_c2d {$/",
+        "line": 13,
+        "kind": "subroutine"
+    },
+    {
+        "_type": "tag",
+        "name": "run_c2d",
+        "path": "scripts/find.pl",
+        "pattern": "/^sub run_c2d {$/",
+        "line": 21,
+        "kind": "subroutine"
+    },
+    {
+        "_type": "tag",
+        "name": "run_c2d",
+        "path": "scripts/run_c2d.pl",
+        "pattern": "/^sub run_c2d {$/",
+        "line": 43,
+        "kind": "subroutine"
+    },
+    {
+        "_type": "tag",
+        "name": "run_c2d",
+        "path": "scripts/verify_c2d.pl",
+        "pattern": "/^sub run_c2d {$/",
+        "line": 44,
+        "kind": "subroutine"
+    },
+    {
+        "_type": "tag",
+        "name": "same_and_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN same_and_nodes(NNF_NODE n,NNF_COUNT cc,NNF_NODE *c2)$/",
+        "line": 367,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE n,NNF_COUNT cc,NNF_NODE * c2)"
+    },
+    {
+        "_type": "tag",
+        "name": "same_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN same_node(struct nnfn *n1,struct nnfn *n2,struct nnf *nnf)$/",
+        "line": 248,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * n1,struct nnfn * n2,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "same_or_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN same_or_nodes(NNF_NODE n,NNF_NODE c1,NNF_NODE c2)$/",
+        "line": 379,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE n,NNF_NODE c1,NNF_NODE c2)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_cnf_as_vcg",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void save_cnf_as_vcg(const char *fname,struct cnf *cnf)$/",
+        "line": 705,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * fname,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_cnf_to_file",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void save_cnf_to_file(char *fname,struct cnf *cnf)$/",
+        "line": 656,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_dtree_as_gv",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void save_dtree_as_gv(struct dtree_manager *dtree_manager, const char *fname)$/",
+        "line": 778,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree_manager * dtree_manager,const char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_dtree_skeleton_to_file",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void save_dtree_skeleton_to_file(char *fname,unsigned *dtree_skeleton)$/",
+        "line": 541,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,unsigned * dtree_skeleton)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_gv_details",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void save_gv_details(struct dtree *dtree,int parent_id,FILE *filep)$/",
+        "line": 795,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree,int parent_id,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_hdtree_to_file",
+        "path": "src/hdtree/save_load.cpp",
+        "pattern": "/^void save_hdtree_to_file(char *fname,struct hdtree *hdtree, struct hgr *hgr)$/",
+        "line": 163,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,struct hdtree * hdtree,struct hgr * hgr)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_nnf_as_gv",
+        "path": "src/operations/save_load.cpp",
+        "pattern": "/^void save_nnf_as_gv(const char *fname,struct nnf *nnf)$/",
+        "line": 157,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * fname,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_nnf_manager_to_file",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void save_nnf_manager_to_file(char *fname,struct nnf_manager *manager)$/",
+        "line": 891,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_nnf_nodes",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void save_nnf_nodes(NNF_NODE n,NNF_COUNT *id,FILE *filep)$/",
+        "line": 928,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE n,NNF_COUNT * id,FILE * filep)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_nnf_to_file",
+        "path": "src/operations/save_load.cpp",
+        "pattern": "/^void save_nnf_to_file(char *fname,struct nnf *nnf)$/",
+        "line": 19,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "save_nnf_to_file_old",
+        "path": "src/operations/save_load.cpp",
+        "pattern": "/^void save_nnf_to_file_old(char *fname,struct nnf *nnf)$/",
+        "line": 56,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(char * fname,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "score1",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^C_COUNT score1(struct separator *separator)$/",
+        "line": 161,
+        "typeref": "typename:C_COUNT",
+        "kind": "function",
+        "signature": "(struct separator * separator)"
+    },
+    {
+        "_type": "tag",
+        "name": "score2",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^C_COUNT score2(struct separator *separator)$/",
+        "line": 173,
+        "typeref": "typename:C_COUNT",
+        "kind": "function",
+        "signature": "(struct separator * separator)"
+    },
+    {
+        "_type": "tag",
+        "name": "select_phases",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^inline void select_phases(struct literal **flit, struct literal **slit, struct separator *separa/",
+        "line": 224,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal ** flit,struct literal ** slit,struct separator * separator)"
+    },
+    {
+        "_type": "tag",
+        "name": "select_separator",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^struct var *select_separator(struct literal **flit, struct literal **slit, $/",
+        "line": 255,
+        "typeref": "struct:var *",
+        "kind": "function",
+        "signature": "(struct literal ** flit,struct literal ** slit,V_COUNT ascount,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "separators2string",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^char *separators2string(struct separator **separators, V_COUNT n)$/",
+        "line": 710,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(struct separator ** separators,V_COUNT n)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_and_node_children",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void set_and_node_children(NNF_COUNT count,NNF_NODE *children,NNF_NODE node)$/",
+        "line": 90,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_COUNT count,NNF_NODE * children,NNF_NODE node)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^BOOLEAN set_literal(struct literal *cond_l, struct cnf_manager *cnf_manager)$/",
+        "line": 189,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct literal * cond_l,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_validity",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^void set_validity(struct cnf *cnf) {$/",
+        "line": 582,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_var_bits_of_clause",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void set_var_bits_of_clause(mpz_t bvector, int* clause) {$/",
+        "line": 83,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(mpz_t bvector,int * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_var_bits_of_edges",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void set_var_bits_of_edges(mpz_t bvector, struct hgr_edges *edges) {$/",
+        "line": 104,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(mpz_t bvector,struct hgr_edges * edges)"
+    },
+    {
+        "_type": "tag",
+        "name": "sift",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void sift(vector<pair<int, int> >& varPool, int position, vector<int>& varPosition){$/",
+        "line": 222,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(vector<pair<int,int>> & varPool,int position,vector<int> & varPosition)"
+    },
+    {
+        "_type": "tag",
+        "name": "sift_down",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void sift_down(vector<pair<int, int> >& varPool, int root, vector<int>& varPosition){$/",
+        "line": 196,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(vector<pair<int,int>> & varPool,int root,vector<int> & varPosition)"
+    },
+    {
+        "_type": "tag",
+        "name": "sift_up",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void sift_up(vector<pair<int, int> >& varPool, int position, vector<int>& varPosition){$/",
+        "line": 184,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(vector<pair<int,int>> & varPool,int position,vector<int> & varPosition)"
+    },
+    {
+        "_type": "tag",
+        "name": "simplify_cnf",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^struct cnf *simplify_cnf(struct cnf *cnf)$/",
+        "line": 150,
+        "typeref": "struct:cnf *",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "smooth_min_nnf",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void smooth_min_nnf(struct nnf *nnf)$/",
+        "line": 565,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "smooth_min_nnf_aux",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void smooth_min_nnf_aux(struct nnf *nnf,NNF_COUNT smoothing_node_count,NNF_COUNT smoothing_edge_/",
+        "line": 509,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,NNF_COUNT smoothing_node_count,NNF_COUNT smoothing_edge_count,struct smoothing_node * smoothing_nodes,mpz_t * pls,mpz_t * nls,mpz_t * var_min)"
+    },
+    {
+        "_type": "tag",
+        "name": "smooth_nnf",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void smooth_nnf(struct nnf *nnf, unsigned smooth_all)$/",
+        "line": 23,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,unsigned smooth_all)"
+    },
+    {
+        "_type": "tag",
+        "name": "smooth_nnf_aux",
+        "path": "src/operations/smooth.cpp",
+        "pattern": "/^void smooth_nnf_aux(struct nnf *nnf,NNF_COUNT smoothing_node_count,NNF_COUNT smoothing_edge_coun/",
+        "line": 340,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,NNF_COUNT smoothing_node_count,NNF_COUNT smoothing_edge_count,struct smoothing_node * smoothing_nodes,mpz_t * pls,mpz_t * nls,mpz_t * var_ors)"
+    },
+    {
+        "_type": "tag",
+        "name": "sort_hgr_edges",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^void sort_hgr_edges(struct hgr_edge **c,unsigned cc)$/",
+        "line": 204,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hgr_edge ** c,unsigned cc)"
+    },
+    {
+        "_type": "tag",
+        "name": "sort_int",
+        "path": "src/utility.cpp",
+        "pattern": "/^void sort_int(int *list,unsigned count)$/",
+        "line": 64,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(int * list,unsigned count)"
+    },
+    {
+        "_type": "tag",
+        "name": "sort_nnf_node",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void sort_nnf_node(NNF_NODE *c,NNF_COUNT cc)$/",
+        "line": 342,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * c,NNF_COUNT cc)"
+    },
+    {
+        "_type": "tag",
+        "name": "sort_node_id",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void sort_node_id(NNF_ID2 *list,NNF_COUNT2 count) $/",
+        "line": 222,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 * list,NNF_COUNT2 count)"
+    },
+    {
+        "_type": "tag",
+        "name": "sort_node_id_r",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void sort_node_id_r(NNF_ID2 *list,NNF_COUNT2 count) $/",
+        "line": 227,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_ID2 * list,NNF_COUNT2 count)"
+    },
+    {
+        "_type": "tag",
+        "name": "split",
+        "path": "src/auxiliary/split_clause.cpp",
+        "pattern": "/^BOOLEAN split(unsigned *V, unsigned *cc, int***clauses, unsigned ncc)$/",
+        "line": 145,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(unsigned * V,unsigned * cc,int *** clauses,unsigned ncc)"
+    },
+    {
+        "_type": "tag",
+        "name": "split_hdtree_list",
+        "path": "src/hdtree/order.cpp",
+        "pattern": "/^struct hdtree *split_hdtree_list(struct hdtree *hdtree,unsigned size)$/",
+        "line": 174,
+        "typeref": "struct:hdtree *",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,unsigned size)"
+    },
+    {
+        "_type": "tag",
+        "name": "stamp_cache",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^struct cache_entry *stamp_cache(struct cache_manager *manager) $/",
+        "line": 199,
+        "typeref": "struct:cache_entry *",
+        "kind": "function",
+        "signature": "(struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "strongly_eliminated",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^BOOLEAN strongly_eliminated(struct separator *s)$/",
+        "line": 124,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct separator * s)"
+    },
+    {
+        "_type": "tag",
+        "name": "subs_cls",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^inline BOOLEAN subs_cls(struct clause **scl, struct clause **ecl)$/",
+        "line": 104,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct clause ** scl,struct clause ** ecl)"
+    },
+    {
+        "_type": "tag",
+        "name": "subsumed_dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^BOOLEAN subsumed_dtree(struct dtree *dtree)$/",
+        "line": 273,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "subsumed_dtree2",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^BOOLEAN subsumed_dtree2(struct dtree *dtree)$/",
+        "line": 268,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "swap",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^void swap(vector<T>& vec, int i, int j){$/",
+        "line": 166,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(vector<T> & vec,int i,int j)"
+    },
+    {
+        "_type": "tag",
+        "name": "traverse_dtree",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^void traverse_dtree(struct dtree *dtree)$/",
+        "line": 444,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "trim_nnf",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^void trim_nnf(struct nnf *nnf,NNF_ID2 *new_ids)$/",
+        "line": 702,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,NNF_ID2 * new_ids)"
+    },
+    {
+        "_type": "tag",
+        "name": "trivial_binary_clause",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN trivial_binary_clause(LITERAL *literals) {$/",
+        "line": 159,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(LITERAL * literals)"
+    },
+    {
+        "_type": "tag",
+        "name": "trivial_binary_clause",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^BOOLEAN trivial_binary_clause(struct clause *clause)$/",
+        "line": 454,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "true_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN true_node(struct nnfn *node)$/",
+        "line": 91,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnfn * node)"
+    },
+    {
+        "_type": "tag",
+        "name": "undeclare_valid_binary_clauses",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void undeclare_valid_binary_clauses(struct cnf_manager *manager)$/",
+        "line": 484,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "undo_assert_unit_clauses",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void undo_assert_unit_clauses(struct cnf_manager *manager)$/",
+        "line": 537,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "undo_decide_literal",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void undo_decide_literal(struct cnf_manager *manager) $/",
+        "line": 413,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "unique_nnf_node_stats",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^void unique_nnf_node_stats(unsigned or_stats,double *ave,NNF_COUNT *max,NNF_NODE *list,NNF_COUNT/",
+        "line": 1177,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(unsigned or_stats,double * ave,NNF_COUNT * max,NNF_NODE * list,NNF_COUNT capacity)"
+    },
+    {
+        "_type": "tag",
+        "name": "unit_learned_clause",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^BOOLEAN unit_learned_clause(struct cnf_manager *manager)$/",
+        "line": 322,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "unit_node",
+        "path": "src/hdtree/hgr.cpp",
+        "pattern": "/^BOOLEAN unit_node(struct hgr_node *n) { return n->edge_count==1; }$/",
+        "line": 513,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hgr_node * n)"
+    },
+    {
+        "_type": "tag",
+        "name": "unresolved_literals",
+        "path": "src/sat/preprocessing.cpp",
+        "pattern": "/^LITERAL *unresolved_literals(struct clause *clause, BOOLEAN *shortened)$/",
+        "line": 254,
+        "typeref": "typename:LITERAL *",
+        "kind": "function",
+        "signature": "(struct clause * clause,BOOLEAN * shortened)"
+    },
+    {
+        "_type": "tag",
+        "name": "unsatisfiable_nnf",
+        "path": "src/managers/nnf_manager.cpp",
+        "pattern": "/^BOOLEAN unsatisfiable_nnf(struct nnf *nnf) {$/",
+        "line": 1074,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "unstamp_cache",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^void unstamp_cache(struct cache_entry *entry, struct cache_manager *manager) $/",
+        "line": 206,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct cache_entry * entry,struct cache_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "update_current_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^BOOLEAN update_current_hdtree(C_COUNT depth,V_COUNT cutset_size,V_COUNT context_size,V_COUNT sep/",
+        "line": 180,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(C_COUNT depth,V_COUNT cutset_size,V_COUNT context_size,V_COUNT separator_size)"
+    },
+    {
+        "_type": "tag",
+        "name": "update_relevance_bit",
+        "path": "src/compiler/vars.cpp",
+        "pattern": "/^void update_relevance_bit(struct var *var, struct dtree *dtree, struct dtree_manager *dtree_mana/",
+        "line": 156,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct var * var,struct dtree * dtree,struct dtree_manager * dtree_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "update_separator_score",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^void update_separator_score(V_COUNT ascount, struct dtree *dtree) $/",
+        "line": 182,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(V_COUNT ascount,struct dtree * dtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "update_subsumption",
+        "path": "src/sat/unit_resolution.cpp",
+        "pattern": "/^void update_subsumption(struct literal *literal,struct cnf_manager *cnf_manager)$/",
+        "line": 164,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct literal * literal,struct cnf_manager * cnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "vacuous_decision_node",
+        "path": "src/operations/nnf_operations.cpp",
+        "pattern": "/^BOOLEAN vacuous_decision_node(NNF_ID2 *i,struct nnfn *node,struct nnf *nnf)$/",
+        "line": 396,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_ID2 * i,struct nnfn * node,struct nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "vars2string",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^char *vars2string(struct var *vars, V_COUNT n)$/",
+        "line": 657,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(struct var * vars,V_COUNT n)"
+    },
+    {
+        "_type": "tag",
+        "name": "varsp2string",
+        "path": "src/managers/dtree_manager.cpp",
+        "pattern": "/^char *varsp2string(struct var **vars, V_COUNT n)$/",
+        "line": 683,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(struct var ** vars,V_COUNT n)"
+    },
+    {
+        "_type": "tag",
+        "name": "verify_count",
+        "path": "src/managers/cache_manager.cpp",
+        "pattern": "/^BOOLEAN verify_count(struct cache_manager *cache_manager) $/",
+        "line": 97,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct cache_manager * cache_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "verify_hdtree",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^BOOLEAN verify_hdtree(struct hdtree *hdtree, struct hgr *hgr, struct cnf *cnf) {$/",
+        "line": 30,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree,struct hgr * hgr,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "verify_vsets",
+        "path": "src/hdtree/verify.cpp",
+        "pattern": "/^void verify_vsets(struct hdtree *hdtree) {$/",
+        "line": 202,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct hdtree * hdtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "viable_hdtree",
+        "path": "src/hdtree/quality.cpp",
+        "pattern": "/^BOOLEAN viable_hdtree(void)$/",
+        "line": 227,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(void)"
+    },
+    {
+        "_type": "tag",
+        "name": "watched_clauses_stats",
+        "path": "src/managers/cnf_manager.cpp",
+        "pattern": "/^void watched_clauses_stats(double *ave_s, C_COUNT *max_s, C_COUNT *max_occ, struct var **max_var/",
+        "line": 537,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(double * ave_s,C_COUNT * max_s,C_COUNT * max_occ,struct var ** max_var,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "weakly_eliminated",
+        "path": "src/compiler/separators.cpp",
+        "pattern": "/^BOOLEAN weakly_eliminated(struct separator *s)$/",
+        "line": 111,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(struct separator * s)"
+    },
+    {
+        "_type": "tag",
+        "name": "weighted_cnf",
+        "path": "src/sat/save_load.cpp",
+        "pattern": "/^int weighted_cnf(struct cnf *cnf) {$/",
+        "line": 550,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "within_dtree",
+        "path": "src/compiler/verify.cpp",
+        "pattern": "/^BOOLEAN within_dtree(NNF_NODE node, struct dtree *dtree, struct nnf_manager *manager)$/",
+        "line": 41,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE node,struct dtree * dtree,struct nnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "wmc_out",
+        "path": "src/mcc21.cpp",
+        "pattern": "/^void wmc_out(struct nnf *nnf, struct cnf *cnf) $/",
+        "line": 118,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(struct nnf * nnf,struct cnf * cnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "zchaff_conflict_clause",
+        "path": "src/sat/conflict_analysis.cpp",
+        "pattern": "/^V_COUNT zchaff_conflict_clause(V_COUNT clevel, struct literal **cc_literals, struct cnf_manager /",
+        "line": 104,
+        "typeref": "typename:V_COUNT",
+        "kind": "function",
+        "signature": "(V_COUNT clevel,struct literal ** cc_literals,struct cnf_manager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "~Graph",
+        "path": "src/hdtree/minfill.cpp",
+        "pattern": "/^Graph::~Graph(){$/",
+        "line": 52,
+        "kind": "function",
+        "signature": "()",
+        "scope": "Graph",
+        "scopeKind": "class"
+    }
+]

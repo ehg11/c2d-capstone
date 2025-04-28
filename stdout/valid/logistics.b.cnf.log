@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/logistics.b.cnf
+c Loaded cnf
+c   vars    843
+c   clauses 7301 (e 0, unit 0, binary 4000, max-size 14)
+c Loading dtree from file...done.
+c Max Cluster=166, Cutset=90, Context=152, Separator=106, Height=44
+
+Compiling...done.
+ NNF manager:
+  nodes  1117090
+  edges  10436256
+  memory 113.7 MB
+ Cache manager:
+  hrate  96.4%
+  count  156136
+  drops  24543
+  memory 26.7 MB
+ Learned clauses 9901
+Compile Time: 258.7s / Pre-Processing: 0.1s / Post-Processing: 0.3s
+
+
+Total Time: 259.1s
+[ perf record: Woken up 2626 times to write data ]
+[ perf record: Captured and wrote 656.390 MB perf.data (1037141 samples) ]

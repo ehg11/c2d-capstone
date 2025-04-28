@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/c2670.isc.cnf
+c Loaded cnf
+c   vars    1230
+c   clauses 2876 (e 0, unit 0, binary 2201, max-size 6)
+c Loading dtree from file...done.
+c Max Cluster=35, Cutset=26, Context=30, Separator=28, Height=36
+
+Compiling... [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs] done.
+ NNF manager:
+  nodes  47957766
+  edges  155460660
+  memory 2649.6 MB
+ Cache manager:
+  hrate  93.7%
+  count  3388157
+  drops  603
+  memory 541.0 MB
+ Learned clauses 746
+Compile Time: 1605.7s / Pre-Processing: 0.0s / Post-Processing: 5.2s
+
+
+Total Time: 1611.0s
+[ perf record: Woken up 11082 times to write data ]
+[ perf record: Captured and wrote 2770.561 MB perf.data (6450455 samples) ]

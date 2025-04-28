@@ -1,0 +1,16 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/bw_large.d.cnf
+c Loaded cnf
+c   vars    6325
+c   clauses 131973 (e 0, unit 0, binary 102580, max-size 20)
+c Loading dtree from file...done.
+c Max Cluster=592, Cutset=3, Context=592, Separator=500, Height=14486
+
+Compiling...Events disabled
+[ perf record: Woken up 58650 times to write data ]
+[ perf record: Captured and wrote 14663.249 MB perf.data (14373507 samples) ]
+Terminated

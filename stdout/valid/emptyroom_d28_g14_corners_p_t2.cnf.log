@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/emptyroom_d28_g14_corners_p_t2.cnf
+c Loaded cnf
+c   vars    608
+c   clauses 1960 (e 0, unit 0, binary 872, max-size 4)
+c Loading dtree from file...done.
+c Max Cluster=13, Cutset=5, Context=13, Separator=10, Height=44
+
+Compiling...done.
+ NNF manager:
+  nodes  5985
+  edges  30402
+  memory 0.4 MB
+ Cache manager:
+  hrate  52.2%
+  count  994
+  drops  244
+  memory 0.1 MB
+ Learned clauses 52
+Compile Time: 0.1s / Pre-Processing: 0.0s / Post-Processing: 0.1s
+
+
+Total Time: 0.2s
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.182 MB perf.data (714 samples) ]

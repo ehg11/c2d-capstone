@@ -1,0 +1,12 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/family_grid_new_dispose_4_1_p_t2.cnf
+c Loaded cnf
+c   vars    5984
+c   clauses 21829 (e 0, unit 50, binary 16474, max-size 19)
+c Loading dtree from file...dtree does not mactch cnf.
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.036 MB perf.data (237 samples) ]

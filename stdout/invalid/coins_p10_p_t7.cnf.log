@@ -1,0 +1,12 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/coins_p10_p_t7.cnf
+c Loaded cnf
+c   vars    2752
+c   clauses 6927 (e 0, unit 7, binary 4228, max-size 10)
+c Loading dtree from file...dtree does not mactch cnf.
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.023 MB perf.data (95 samples) ]

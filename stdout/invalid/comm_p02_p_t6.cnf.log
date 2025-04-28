@@ -1,0 +1,12 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/comm_p02_p_t6.cnf
+c Loaded cnf
+c   vars    1515
+c   clauses 4836 (e 0, unit 12, binary 3312, max-size 8)
+c Loading dtree from file...dtree does not mactch cnf.
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.021 MB perf.data (74 samples) ]

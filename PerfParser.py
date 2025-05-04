@@ -209,6 +209,7 @@ class PerfParser:
                     and p["sharedobject"] == "c2d"
                     and "@" not in p["symbol"]
                     and "__" not in p["symbol"]
+                    and not p["symbol"].startswith("_")
                     and not p["symbol"].startswith("0x")
                 )
             ]

@@ -649,11 +649,6 @@
         "pct": 3.961731933370461e-10,
         "category": "compile"
     },
-    "_start": {
-        "time": 0.00026000000000000003,
-        "pct": 3.6787510809868567e-10,
-        "category": null
-    },
     "load_hdtree_from_file": {
         "time": 0.00026,
         "pct": 3.678751080986856e-10,
@@ -663,11 +658,6 @@
         "time": 0.00023999999999999998,
         "pct": 3.3957702286032515e-10,
         "category": "cache"
-    },
-    "_fini": {
-        "time": 0.00021000000000000004,
-        "pct": 2.971298950027846e-10,
-        "category": null
     },
     "construct_cache_manager": {
         "time": 0.0002,
@@ -854,11 +844,6 @@
         "pct": 0.0,
         "category": null
     },
-    "_PaToH_Intern_MultiConst_Partition": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "bi_RML": {
         "time": 0.0,
         "pct": 0.0,
@@ -1010,11 +995,6 @@
         "category": null
     },
     "errexit": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "_init": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -1429,11 +1409,6 @@
         "pct": 0.0,
         "category": null
     },
-    "_Intern_PATOH_Alloc": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "u_UnSigned_MaxHeapExtractFirst": {
         "time": 0.0,
         "pct": 0.0,
@@ -1600,11 +1575,6 @@
         "category": null
     },
     "create_hypergraph_data": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "_PaToH_Intern_Partition": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -1820,11 +1790,6 @@
         "category": null
     },
     "destroy_hypergraph_data": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "_Intern_PATOH_Free": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -2408,10 +2373,5 @@
         "time": 0.0,
         "pct": 0.0,
         "category": "hdtree"
-    },
-    "_Intern_PATOH_CheckReAlloc": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
     }
 }

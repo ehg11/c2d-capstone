@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/sat-grid-pbl-0015.cnf
+c Loaded cnf
+c   vars    240
+c   clauses 436 (e 0, unit 2, binary 15, max-size 4)
+c Loading dtree from file...done.
+c Max Cluster=84, Cutset=45, Context=75, Separator=50, Height=53
+
+Compiling...done.
+ NNF manager:
+  nodes  833668
+  edges  1842791
+  memory 39.5 MB
+ Cache manager:
+  hrate  97.0%
+  count  172645
+  drops  2290
+  memory 15.2 MB
+ Learned clauses 3137
+Compile Time: 43.3s / Pre-Processing: 0.0s / Post-Processing: 0.2s
+
+
+Total Time: 43.5s
+[ perf record: Woken up 364 times to write data ]
+[ perf record: Captured and wrote 90.814 MB perf.data (174207 samples) ]

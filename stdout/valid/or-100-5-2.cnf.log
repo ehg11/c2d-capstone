@@ -10,4 +10,7 @@ c   clauses 500 (e 0, unit 0, binary 400, max-size 5)
 c Loading dtree from file...done.
 c Max Cluster=41, Cutset=8, Context=40, Separator=31, Height=31
 
-Compiling...
+Compiling...Events disabled
+[ perf record: Woken up 40018 times to write data ]
+[ perf record: Captured and wrote 10005.698 MB perf.data (14380315 samples) ]
+Terminated

@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/or-70-5-9.cnf
+c Loaded cnf
+c   vars    140
+c   clauses 350 (e 0, unit 0, binary 280, max-size 5)
+c Loading dtree from file...done.
+c Max Cluster=29, Cutset=13, Context=28, Separator=20, Height=24
+
+Compiling... [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  >>Cache filled<<  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs] done.
+ NNF manager:
+  nodes  314219395
+  edges  721502602
+  memory 15093.8 MB
+ Cache manager:
+  hrate  82.2%
+  count  12956940
+  drops  65989742
+  memory 934.0 MB
+ Learned clauses 0
+Compile Time: 2963.4s / Pre-Processing: 0.0s / Post-Processing: 7.9s
+
+
+Total Time: 2971.3s
+[ perf record: Woken up 25442 times to write data ]
+[ perf record: Captured and wrote 6360.859 MB perf.data (11888309 samples) ]

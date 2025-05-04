@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/or-70-20-6.cnf
+c Loaded cnf
+c   vars    140
+c   clauses 350 (e 0, unit 0, binary 280, max-size 5)
+c Loading dtree from file...done.
+c Max Cluster=29, Cutset=9, Context=28, Separator=18, Height=27
+
+Compiling... [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  >>Cache filled<<  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs]  [128 MBs] done.
+ NNF manager:
+  nodes  172151747
+  edges  394524424
+  memory 8263.6 MB
+ Cache manager:
+  hrate  87.6%
+  count  13231394
+  drops  13993659
+  memory 976.5 MB
+ Learned clauses 0
+Compile Time: 1353.8s / Pre-Processing: 0.0s / Post-Processing: 7.5s
+
+
+Total Time: 1361.3s
+[ perf record: Woken up 12682 times to write data ]
+[ perf record: Captured and wrote 3170.509 MB perf.data (5448407 samples) ]

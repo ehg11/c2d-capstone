@@ -1,0 +1,29 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/or-50-5-2.cnf
+c Loaded cnf
+c   vars    100
+c   clauses 250 (e 0, unit 0, binary 200, max-size 5)
+c Loading dtree from file...done.
+c Max Cluster=26, Cutset=19, Context=23, Separator=23, Height=13
+
+Compiling... [128 MBs] done.
+ NNF manager:
+  nodes  4313229
+  edges  10067761
+  memory 208.4 MB
+ Cache manager:
+  hrate  92.6%
+  count  392768
+  drops  0
+  memory 26.5 MB
+ Learned clauses 0
+Compile Time: 20.4s / Pre-Processing: 0.0s / Post-Processing: 0.3s
+
+
+Total Time: 20.7s
+[ perf record: Woken up 110 times to write data ]
+[ perf record: Captured and wrote 27.318 MB perf.data (82937 samples) ]

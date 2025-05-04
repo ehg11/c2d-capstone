@@ -1,0 +1,16 @@
+c
+c c2d compiler version 3.00
+c Copyright (c) Automated Reasoning Group, UCLA 2024
+c Licensed only for non-commercial, research and educational use
+c
+c Loading ./cnfs/sat-grid-pbl-0020.cnf
+c Loaded cnf
+c   vars    420
+c   clauses 781 (e 0, unit 2, binary 20, max-size 4)
+c Loading dtree from file...done.
+c Max Cluster=97, Cutset=53, Context=86, Separator=56, Height=51
+
+Compiling...Events disabled
+[ perf record: Woken up 31578 times to write data ]
+[ perf record: Captured and wrote 7894.808 MB perf.data (14393480 samples) ]
+Terminated

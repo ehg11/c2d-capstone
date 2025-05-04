@@ -1,0 +1,569 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 372  of event 'cycles'
+# Event count (approx.): 250761438
+#
+# Children      Self  Command  Shared Object         Symbol                                
+# ........  ........  .......  ....................  ......................................
+#
+    94.15%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcb4724a
+89.40% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cnf_manager
+0.28% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+0.27% 0x7f9cfcb4724a;main;free_hdtree
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+0.27% 0x7f9cfcb4724a;0x7f9cfcc915f7;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;index2varp
+0.26% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_cnf_manager;construct_cnf_clauses;initialize_clause
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7f0c7
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.24% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;edges_union
+0.24% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7fdaf
+0.22% 0x7f9cfcb4724a;main;__isoc99_fscanf
+    93.88%     0.00%  c2d      c2d                   [.] main
+89.40% main;cnf2ddnnf_cmd_line;free_cache_manager
+0.29% main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+0.29% main;cnf2ddnnf_cmd_line;free_cnf_manager
+0.28% main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+0.27% main;free_hdtree
+0.27% main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+0.26% main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;index2varp
+0.26% main;cnf2ddnnf_cmd_line;construct_cnf_manager;construct_cnf_clauses;initialize_clause
+0.25% main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7f0c7
+0.25% main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.24% main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;edges_union
+0.24% main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7fdaf
+0.22% main;__isoc99_fscanf
+    93.38%     0.00%  c2d      c2d                   [.] cnf2ddnnf_cmd_line
+89.40% cnf2ddnnf_cmd_line;free_cache_manager
+0.29% cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+0.29% cnf2ddnnf_cmd_line;free_cnf_manager
+0.28% cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+0.27% cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+0.26% cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;index2varp
+0.26% cnf2ddnnf_cmd_line;construct_cnf_manager;construct_cnf_clauses;initialize_clause
+0.25% cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7f0c7
+0.25% cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.24% cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;edges_union
+0.24% cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7fdaf
+    89.97%    89.40%  c2d      c2d                   [.] free_cache_manager
+89.40% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager
+0.29% free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+     2.98%     0.00%  c2d      [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;put_files_struct;filp_close;locks_remove_posix
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+0.28% entry_SYSCALL_64_after_hwframe;do_syscall_64;vm_mmap_pgoff;do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+0.27% entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.27% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.24% entry_SYSCALL_64_after_hwframe;do_syscall_64;__do_sys_brk;mas_prev;mas_prev_nentry
+0.24% entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+0.24% entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+0.18% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+0.04% entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     2.98%     0.00%  c2d      [kernel.kallsyms]     [k] do_syscall_64
+0.29% do_syscall_64;__x64_sys_munmap;__vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+0.29% do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;put_files_struct;filp_close;locks_remove_posix
+0.29% do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+0.28% do_syscall_64;vm_mmap_pgoff;do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+0.27% do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.27% do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.24% do_syscall_64;__do_sys_brk;mas_prev;mas_prev_nentry
+0.24% do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+0.24% do_syscall_64;ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+0.18% do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+0.04% do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     1.54%     0.00%  c2d      [kernel.kallsyms]     [k] asm_exc_page_fault
+0.29% asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+0.27% asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.24% asm_exc_page_fault
+0.19% asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     1.30%     0.00%  c2d      [kernel.kallsyms]     [k] exc_page_fault
+0.29% exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+0.27% exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.19% exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     1.30%     0.00%  c2d      [kernel.kallsyms]     [k] do_user_addr_fault
+0.29% do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% do_user_addr_fault;lock_mm_and_find_vma
+0.27% do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.19% do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     1.23%     0.00%  c2d      c2d                   [.] load_hdtree_from_file
+0.25% load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7f0c7
+0.25% load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.24% load_hdtree_from_file;dtree_skeleton2hdtree;edges_union
+0.24% load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7fdaf
+     1.15%     0.00%  c2d      [unknown]             [.] 0000000000000000
+0.27% 0;read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.27% 0;0x7f9cfcbb80dd
+0.27% 0;0x7f9cfcbb806d
+0.19% 0;0x7f9cfcbb80d9;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+0.11% 0;0x7f9cfcbc2e15
+0.04% 0;read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% 0;read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     1.10%     0.00%  c2d      c2d                   [.] compile_cnf
+0.28% compile_cnf;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% compile_cnf;compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+0.27% compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+     1.10%     0.00%  c2d      c2d                   [.] compile_dt
+0.28% compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+0.27% compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+     1.01%     0.00%  c2d      [kernel.kallsyms]     [k] handle_mm_fault
+0.29% handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.27% handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.19% handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     1.01%     0.00%  c2d      [kernel.kallsyms]     [k] __handle_mm_fault
+0.29% __handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.27% __handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% __handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.19% __handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     0.86%     0.00%  c2d      [kernel.kallsyms]     [k] __x64_sys_exit_group
+0.29% __x64_sys_exit_group;do_group_exit;do_exit;put_files_struct;filp_close;locks_remove_posix
+0.29% __x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% __x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.86%     0.00%  c2d      [kernel.kallsyms]     [k] do_group_exit
+0.29% do_group_exit;do_exit;put_files_struct;filp_close;locks_remove_posix
+0.29% do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.86%     0.00%  c2d      [kernel.kallsyms]     [k] do_exit
+0.29% do_exit;put_files_struct;filp_close;locks_remove_posix
+0.29% do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.82%     0.82%  c2d      c2d                   [.] set_literal
+0.28% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+     0.82%     0.00%  c2d      c2d                   [.] compile_decomposed
+0.28% compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+     0.82%     0.00%  c2d      c2d                   [.] lookup_or_compile_dt
+0.28% lookup_or_compile_dt;compile_dt;compile_dt;assert_cd_literal;set_literal
+0.27% lookup_or_compile_dt;compile_dt;compile_dt;compile_dt;compile_dt;compile_decomposed;lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+0.27% lookup_or_compile_dt;compile_dt;compile_dt;decide_literal;set_literal
+     0.78%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd050a58
+0.27% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd056b47;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.26% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044411
+0.25% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044496
+     0.78%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd05022f
+0.27% 0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd056b47;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.26% 0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044411
+0.25% 0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044496
+     0.78%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd053c99
+0.27% 0x7f9cfd053c99;0x7f9cfd056b47;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.26% 0x7f9cfd053c99;0x7f9cfd044411
+0.25% 0x7f9cfd053c99;0x7f9cfd044496
+     0.76%     0.00%  c2d      [unknown]             [.] 0x00007f9cfd0698a8
+0.26% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd03d262;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.26% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd040c02
+0.24% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd056ae3;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.76%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd03e075
+0.26% 0x7f9cfd03e075;0x7f9cfd03d262;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+0.26% 0x7f9cfd03e075;0x7f9cfd040c02
+0.24% 0x7f9cfd03e075;0x7f9cfd056ae3;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.76%     0.19%  c2d      [kernel.kallsyms]     [k] get_page_from_freelist
+0.57% get_page_from_freelist;clear_page_rep
+0.19% 0;0x7f9cfcbb80d9;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     0.76%     0.00%  c2d      [kernel.kallsyms]     [k] __alloc_pages
+0.57% __alloc_pages;get_page_from_freelist;clear_page_rep
+0.19% __alloc_pages;get_page_from_freelist
+     0.75%     0.00%  c2d      c2d                   [.] dtree_skeleton2hdtree
+0.25% dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.24% dtree_skeleton2hdtree;edges_union
+     0.71%     0.22%  c2d      libc.so.6             [.] __isoc99_fscanf
+0.25% __isoc99_fscanf;0x7f9cfcb7f0c7
+0.24% __isoc99_fscanf;0x7f9cfcb7fdaf
+0.22% 0x7f9cfcb4724a;main;__isoc99_fscanf
+     0.70%     0.00%  c2d      [kernel.kallsyms]     [k] vm_mmap_pgoff
+0.28% vm_mmap_pgoff;do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+0.24% vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+0.18% vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+     0.70%     0.00%  c2d      [kernel.kallsyms]     [k] do_mmap
+0.28% do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+0.24% do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+0.18% do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+     0.70%     0.00%  c2d      [kernel.kallsyms]     [k] mmap_region
+0.28% mmap_region;vm_area_alloc;kmem_cache_alloc
+0.24% mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+0.18% mmap_region;perf_event_mmap;kmalloc_trace
+     0.57%     0.57%  c2d      [kernel.kallsyms]     [k] clear_page_rep
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+     0.57%     0.29%  c2d      [kernel.kallsyms]     [k] unmap_page_range
+0.29% unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;__mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.57%     0.00%  c2d      [kernel.kallsyms]     [k] __mmput
+0.29% __mmput;exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% __mmput;exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.57%     0.00%  c2d      [kernel.kallsyms]     [k] exit_mmap
+0.29% exit_mmap;unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% exit_mmap;unmap_vmas;unmap_page_range;_compound_head
+     0.57%     0.00%  c2d      [kernel.kallsyms]     [k] unmap_vmas
+0.29% unmap_vmas;unmap_page_range;__tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+0.29% unmap_vmas;unmap_page_range;_compound_head
+     0.54%     0.00%  c2d      c2d                   [.] decide_literal
+0.54% decide_literal;set_literal
+     0.54%     0.54%  c2d      [kernel.kallsyms]     [k] next_uptodate_page
+0.27% 0x7f9cfcb4724a;0x7f9cfcc915f7;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd03d262;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+     0.54%     0.00%  c2d      [kernel.kallsyms]     [k] do_fault
+0.27% do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+0.26% do_fault;filemap_map_pages;next_uptodate_page
+     0.54%     0.00%  c2d      [kernel.kallsyms]     [k] filemap_map_pages
+0.54% filemap_map_pages;next_uptodate_page
+     0.53%     0.26%  c2d      c2d                   [.] hdtree2dtree
+0.27% hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+0.26% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;index2varp
+     0.53%     0.00%  c2d      c2d                   [.] construct_dtree_manager
+0.27% construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+0.26% construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;index2varp
+     0.50%     0.50%  c2d      c2d                   [.] edges_intersection
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+     0.50%     0.00%  c2d      c2d                   [.] initialize_hdtree
+0.25% initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+0.25% initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;initialize_hdtree;edges_intersection
+     0.49%     0.49%  c2d      ld-linux-x86-64.so.2  [.] 0x0000000000009947
+0.25% 0x20ad88;0x7f9cfce7a758;0x7f9cfd03f94a
+0.24% 0x1da320;0x7f9cfcb44538;0x7f9cfd03f94a
+     0.49%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd03f94a
+0.49% 0x7f9cfd03f94a
+     0.45%     0.00%  c2d      [kernel.kallsyms]     [k] perf_event_mmap
+0.27% perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+0.18% perf_event_mmap;kmalloc_trace
+     0.32%     0.00%  c2d      libc.so.6             [.] read
+0.27% read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.32%     0.00%  c2d      [kernel.kallsyms]     [k] ksys_read
+0.27% ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.32%     0.00%  c2d      [kernel.kallsyms]     [k] vfs_read
+0.27% vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.32%     0.00%  c2d      [xfs]                 [k] xfs_file_read_iter
+0.27% xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.32%     0.00%  c2d      [xfs]                 [k] xfs_file_buffered_read
+0.27% xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% xfs_file_buffered_read;filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.32%     0.00%  c2d      [kernel.kallsyms]     [k] filemap_read
+0.27% filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.04% filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+0.01% filemap_read;filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.29%     0.29%  c2d      [kernel.kallsyms]     [k] folio_lruvec_lock_irqsave
+0.29% __munmap;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      libc.so.6             [.] __munmap
+0.29% __munmap;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] __x64_sys_munmap
+0.29% __x64_sys_munmap;__vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] __vm_munmap
+0.29% __vm_munmap;do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] do_mas_munmap
+0.29% do_mas_munmap;do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] do_mas_align_munmap
+0.29% do_mas_align_munmap;unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] unmap_region
+0.29% unmap_region;lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] lru_add_drain
+0.29% lru_add_drain;lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] lru_add_drain_cpu
+0.29% lru_add_drain_cpu;folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] folio_batch_move_lru
+0.29% folio_batch_move_lru;folio_lruvec_lock_irqsave
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] do_huge_pmd_anonymous_page
+0.29% do_huge_pmd_anonymous_page;pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] pte_alloc_one
+0.29% pte_alloc_one;__alloc_pages;get_page_from_freelist;clear_page_rep
+     0.29%     0.29%  c2d      [kernel.kallsyms]     [k] lock_mm_and_find_vma
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cache_manager;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;lock_mm_and_find_vma
+     0.29%     0.29%  c2d      c2d                   [.] free_cnf_manager
+0.29% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;free_cnf_manager
+     0.29%     0.29%  c2d      [kernel.kallsyms]     [k] locks_remove_posix
+0.29% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_exit_group;do_group_exit;do_exit;put_files_struct;filp_close;locks_remove_posix
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] put_files_struct
+0.29% put_files_struct;filp_close;locks_remove_posix
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] filp_close
+0.29% filp_close;locks_remove_posix
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] __tlb_remove_page_size
+0.29% __tlb_remove_page_size;__get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] __get_free_pages
+0.29% __get_free_pages;__alloc_pages;get_page_from_freelist;clear_page_rep
+     0.29%     0.00%  c2d      [kernel.kallsyms]     [k] _compound_head
+0.29% _compound_head
+     0.28%     0.00%  c2d      [kernel.kallsyms]     [k] filemap_get_pages
+0.27% filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+0.01% filemap_get_pages;folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.28%     0.00%  c2d      c2d                   [.] assert_cd_literal
+0.28% assert_cd_literal;set_literal
+     0.28%     0.28%  c2d      [kernel.kallsyms]     [k] kmem_cache_alloc
+0.28% __mmap;entry_SYSCALL_64_after_hwframe;do_syscall_64;vm_mmap_pgoff;do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+     0.28%     0.00%  c2d      libc.so.6             [.] __mmap
+0.28% __mmap;entry_SYSCALL_64_after_hwframe;do_syscall_64;vm_mmap_pgoff;do_mmap;mmap_region;vm_area_alloc;kmem_cache_alloc
+     0.28%     0.00%  c2d      [kernel.kallsyms]     [k] vm_area_alloc
+0.28% vm_area_alloc;kmem_cache_alloc
+     0.27%     0.27%  c2d      c2d                   [.] erase_level
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;compile_cnf;compile_dt;compile_dt;compile_dt;undo_decide_literal;erase_level
+     0.27%     0.00%  c2d      c2d                   [.] undo_decide_literal
+0.27% undo_decide_literal;erase_level
+     0.27%     0.27%  c2d      c2d                   [.] free_hdtree
+0.27% 0x7f9cfcb4724a;main;free_hdtree
+     0.27%     0.27%  c2d      [kernel.kallsyms]     [k] part_in_flight
+0.27% 0;read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;filemap_get_pages;page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] page_cache_ra_order
+0.27% page_cache_ra_order;read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] read_pages
+0.27% read_pages;iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] iomap_readahead
+0.27% iomap_readahead;submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] submit_bio_noacct_nocheck
+0.27% submit_bio_noacct_nocheck;blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] blk_mq_submit_bio
+0.27% blk_mq_submit_bio;update_io_ticks;part_in_flight
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] update_io_ticks
+0.27% update_io_ticks;part_in_flight
+     0.27%     0.27%  c2d      c2d                   [.] edges_subset
+0.27% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_dtree_manager;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;hdtree2dtree;edges_subset
+     0.27%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcc915f7
+0.27% 0x7f9cfcc915f7;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+     0.27%     0.00%  c2d      [xfs]                 [k] xfs_filemap_map_pages
+0.27% xfs_filemap_map_pages;filemap_map_pages;next_uptodate_page
+     0.27%     0.27%  c2d      libc.so.6             [.] 0x00000000000980d9
+0.27% 0;0x7f9cfcbb80dd
+     0.27%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcbb80dd
+0.27% 0x7f9cfcbb80dd
+     0.27%     0.27%  c2d      libc.so.6             [.] 0x000000000009496a
+0.27% 0;0x7f9cfcbb806d
+     0.27%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcbb806d
+0.27% 0x7f9cfcbb806d
+     0.27%     0.27%  c2d      [kernel.kallsyms]     [k] perf_event_mmap_output
+0.27% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd056b47;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd056b47
+0.27% 0x7f9cfd056b47;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] __x64_sys_mprotect
+0.27% __x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] do_mprotect_pkey
+0.27% do_mprotect_pkey;mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] mprotect_fixup
+0.27% mprotect_fixup;perf_event_mmap;perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] perf_iterate_sb
+0.27% perf_iterate_sb;perf_iterate_ctx;perf_event_mmap_output
+     0.27%     0.00%  c2d      [kernel.kallsyms]     [k] perf_iterate_ctx
+0.27% perf_iterate_ctx;perf_event_mmap_output
+     0.26%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd03d262
+0.26% 0x7f9cfd03d262;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;do_fault;filemap_map_pages;next_uptodate_page
+     0.26%     0.00%  c2d      c2d                   [.] index2varp
+0.26% index2varp
+     0.26%     0.26%  c2d      ld-linux-x86-64.so.2  [.] 0x0000000000008e22
+0.26% 0x7f9cfd03ee29
+     0.26%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd03ee29
+0.26% 0x7f9cfd03ee29
+     0.26%     0.26%  c2d      c2d                   [.] initialize_clause
+0.26% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;construct_cnf_manager;construct_cnf_clauses;initialize_clause
+     0.26%     0.00%  c2d      c2d                   [.] construct_cnf_manager
+0.26% construct_cnf_manager;construct_cnf_clauses;initialize_clause
+     0.26%     0.00%  c2d      c2d                   [.] construct_cnf_clauses
+0.26% construct_cnf_clauses;initialize_clause
+     0.26%     0.26%  c2d      ld-linux-x86-64.so.2  [.] 0x000000000000ac00
+0.26% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd040c02
+     0.26%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd040c02
+0.26% 0x7f9cfd040c02
+     0.26%     0.26%  c2d      ld-linux-x86-64.so.2  [.] 0x0000000000009ad0
+0.26% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044411
+     0.26%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd044411
+0.26% 0x7f9cfd044411
+     0.25%     0.25%  c2d      ld-linux-x86-64.so.2  [.] 0x000000000000e492
+0.25% 0x7f9cfd050a58;0x7f9cfd05022f;0x7f9cfd053c99;0x7f9cfd044496
+     0.25%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd044496
+0.25% 0x7f9cfd044496
+     0.25%     0.25%  c2d      libc.so.6             [.] 0x000000000005f0c0
+0.25% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7f0c7
+     0.25%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcb7f0c7
+0.25% 0x7f9cfcb7f0c7
+     0.25%     0.00%  c2d      [unknown]             [k] 0x00007f6e4c2f3a97
+0.18% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+     0.25%     0.00%  c2d      [kernel.kallsyms]     [k] __x64_sys_execve
+0.18% __x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% __x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+     0.25%     0.00%  c2d      [kernel.kallsyms]     [k] do_execveat_common.isra.0
+0.18% do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+     0.25%     0.00%  c2d      [kernel.kallsyms]     [k] bprm_execve
+0.18% bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+     0.25%     0.00%  c2d      [kernel.kallsyms]     [k] load_elf_binary
+0.18% load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+0.07% load_elf_binary;begin_new_exec;commit_creds
+     0.25%     0.00%  c2d      [unknown]             [.] 0x000000000020ad88
+0.25% 0x20ad88;0x7f9cfce7a758;0x7f9cfd03f94a
+     0.25%     0.00%  c2d      [unknown]             [.] 0x00007f9cfce7a758
+0.25% 0x7f9cfce7a758;0x7f9cfd03f94a
+     0.24%     0.24%  c2d      [kernel.kallsyms]     [k] mas_prev_nentry
+0.24% brk;entry_SYSCALL_64_after_hwframe;do_syscall_64;__do_sys_brk;mas_prev;mas_prev_nentry
+     0.24%     0.00%  c2d      libc.so.6             [.] brk
+0.24% brk;entry_SYSCALL_64_after_hwframe;do_syscall_64;__do_sys_brk;mas_prev;mas_prev_nentry
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] __do_sys_brk
+0.24% __do_sys_brk;mas_prev;mas_prev_nentry
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] mas_prev
+0.24% mas_prev;mas_prev_nentry
+     0.24%     0.24%  c2d      c2d                   [.] edges_union
+0.24% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;dtree_skeleton2hdtree;edges_union
+     0.24%     0.00%  c2d      [unknown]             [.] 0x00000000001da320
+0.24% 0x1da320;0x7f9cfcb44538;0x7f9cfd03f94a
+     0.24%     0.00%  c2d      [unknown]             [.] 0x00007f9cfcb44538
+0.24% 0x7f9cfcb44538;0x7f9cfd03f94a
+     0.24%     0.24%  c2d      ld-linux-x86-64.so.2  [.] 0x000000000001b68d
+0.24% 0x7f9cfd050a50;asm_exc_page_fault
+     0.24%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd050a50
+0.24% 0x7f9cfd050a50;asm_exc_page_fault
+     0.24%     0.24%  c2d      [kernel.kallsyms]     [k] cap_vm_enough_memory
+0.24% 0x7f9cfd0698a8;0x7f9cfd03e075;0x7f9cfd056ae3;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.24%     0.00%  c2d      ld-linux-x86-64.so.2  [.] 0x00007f9cfd056ae3
+0.24% 0x7f9cfd056ae3;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] ksys_mmap_pgoff
+0.24% ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] security_vm_enough_memory_mm
+0.24% security_vm_enough_memory_mm;cap_vm_enough_memory
+     0.24%     0.24%  c2d      libc.so.6             [.] 0x000000000005fda9
+0.24% 0x7f9cfcb4724a;main;cnf2ddnnf_cmd_line;load_hdtree_from_file;__isoc99_fscanf;0x7f9cfcb7fdaf
+     0.24%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcb7fdaf
+0.24% 0x7f9cfcb7fdaf
+     0.24%     0.24%  c2d      [kernel.kallsyms]     [k] map_id_up
+0.24% 0x72656c69706d6f63;write;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [unknown]             [k] 0x72656c69706d6f63
+0.24% 0x72656c69706d6f63;write;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      libc.so.6             [.] write
+0.24% write;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] ksys_write
+0.24% ksys_write;vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] vfs_write
+0.24% vfs_write;xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] xfs_file_buffered_write
+0.24% xfs_file_buffered_write;xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] xfs_file_write_checks
+0.24% xfs_file_write_checks;file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [kernel.kallsyms]     [k] file_modified_flags
+0.24% file_modified_flags;xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] xfs_vn_update_time
+0.24% xfs_vn_update_time;__xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] __xfs_trans_commit
+0.24% __xfs_trans_commit;xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] xlog_cil_commit
+0.24% xlog_cil_commit;xfs_inode_item_format;map_id_up
+     0.24%     0.00%  c2d      [xfs]                 [k] xfs_inode_item_format
+0.24% xfs_inode_item_format;map_id_up
+     0.19%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcbb80d9
+0.19% 0x7f9cfcbb80d9;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     0.19%     0.00%  c2d      [kernel.kallsyms]     [k] vma_alloc_folio
+0.19% vma_alloc_folio;__folio_alloc;__alloc_pages;get_page_from_freelist
+     0.19%     0.00%  c2d      [kernel.kallsyms]     [k] __folio_alloc
+0.19% __folio_alloc;__alloc_pages;get_page_from_freelist
+     0.18%     0.18%  c2d      [kernel.kallsyms]     [k] kmalloc_trace
+0.18% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+     0.18%     0.00%  c2d      [kernel.kallsyms]     [k] elf_map
+0.18% elf_map;vm_mmap_pgoff;do_mmap;mmap_region;perf_event_mmap;kmalloc_trace
+     0.11%     0.11%  c2d      libc.so.6             [.] 0x00000000000a2e10
+0.11% 0;0x7f9cfcbc2e15
+     0.11%     0.00%  c2d      libc.so.6             [.] 0x00007f9cfcbc2e15
+0.11% 0x7f9cfcbc2e15
+     0.07%     0.07%  c2d      [kernel.kallsyms]     [k] commit_creds
+0.07% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;commit_creds
+     0.07%     0.00%  c2d      [kernel.kallsyms]     [k] begin_new_exec
+0.07% begin_new_exec;commit_creds
+     0.04%     0.04%  c2d      [kernel.kallsyms]     [k] copy_user_generic_string
+0.04% 0;read;entry_SYSCALL_64_after_hwframe;do_syscall_64;ksys_read;vfs_read;xfs_file_read_iter;xfs_file_buffered_read;filemap_read;copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+     0.04%     0.00%  c2d      [kernel.kallsyms]     [k] copy_page_to_iter
+0.04% copy_page_to_iter;_copy_to_iter;copy_user_generic_string
+     0.04%     0.00%  c2d      [kernel.kallsyms]     [k] _copy_to_iter
+0.04% _copy_to_iter;copy_user_generic_string
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] native_write_msr
+0.02% native_write_msr
+     0.02%     0.00%  perf-ex  [unknown]             [k] 0x00007f6e4c2f3a97
+0.02% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+0.02% entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] do_syscall_64
+0.02% do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] __x64_sys_execve
+0.02% __x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+0.02% do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] bprm_execve
+0.02% bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] load_elf_binary
+0.02% load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] begin_new_exec
+0.02% begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] perf_event_exec
+0.02% perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.02%     0.00%  perf-ex  [kernel.kallsyms]     [k] __intel_pmu_enable_all.constprop.0
+0.02% __intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.01%  perf-ex  [kernel.kallsyms]     [k] pv_native_write_cr2
+0.01% 0x7f6e4c2f3a97;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_execve;do_execveat_common.isra.0;bprm_execve;load_elf_binary;begin_new_exec;perf_event_exec;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] native_write_msr
+0.01% native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] folio_wait_bit_common
+0.01% folio_wait_bit_common;io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] io_schedule
+0.01% io_schedule;schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] schedule
+0.01% schedule;__schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] __schedule
+0.01% __schedule;finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] finish_task_switch.isra.0
+0.01% finish_task_switch.isra.0;__perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] __perf_event_task_sched_in
+0.01% __perf_event_task_sched_in;__intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.00%  c2d      [kernel.kallsyms]     [k] __intel_pmu_enable_all.constprop.0
+0.01% __intel_pmu_enable_all.constprop.0;native_write_msr
+     0.01%     0.01%  c2d      [kernel.kallsyms]     [k] memcpy_fromio
+     0.00%     0.00%  perf-ex  [kernel.kallsyms]     [k] ghes_copy_tofrom_phys
+     0.00%     0.00%  c2d      [kernel.kallsyms]     [k] native_flush_tlb_one_user
+     0.00%     0.00%  perf-ex  [kernel.kallsyms]     [k] native_sched_clock
+     0.00%     0.00%  c2d      [kernel.kallsyms]     [k] native_sched_clock
+
+
+#
+# (Tip: Search options using a keyword: perf report -h <keyword>)
+#

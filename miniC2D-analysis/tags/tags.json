@@ -1,0 +1,1056 @@
+[
+    {
+        "_type": "tag",
+        "name": "allocate_manager_keys",
+        "path": "cnf_key.c",
+        "pattern": "/^void allocate_manager_keys(VtreeManager* manager) {$/",
+        "line": 127,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "allocate_vtree_keys",
+        "path": "cnf_key.c",
+        "pattern": "/^void allocate_vtree_keys(DVtree* vtree, VtreeManager* manager) {$/",
+        "line": 103,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(DVtree * vtree,VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "bits2bytes",
+        "path": "cnf_key.c",
+        "pattern": "/^static c2dSize bits2bytes(c2dSize n) { $/",
+        "file": true,
+        "line": 98,
+        "typeref": "typename:c2dSize",
+        "kind": "function",
+        "signature": "(c2dSize n)"
+    },
+    {
+        "_type": "tag",
+        "name": "c2d_version",
+        "path": "getopt.c",
+        "pattern": "/^const char* c2d_version() {$/",
+        "line": 169,
+        "typeref": "typename:const char *",
+        "kind": "function",
+        "signature": "()"
+    },
+    {
+        "_type": "tag",
+        "name": "clist_size",
+        "path": "cache.c",
+        "pattern": "/^void clist_size(VtreeCache* cache, c2dSize* max, double* ave, double* ave_key, double* max_key, /",
+        "line": 196,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCache * cache,c2dSize * max,double * ave,double * ave_key,double * max_key,double * min_key)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_dispatcher",
+        "path": "compile.c",
+        "pattern": "/^void compile_dispatcher(NNF_NODE *node, Clause **learned_clause, DVtree *vtree,$/",
+        "line": 200,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * node,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,NnfManager * nnf_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_vtree",
+        "path": "compile.c",
+        "pattern": "/^NnfManager *compile_vtree(VtreeManager *manager, SatState *sat_state) {$/",
+        "line": 47,
+        "typeref": "typename:NnfManager *",
+        "kind": "function",
+        "signature": "(VtreeManager * manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_vtree_decomposed",
+        "path": "compile.c",
+        "pattern": "/^void compile_vtree_decomposed(NNF_NODE *node, Clause **learned_clause,$/",
+        "line": 98,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * node,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,NnfManager * nnf_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_vtree_leaf",
+        "path": "compile.c",
+        "pattern": "/^void compile_vtree_leaf(NNF_NODE *node, Clause **learned_clause, DVtree *vtree,$/",
+        "line": 87,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * node,Clause ** learned_clause,DVtree * vtree,NnfManager * nnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_vtree_shannon",
+        "path": "compile.c",
+        "pattern": "/^void compile_vtree_shannon(NNF_NODE *node, Clause **learned_clause,$/",
+        "line": 155,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(NNF_NODE * node,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,NnfManager * nnf_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "compile_with_literal",
+        "path": "compile.c",
+        "pattern": "/^compile_with_literal(NNF_NODE *node, Clause **learned_clause, Lit *literal,$/",
+        "file": true,
+        "line": 131,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(NNF_NODE * node,Clause ** learned_clause,Lit * literal,DVtree * vtree,VtreeManager * vtree_manager,NnfManager * nnf_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_vtree_cache",
+        "path": "cache.c",
+        "pattern": "/^VtreeCache* construct_vtree_cache(c2dSize capacity) {$/",
+        "line": 38,
+        "typeref": "typename:VtreeCache *",
+        "kind": "function",
+        "signature": "(c2dSize capacity)"
+    },
+    {
+        "_type": "tag",
+        "name": "construct_vtree_key",
+        "path": "cnf_key.c",
+        "pattern": "/^void construct_vtree_key(DVtree* vtree) {$/",
+        "line": 58,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "copy_key",
+        "path": "cache.c",
+        "pattern": "/^void copy_key(register BYTE* key, register BYTE* cells, register c2dSize count) {$/",
+        "line": 251,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(register BYTE * key,register BYTE * cells,register c2dSize count)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_dispatcher",
+        "path": "count.c",
+        "pattern": "/^void count_dispatcher(c2dWmc* count, Clause** learned_clause, DVtree* vtree, VtreeManager* vtree/",
+        "line": 155,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(c2dWmc * count,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_vtree",
+        "path": "count.c",
+        "pattern": "/^c2dWmc count_vtree(VtreeManager* manager, SatState* sat_state) {$/",
+        "line": 37,
+        "typeref": "typename:c2dWmc",
+        "kind": "function",
+        "signature": "(VtreeManager * manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_vtree_decomposed",
+        "path": "count.c",
+        "pattern": "/^void count_vtree_decomposed(c2dWmc* count, Clause** learned_clause, DVtree* vtree, VtreeManager*/",
+        "line": 79,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(c2dWmc * count,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_vtree_leaf",
+        "path": "count.c",
+        "pattern": "/^void count_vtree_leaf(c2dWmc* count, Clause** learned_clause, DVtree* vtree) {$/",
+        "line": 69,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(c2dWmc * count,Clause ** learned_clause,DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_vtree_shannon",
+        "path": "count.c",
+        "pattern": "/^void count_vtree_shannon(c2dWmc* count, Clause** learned_clause, DVtree* vtree, VtreeManager* vt/",
+        "line": 126,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(c2dWmc * count,Clause ** learned_clause,DVtree * vtree,VtreeManager * vtree_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "count_with_literal",
+        "path": "count.c",
+        "pattern": "/^BOOLEAN count_with_literal(c2dWmc* count, Clause** learned_clause, Lit* literal, DVtree* vtree, /",
+        "file": true,
+        "line": 110,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(c2dWmc * count,Clause ** learned_clause,Lit * literal,DVtree * vtree,VtreeManager * vtree_manager,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "drop_cache_entry",
+        "path": "cache.c",
+        "pattern": "/^void drop_cache_entry(VtreeCE* entry, VtreeCache* cache) {$/",
+        "line": 163,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCE * entry,VtreeCache * cache)"
+    },
+    {
+        "_type": "tag",
+        "name": "drop_vtree_cache_entries",
+        "path": "cache.c",
+        "pattern": "/^void drop_vtree_cache_entries(DVtree* vtree, VtreeManager* manager) {$/",
+        "line": 175,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(DVtree * vtree,VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "extended_file_name",
+        "path": "utilities.c",
+        "pattern": "/^char* extended_file_name(const char* fname, const char* new_extension) {$/",
+        "line": 25,
+        "typeref": "typename:char *",
+        "kind": "function",
+        "signature": "(const char * fname,const char * new_extension)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_cache_entry",
+        "path": "cache.c",
+        "pattern": "/^void free_cache_entry(VtreeCE* entry) {$/",
+        "line": 50,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCE * entry)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_manager_keys",
+        "path": "cnf_key.c",
+        "pattern": "/^void free_manager_keys(VtreeManager* manager) {$/",
+        "line": 131,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_vtree_cache",
+        "path": "cache.c",
+        "pattern": "/^void free_vtree_cache(VtreeCache* cache) {$/",
+        "line": 55,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCache * cache)"
+    },
+    {
+        "_type": "tag",
+        "name": "free_vtree_keys",
+        "path": "cnf_key.c",
+        "pattern": "/^void free_vtree_keys(DVtree* vtree) {$/",
+        "line": 119,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "get_options",
+        "path": "getopt.c",
+        "pattern": "/^c2dOptions* get_options(int argc, char** argv) {$/",
+        "line": 55,
+        "typeref": "typename:c2dOptions *",
+        "kind": "function",
+        "signature": "(int argc,char ** argv)"
+    },
+    {
+        "_type": "tag",
+        "name": "init_options",
+        "path": "getopt.c",
+        "pattern": "/^c2dOptions* init_options() {$/",
+        "line": 34,
+        "typeref": "typename:c2dOptions *",
+        "kind": "function",
+        "signature": "()"
+    },
+    {
+        "_type": "tag",
+        "name": "insert_cache",
+        "path": "cache.c",
+        "pattern": "/^void insert_cache(VtreeCV item, DVtree* vtree, VtreeManager* manager) {  $/",
+        "line": 124,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCV item,DVtree * vtree,VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "lookup_cache",
+        "path": "cache.c",
+        "pattern": "/^BOOLEAN lookup_cache(VtreeCV* result, DVtree* vtree, VtreeManager* manager) {$/",
+        "line": 86,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(VtreeCV * result,DVtree * vtree,VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "main",
+        "path": "main.c",
+        "pattern": "/^int main(int argc, char* argv[]) {$/",
+        "line": 26,
+        "typeref": "typename:int",
+        "kind": "function",
+        "signature": "(int argc,char * argv[])"
+    },
+    {
+        "_type": "tag",
+        "name": "match_keys",
+        "path": "cache.c",
+        "pattern": "/^BOOLEAN match_keys(register BYTE* key1, register BYTE* key2, register c2dSize count) {$/",
+        "line": 246,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(register BYTE * key1,register BYTE * key2,register c2dSize count)"
+    },
+    {
+        "_type": "tag",
+        "name": "pprint_bytes",
+        "path": "utilities.c",
+        "pattern": "/^void pprint_bytes(const char* string, c2dSize bytes) {$/",
+        "line": 18,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * string,c2dSize bytes)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_error_and_exit",
+        "path": "getopt.c",
+        "pattern": "/^void print_error_and_exit(const char* message, const char* PACKAGE, int exit_value) {$/",
+        "line": 125,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * message,const char * PACKAGE,int exit_value)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_help",
+        "path": "getopt.c",
+        "pattern": "/^void print_help(const char* PACKAGE, int exit_value) {$/",
+        "line": 131,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(const char * PACKAGE,int exit_value)"
+    },
+    {
+        "_type": "tag",
+        "name": "print_vtree_cache_stats",
+        "path": "cache.c",
+        "pattern": "/^void print_vtree_cache_stats(VtreeCache* cache) {$/",
+        "line": 226,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(VtreeCache * cache)"
+    },
+    {
+        "_type": "tag",
+        "name": "set_vtree_hashcode",
+        "path": "cnf_key.c",
+        "pattern": "/^void set_vtree_hashcode(DVtree* vtree) {$/",
+        "line": 31,
+        "typeref": "typename:void",
+        "kind": "function",
+        "signature": "(DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "should_cache",
+        "path": "cache.c",
+        "pattern": "/^static BOOLEAN should_cache(const DVtree* vtree) {$/",
+        "file": true,
+        "line": 74,
+        "typeref": "typename:BOOLEAN",
+        "kind": "function",
+        "signature": "(const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "var2count",
+        "path": "count.c",
+        "pattern": "/^c2dWmc var2count(Var* var) {$/",
+        "line": 61,
+        "typeref": "typename:c2dWmc",
+        "kind": "function",
+        "signature": "(Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "var2nnf",
+        "path": "compile.c",
+        "pattern": "/^NNF_NODE var2nnf(Var *var, NnfManager *nnf_manager) {$/",
+        "line": 76,
+        "typeref": "typename:NNF_NODE",
+        "kind": "function",
+        "signature": "(Var * var,NnfManager * nnf_manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_type",
+        "path": "utilities.c",
+        "pattern": "/^const char* vtree_type(const c2dOptions* options) {$/",
+        "line": 36,
+        "typeref": "typename:const char *",
+        "kind": "function",
+        "signature": "(const c2dOptions * options)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_conjoin",
+        "path": "nnf_api.h",
+        "pattern": "/^NNF_NODE nnf_conjoin(NNF_NODE node1, NNF_NODE node2, NnfManager* manager);$/",
+        "line": 42,
+        "typeref": "typename:NNF_NODE",
+        "kind": "prototype",
+        "signature": "(NNF_NODE node1,NNF_NODE node2,NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_count_models",
+        "path": "nnf_api.h",
+        "pattern": "/^char* nnf_count_models(c2dSize var_count, const Nnf* nnf);$/",
+        "line": 97,
+        "typeref": "typename:char *",
+        "kind": "prototype",
+        "signature": "(c2dSize var_count,const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_count_nodes",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_count_nodes(NNF_NODE node, c2dSize* node_count, c2dSize* edge_count);$/",
+        "line": 53,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(NNF_NODE node,c2dSize * node_count,c2dSize * edge_count)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_decomposable",
+        "path": "nnf_api.h",
+        "pattern": "/^BOOLEAN nnf_decomposable(const Nnf* nnf);$/",
+        "line": 104,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_disjoin",
+        "path": "nnf_api.h",
+        "pattern": "/^NNF_NODE nnf_disjoin(const Var* var, NNF_NODE node1, NNF_NODE node2, NnfManager* manager);$/",
+        "line": 50,
+        "typeref": "typename:NNF_NODE",
+        "kind": "prototype",
+        "signature": "(const Var * var,NNF_NODE node1,NNF_NODE node2,NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_edge_count",
+        "path": "nnf_api.h",
+        "pattern": "/^c2dSize nnf_edge_count(const Nnf* nnf);$/",
+        "line": 93,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_entails_cnf",
+        "path": "nnf_api.h",
+        "pattern": "/^BOOLEAN nnf_entails_cnf(const Nnf* nnf, const SatState* sat_state);$/",
+        "line": 100,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Nnf * nnf,const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_free",
+        "path": "nnf_api.h",
+        "pattern": "/^c2dSize nnf_free(Nnf* nnf);$/",
+        "line": 87,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_literal2node",
+        "path": "nnf_api.h",
+        "pattern": "/^NNF_NODE nnf_literal2node(const Lit* lit, const NnfManager* manager);$/",
+        "line": 39,
+        "typeref": "typename:NNF_NODE",
+        "kind": "prototype",
+        "signature": "(const Lit * lit,const NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_load_from_file",
+        "path": "nnf_api.h",
+        "pattern": "/^Nnf* nnf_load_from_file(const char* fname);$/",
+        "line": 81,
+        "typeref": "typename:Nnf *",
+        "kind": "prototype",
+        "signature": "(const char * fname)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_extract_nnf",
+        "path": "nnf_api.h",
+        "pattern": "/^Nnf* nnf_manager_extract_nnf(NnfManager* manager);$/",
+        "line": 66,
+        "typeref": "typename:Nnf *",
+        "kind": "prototype",
+        "signature": "(NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_free",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_manager_free(NnfManager* manager);$/",
+        "line": 33,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_get_root",
+        "path": "nnf_api.h",
+        "pattern": "/^NNF_NODE nnf_manager_get_root(const NnfManager* manager);$/",
+        "line": 60,
+        "typeref": "typename:NNF_NODE",
+        "kind": "prototype",
+        "signature": "(const NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_memory",
+        "path": "nnf_api.h",
+        "pattern": "/^c2dSize nnf_manager_memory(const NnfManager* manager);$/",
+        "line": 36,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_new",
+        "path": "nnf_api.h",
+        "pattern": "/^NnfManager* nnf_manager_new(c2dSize var_count, c2dSize capacity);$/",
+        "line": 30,
+        "typeref": "typename:NnfManager *",
+        "kind": "prototype",
+        "signature": "(c2dSize var_count,c2dSize capacity)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_save_to_file",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_manager_save_to_file(const char* fname, NnfManager* manager, c2dSize* node_count, c2dSi/",
+        "line": 70,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const char * fname,NnfManager * manager,c2dSize * node_count,c2dSize * edge_count)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_manager_set_root",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_manager_set_root(NNF_NODE node, NnfManager* manager);$/",
+        "line": 56,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(NNF_NODE node,NnfManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_node_count",
+        "path": "nnf_api.h",
+        "pattern": "/^c2dSize nnf_node_count(const Nnf* nnf);$/",
+        "line": 90,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_save_as_dot",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_save_as_dot(const char* fname, const Nnf* nnf);$/",
+        "line": 84,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const char * fname,const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "nnf_save_to_file",
+        "path": "nnf_api.h",
+        "pattern": "/^void nnf_save_to_file(const char* fname, const Nnf* nnf);$/",
+        "line": 78,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const char * fname,const Nnf * nnf)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_assert_clause",
+        "path": "sat_api.h",
+        "pattern": "/^Clause* sat_assert_clause(Clause* clause, SatState* sat_state);$/",
+        "line": 177,
+        "typeref": "typename:Clause *",
+        "kind": "prototype",
+        "signature": "(Clause * clause,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_assert_unit_clauses",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_assert_unit_clauses(SatState* sat_state);$/",
+        "line": 208,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_at_assertion_level",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_at_assertion_level(const Clause* clause, const SatState* sat_state);$/",
+        "line": 219,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Clause * clause,const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_clause2index",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_clause2index(const Clause* clause);$/",
+        "line": 154,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_clause2literals",
+        "path": "sat_api.h",
+        "pattern": "/^Lit** sat_clause2literals(const Clause* clause);$/",
+        "line": 157,
+        "typeref": "typename:Lit **",
+        "kind": "prototype",
+        "signature": "(const Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_clause_count",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_clause_count(const SatState* sat_state);$/",
+        "line": 166,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_clause_of_var",
+        "path": "sat_api.h",
+        "pattern": "/^Clause* sat_clause_of_var(c2dSize i, const Var* var);$/",
+        "line": 101,
+        "typeref": "typename:Clause *",
+        "kind": "prototype",
+        "signature": "(c2dSize i,const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_clause_size",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_clause_size(const Clause* clause);$/",
+        "line": 160,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_decide_literal",
+        "path": "sat_api.h",
+        "pattern": "/^Clause* sat_decide_literal(Lit* lit, SatState* sat_state);$/",
+        "line": 140,
+        "typeref": "typename:Clause *",
+        "kind": "prototype",
+        "signature": "(Lit * lit,SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_index2clause",
+        "path": "sat_api.h",
+        "pattern": "/^Clause* sat_index2clause(c2dSize index, const SatState* sat_state);$/",
+        "line": 151,
+        "typeref": "typename:Clause *",
+        "kind": "prototype",
+        "signature": "(c2dSize index,const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_index2literal",
+        "path": "sat_api.h",
+        "pattern": "/^Lit* sat_index2literal(c2dLiteral index, const SatState* sat_state);$/",
+        "line": 118,
+        "typeref": "typename:Lit *",
+        "kind": "prototype",
+        "signature": "(c2dLiteral index,const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_index2var",
+        "path": "sat_api.h",
+        "pattern": "/^Var* sat_index2var(c2dSize index, const SatState* sat_state);$/",
+        "line": 77,
+        "typeref": "typename:Var *",
+        "kind": "prototype",
+        "signature": "(c2dSize index,const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_implied_literal",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_implied_literal(const Lit* lit);$/",
+        "line": 131,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Lit * lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_instantiated_var",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_instantiated_var(const Var* var);$/",
+        "line": 87,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_irrelevant_var",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_irrelevant_var(const Var* var);$/",
+        "line": 90,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_marked_clause",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_marked_clause(const Clause* clause);$/",
+        "line": 181,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_marked_var",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_marked_var(const Var* var);$/",
+        "line": 105,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_is_subsumed_clause",
+        "path": "sat_api.h",
+        "pattern": "/^BOOLEAN sat_is_subsumed_clause(const Clause* clause);$/",
+        "line": 163,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_learned_clause_count",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_learned_clause_count(const SatState* sat_state);$/",
+        "line": 169,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_literal2index",
+        "path": "sat_api.h",
+        "pattern": "/^c2dLiteral sat_literal2index(const Lit* lit);$/",
+        "line": 121,
+        "typeref": "typename:c2dLiteral",
+        "kind": "prototype",
+        "signature": "(const Lit * lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_literal2var",
+        "path": "sat_api.h",
+        "pattern": "/^Var* sat_literal2var(const Lit* lit);$/",
+        "line": 83,
+        "typeref": "typename:Var *",
+        "kind": "prototype",
+        "signature": "(const Lit * lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_literal_weight",
+        "path": "sat_api.h",
+        "pattern": "/^c2dWmc sat_literal_weight(const Lit* lit);$/",
+        "line": 135,
+        "typeref": "typename:c2dWmc",
+        "kind": "prototype",
+        "signature": "(const Lit * lit)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_mark_clause",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_mark_clause(Clause* clause);$/",
+        "line": 184,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_mark_var",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_mark_var(Var* var);$/",
+        "line": 108,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_state_free",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_state_free(SatState* sat_state);$/",
+        "line": 198,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_state_new",
+        "path": "sat_api.h",
+        "pattern": "/^SatState* sat_state_new(const char* file_name);$/",
+        "line": 195,
+        "typeref": "typename:SatState *",
+        "kind": "prototype",
+        "signature": "(const char * file_name)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_undo_assert_unit_clauses",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_undo_assert_unit_clauses(SatState* sat_state);$/",
+        "line": 212,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_undo_decide_literal",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_undo_decide_literal(SatState* sat_state);$/",
+        "line": 144,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_unmark_clause",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_unmark_clause(Clause* clause);$/",
+        "line": 187,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(Clause * clause)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_unmark_var",
+        "path": "sat_api.h",
+        "pattern": "/^void sat_unmark_var(Var* var);$/",
+        "line": 111,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_var2index",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_var2index(const Var* var);$/",
+        "line": 80,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_var2nliteral",
+        "path": "sat_api.h",
+        "pattern": "/^Lit* sat_var2nliteral(const Var* var);$/",
+        "line": 127,
+        "typeref": "typename:Lit *",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_var2pliteral",
+        "path": "sat_api.h",
+        "pattern": "/^Lit* sat_var2pliteral(const Var* var);$/",
+        "line": 124,
+        "typeref": "typename:Lit *",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_var_count",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_var_count(const SatState* sat_state);$/",
+        "line": 93,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const SatState * sat_state)"
+    },
+    {
+        "_type": "tag",
+        "name": "sat_var_occurences",
+        "path": "sat_api.h",
+        "pattern": "/^c2dSize sat_var_occurences(const Var* var);$/",
+        "line": 97,
+        "typeref": "typename:c2dSize",
+        "kind": "prototype",
+        "signature": "(const Var * var)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_is_leaf",
+        "path": "vtree_api.h",
+        "pattern": "/^BOOLEAN vtree_is_leaf(const DVtree* vtree);$/",
+        "line": 53,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_is_shannon_node",
+        "path": "vtree_api.h",
+        "pattern": "/^BOOLEAN vtree_is_shannon_node(const DVtree* vtree);$/",
+        "line": 56,
+        "typeref": "typename:BOOLEAN",
+        "kind": "prototype",
+        "signature": "(const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_manager_free",
+        "path": "vtree_api.h",
+        "pattern": "/^void vtree_manager_free(VtreeManager* manager);$/",
+        "line": 41,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(VtreeManager * manager)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_manager_new",
+        "path": "vtree_api.h",
+        "pattern": "/^VtreeManager* vtree_manager_new(const SatState* sat_state, const c2dOptions* options);$/",
+        "line": 38,
+        "typeref": "typename:VtreeManager *",
+        "kind": "prototype",
+        "signature": "(const SatState * sat_state,const c2dOptions * options)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_print_widths",
+        "path": "vtree_api.h",
+        "pattern": "/^void vtree_print_widths(const DVtree* vtree);$/",
+        "line": 50,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_save",
+        "path": "vtree_api.h",
+        "pattern": "/^void vtree_save(const char* fname, const DVtree* vtree);$/",
+        "line": 44,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const char * fname,const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_save_as_dot",
+        "path": "vtree_api.h",
+        "pattern": "/^void vtree_save_as_dot(const char* fname, const DVtree* vtree);$/",
+        "line": 47,
+        "typeref": "typename:void",
+        "kind": "prototype",
+        "signature": "(const char * fname,const DVtree * vtree)"
+    },
+    {
+        "_type": "tag",
+        "name": "vtree_shannon_var",
+        "path": "vtree_api.h",
+        "pattern": "/^Var* vtree_shannon_var(const DVtree* vtree);$/",
+        "line": 59,
+        "typeref": "typename:Var *",
+        "kind": "prototype",
+        "signature": "(const DVtree * vtree)"
+    }
+]

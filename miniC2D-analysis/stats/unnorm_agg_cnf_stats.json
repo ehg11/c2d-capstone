@@ -1,0 +1,992 @@
+{
+    "get_and_node": {
+        "time": 54456.278228400006,
+        "pct": 0.19685881164256455,
+        "category": "compile"
+    },
+    "remove_watched_clause": {
+        "time": 49630.67502239997,
+        "pct": 0.17941431224788698,
+        "category": "sat"
+    },
+    "set_literal": {
+        "time": 39882.02408139996,
+        "pct": 0.14417305262095606,
+        "category": "sat"
+    },
+    "construct_vtree_key": {
+        "time": 18230.494306199977,
+        "pct": 0.06590302461954553,
+        "category": "cache"
+    },
+    "move_watched_literal": {
+        "time": 11543.704704800008,
+        "pct": 0.04173035807934573,
+        "category": "sat"
+    },
+    "sat_is_subsumed_clause": {
+        "time": 10346.4699518,
+        "pct": 0.037402368389263564,
+        "category": "sat"
+    },
+    "sat_is_implied_literal": {
+        "time": 9706.825021799981,
+        "pct": 0.03509005941609313,
+        "category": "sat"
+    },
+    "get_or_node": {
+        "time": 5038.330660500004,
+        "pct": 0.018213506665445682,
+        "category": "compile"
+    },
+    "unmark_vset": {
+        "time": 4196.875149300002,
+        "pct": 0.015171654791357627,
+        "category": "vtree"
+    },
+    "mark_vset": {
+        "time": 4164.575689699998,
+        "pct": 0.0150548926210366,
+        "category": "vtree"
+    },
+    "lookup_cache": {
+        "time": 3657.0122442999973,
+        "pct": 0.013220056676582714,
+        "category": "cache"
+    },
+    "erase_level": {
+        "time": 3352.7230208000005,
+        "pct": 0.012120054677132666,
+        "category": "compile"
+    },
+    "compile_dispatcher": {
+        "time": 2763.621163000003,
+        "pct": 0.009990458321382192,
+        "category": "compile"
+    },
+    "vtree_is_shannon_node": {
+        "time": 2713.038385299999,
+        "pct": 0.009807602169042173,
+        "category": "vtree"
+    },
+    "should_cache": {
+        "time": 2647.9027041999984,
+        "pct": 0.00957213744038233,
+        "category": "cache"
+    },
+    "sat_var2pliteral": {
+        "time": 2640.6480566000005,
+        "pct": 0.009545911973790006,
+        "category": "sat"
+    },
+    "nnf_node_cmp": {
+        "time": 2408.609398999998,
+        "pct": 0.008707094928697673,
+        "category": "compile"
+    },
+    "sat_is_instantiated_var": {
+        "time": 2242.006166599998,
+        "pct": 0.008104826183696116,
+        "category": "sat"
+    },
+    "compile_vtree_shannon": {
+        "time": 1965.7023742000006,
+        "pct": 0.007105991191777216,
+        "category": "compile"
+    },
+    "literal2nnf_node": {
+        "time": 1832.3469897000007,
+        "pct": 0.0066239130297570245,
+        "category": "compile"
+    },
+    "set_vtree_hashcode": {
+        "time": 1524.6678373,
+        "pct": 0.0055116564768097915,
+        "category": "cache"
+    },
+    "var2nnf": {
+        "time": 1162.0972107,
+        "pct": 0.004200967883850598,
+        "category": "compile"
+    },
+    "sat_unmark_var": {
+        "time": 1093.142796099999,
+        "pct": 0.003951698478058087,
+        "category": "sat"
+    },
+    "sat_mark_var": {
+        "time": 1089.6575557999984,
+        "pct": 0.003939099374959831,
+        "category": "sat"
+    },
+    "insert_cache": {
+        "time": 1063.8282163,
+        "pct": 0.003845726613454616,
+        "category": "cache"
+    },
+    "sat_var2nliteral": {
+        "time": 889.7035597000004,
+        "pct": 0.0032162680075583923,
+        "category": "sat"
+    },
+    "match_keys": {
+        "time": 872.3186177000005,
+        "pct": 0.003153421644679152,
+        "category": "cache"
+    },
+    "zchaff_conflict_clause": {
+        "time": 656.0849168000002,
+        "pct": 0.0023717393340057795,
+        "category": "sat"
+    },
+    "conjoin_nnfs": {
+        "time": 595.9405873000002,
+        "pct": 0.0021543182832547557,
+        "category": "compile"
+    },
+    "copy_key": {
+        "time": 533.0173298999998,
+        "pct": 0.0019268514405063428,
+        "category": "cache"
+    },
+    "vtree_shannon_var": {
+        "time": 511.4990121000004,
+        "pct": 0.0018490629722440052,
+        "category": "vtree"
+    },
+    "compile_vtree_decomposed": {
+        "time": 510.56257440000036,
+        "pct": 0.0018456777608634894,
+        "category": "compile"
+    },
+    "sat_literal2var": {
+        "time": 447.4687438000002,
+        "pct": 0.0016175942979834328,
+        "category": "sat"
+    },
+    "drop_vtree_cache_entries": {
+        "time": 390.53344920000006,
+        "pct": 0.001411773871026123,
+        "category": "cache"
+    },
+    "sat_var2index": {
+        "time": 331.0277749000001,
+        "pct": 0.001196661551385845,
+        "category": "sat"
+    },
+    "mark_vars_at_level": {
+        "time": 221.86025040000004,
+        "pct": 0.0008020222215936964,
+        "category": "sat"
+    },
+    "vtree_is_leaf": {
+        "time": 185.22286950000003,
+        "pct": 0.0006695785162890509,
+        "category": "vtree"
+    },
+    "compile_with_literal": {
+        "time": 156.78436939999986,
+        "pct": 0.0005667736695989711,
+        "category": "compile"
+    },
+    "sat_is_irrelevant_var": {
+        "time": 148.2937505,
+        "pct": 0.0005360801811502476,
+        "category": "sat"
+    },
+    "sat_is_marked_var": {
+        "time": 131.06777749999992,
+        "pct": 0.00047380848935478444,
+        "category": "sat"
+    },
+    "sat_decide_literal": {
+        "time": 122.87431079999995,
+        "pct": 0.0004441892026486699,
+        "category": "sat"
+    },
+    "sat_literal2index": {
+        "time": 121.32411409999995,
+        "pct": 0.0004385852596304878,
+        "category": "sat"
+    },
+    "save_nnf_nodes": {
+        "time": 120.69889320000001,
+        "pct": 0.0004363250933577973,
+        "category": "nnf"
+    },
+    "new_and_node": {
+        "time": 112.7286376,
+        "pct": 0.0004075127121788495,
+        "category": "compile"
+    },
+    "nnf_conjoin": {
+        "time": 97.87742279999996,
+        "pct": 0.0003538257436219024,
+        "category": "nnf"
+    },
+    "vset_union": {
+        "time": 97.17823739999996,
+        "pct": 0.00035129819654304144,
+        "category": "vtree"
+    },
+    "sort_nnf_node": {
+        "time": 94.91114489999998,
+        "pct": 0.0003431026835562392,
+        "category": "compile"
+    },
+    "nnf_literal2node": {
+        "time": 93.20692649999994,
+        "pct": 0.0003369419538861672,
+        "category": "nnf"
+    },
+    "compile_vtree_leaf": {
+        "time": 86.9546143,
+        "pct": 0.00031433991809246144,
+        "category": "compile"
+    },
+    "drop_cache_entry": {
+        "time": 85.5098123,
+        "pct": 0.00030911697568743917,
+        "category": "cache"
+    },
+    "allocate_nnf_node": {
+        "time": 84.60966289999999,
+        "pct": 0.0003058629460888399,
+        "category": "nnf"
+    },
+    "count_nnf_nodes": {
+        "time": 73.40666800000001,
+        "pct": 0.0002653642499862197,
+        "category": "compile"
+    },
+    "free_vtree_cache": {
+        "time": 64.067792,
+        "pct": 0.00023160432199910127,
+        "category": "cache"
+    },
+    "clist_size": {
+        "time": 60.22075509999996,
+        "pct": 0.00021769732840503403,
+        "category": "cache"
+    },
+    "cset_subset": {
+        "time": 46.8967422,
+        "pct": 0.00016953117693204787,
+        "category": "vtree"
+    },
+    "disjoin_nnfs_i": {
+        "time": 24.822020100000003,
+        "pct": 8.973131360463561e-05,
+        "category": "compile"
+    },
+    "sat_undo_decide_literal": {
+        "time": 20.89440560000001,
+        "pct": 7.553303292490909e-05,
+        "category": "sat"
+    },
+    "new_or_node": {
+        "time": 13.858738199999994,
+        "pct": 5.009917720551449e-05,
+        "category": "compile"
+    },
+    "disjoin_nnfs": {
+        "time": 11.0484051,
+        "pct": 3.9939855775846195e-05,
+        "category": "compile"
+    },
+    "add_watched_clause": {
+        "time": 11.029896099999997,
+        "pct": 3.98729459563868e-05,
+        "category": "sat"
+    },
+    "analyze_conflict": {
+        "time": 9.962957400000004,
+        "pct": 3.601597498057885e-05,
+        "category": "sat"
+    },
+    "sat_assert_clause": {
+        "time": 9.577730399999998,
+        "pct": 3.4623383861616156e-05,
+        "category": "sat"
+    },
+    "complimentary_nnf_nodes": {
+        "time": 8.448675699999999,
+        "pct": 3.0541864269160116e-05,
+        "category": "compile"
+    },
+    "sat_clause2literals": {
+        "time": 3.911549199999997,
+        "pct": 1.4140204807309831e-05,
+        "category": "sat"
+    },
+    "vset_intersection": {
+        "time": 3.4314114999999994,
+        "pct": 1.2404512613099246e-05,
+        "category": "vtree"
+    },
+    "vset_minus": {
+        "time": 3.2416897999999996,
+        "pct": 1.1718670876942382e-05,
+        "category": "vtree"
+    },
+    "free_cache_entry": {
+        "time": 3.0335039,
+        "pct": 1.096608127280443e-05,
+        "category": "cache"
+    },
+    "classify_clause_vars": {
+        "time": 2.171882099999999,
+        "pct": 7.85132849954442e-06,
+        "category": "vtree"
+    },
+    "pass2": {
+        "time": 2.1571019999999996,
+        "pct": 7.797898610161332e-06,
+        "category": "vtree"
+    },
+    "add_clause": {
+        "time": 1.8637243000000001,
+        "pct": 6.737341641097131e-06,
+        "category": "sat"
+    },
+    "vset_clause_new": {
+        "time": 1.7924994000000003,
+        "pct": 6.4798644570238335e-06,
+        "category": "vtree"
+    },
+    "nnf_disjoin": {
+        "time": 1.3582537,
+        "pct": 4.910071308392689e-06,
+        "category": "nnf"
+    },
+    "vset_new": {
+        "time": 1.2573791999999997,
+        "pct": 4.545411165594286e-06,
+        "category": "vtree"
+    },
+    "eset_free": {
+        "time": 0.7924181000000001,
+        "pct": 2.8645822036494727e-06,
+        "category": "vtree"
+    },
+    "free_hdtree": {
+        "time": 0.6242213000000001,
+        "pct": 2.256552730331297e-06,
+        "category": "vtree"
+    },
+    "sat_state_free": {
+        "time": 0.5869936000000001,
+        "pct": 2.121975028354523e-06,
+        "category": "sat"
+    },
+    "sat_clause_size": {
+        "time": 0.4733534000000001,
+        "pct": 1.7111670287149806e-06,
+        "category": "sat"
+    },
+    "declare_watched_literals": {
+        "time": 0.36133730000000003,
+        "pct": 1.306230131662503e-06,
+        "category": "sat"
+    },
+    "free_vtree_keys": {
+        "time": 0.2972542000000001,
+        "pct": 1.0745704714216663e-06,
+        "category": "cache"
+    },
+    "free_dvtree": {
+        "time": 0.29430270000000003,
+        "pct": 1.0639008332924117e-06,
+        "category": "vtree"
+    },
+    "vset_free": {
+        "time": 0.26188570000000005,
+        "pct": 9.467137557941758e-07,
+        "category": "vtree"
+    },
+    "is_trivial_binary_clause": {
+        "time": 0.15205300000000002,
+        "pct": 5.496698243156148e-07,
+        "category": "sat"
+    },
+    "min2": {
+        "time": 0.0670045,
+        "pct": 2.4222048722061124e-07,
+        "category": "vtree"
+    },
+    "free_hgr": {
+        "time": 0.0402296,
+        "pct": 1.4542953551911145e-07,
+        "category": "vtree"
+    },
+    "sat_free_cnf": {
+        "time": 0.031399899999999994,
+        "pct": 1.1351027284254745e-07,
+        "category": "sat"
+    },
+    "adjust_positions_and_var_counts": {
+        "time": 0.023377799999999997,
+        "pct": 8.451047476133702e-08,
+        "category": "vtree"
+    },
+    "allocate_vtree_keys": {
+        "time": 0.022160700000000002,
+        "pct": 8.011067243468426e-08,
+        "category": "cache"
+    },
+    "vtree_widths": {
+        "time": 0.0136558,
+        "pct": 4.9365557975766154e-08,
+        "category": "vtree"
+    },
+    "vset_duplicate": {
+        "time": 0.013177199999999997,
+        "pct": 4.7635424549148757e-08,
+        "category": "vtree"
+    },
+    "sat_at_assertion_level": {
+        "time": 0.010870000000000001,
+        "pct": 3.92949234169055e-08,
+        "category": "sat"
+    },
+    "vset_empty_new": {
+        "time": 0.0093872,
+        "pct": 3.393461868437675e-08,
+        "category": "vtree"
+    },
+    "sat_unmark_clause": {
+        "time": 0.0048447,
+        "pct": 1.751353408260185e-08,
+        "category": "sat"
+    },
+    "mark_cset": {
+        "time": 0.004797000000000001,
+        "pct": 1.7341099138076884e-08,
+        "category": "vtree"
+    },
+    "sat_mark_clause": {
+        "time": 0.004631500000000001,
+        "pct": 1.6742818565353988e-08,
+        "category": "sat"
+    },
+    "unmark_cset": {
+        "time": 0.0036394000000000005,
+        "pct": 1.3156388618535961e-08,
+        "category": "vtree"
+    },
+    "max3": {
+        "time": 0.0032059999999999996,
+        "pct": 1.1589652665556487e-08,
+        "category": "vtree"
+    },
+    "sat_is_marked_clause": {
+        "time": 0.0027388,
+        "pct": 9.900730106184064e-09,
+        "category": "sat"
+    },
+    "mark_eset": {
+        "time": 0.0023267,
+        "pct": 8.410993405162285e-09,
+        "category": "vtree"
+    },
+    "eset_intersection": {
+        "time": 0.0023199,
+        "pct": 8.386411484349502e-09,
+        "category": "vtree"
+    },
+    "vset_adjoin": {
+        "time": 0.0021942,
+        "pct": 7.932007448148486e-09,
+        "category": "vtree"
+    },
+    "unmark_eset": {
+        "time": 0.0021092000000000003,
+        "pct": 7.624733437988693e-09,
+        "category": "vtree"
+    },
+    "cset_intersection": {
+        "time": 0.0020075,
+        "pct": 7.257089122303385e-09,
+        "category": "vtree"
+    },
+    "eset_union": {
+        "time": 0.0018727000000000001,
+        "pct": 6.769788692073499e-09,
+        "category": "vtree"
+    },
+    "cset_union": {
+        "time": 0.001433,
+        "pct": 5.180278312458655e-09,
+        "category": "vtree"
+    },
+    "minFillScore": {
+        "time": 0.001202,
+        "pct": 4.345216002494978e-09,
+        "category": "vtree"
+    },
+    "cset_free": {
+        "time": 0.0011153,
+        "pct": 4.031796512131987e-09,
+        "category": "vtree"
+    },
+    "cutset2vtree_rl": {
+        "time": 0.0008412000000000001,
+        "pct": 3.0409282040755205e-09,
+        "category": "vtree"
+    },
+    "initialize_clause": {
+        "time": 0.0007836999999999999,
+        "pct": 2.8330663736733062e-09,
+        "category": "compile"
+    },
+    "add_conflict_driven_clause": {
+        "time": 0.0007721,
+        "pct": 2.7911325087573814e-09,
+        "category": "compile"
+    },
+    "sift_down": {
+        "time": 0.0007113,
+        "pct": 2.5713412167842576e-09,
+        "category": "vtree"
+    },
+    "cnf2minfill_order": {
+        "time": 0.0006163999999999999,
+        "pct": 2.2282788219117337e-09,
+        "category": "vtree"
+    },
+    "eset_node_new": {
+        "time": 0.0005819,
+        "pct": 2.103561723670406e-09,
+        "category": "vtree"
+    },
+    "vset_paste": {
+        "time": 0.0005687,
+        "pct": 2.055843877386767e-09,
+        "category": "vtree"
+    },
+    "cset_new": {
+        "time": 0.0005461,
+        "pct": 1.97414514056781e-09,
+        "category": "vtree"
+    },
+    "balanced_compose_hdtrees": {
+        "time": 0.0005368,
+        "pct": 1.9405257488679736e-09,
+        "category": "vtree"
+    },
+    "cnf2hgr_primal": {
+        "time": 0.0005192,
+        "pct": 1.8769019538231223e-09,
+        "category": "vtree"
+    },
+    "fill_esets": {
+        "time": 0.0005171,
+        "pct": 1.869310478277998e-09,
+        "category": "vtree"
+    },
+    "fill_edges_etc": {
+        "time": 0.0005171,
+        "pct": 1.869310478277998e-09,
+        "category": "vtree"
+    },
+    "sift_up": {
+        "time": 0.0005013000000000001,
+        "pct": 1.8121936622718244e-09,
+        "category": "vtree"
+    },
+    "initialize_sat_state": {
+        "time": 0.0004905,
+        "pct": 1.7731517880397562e-09,
+        "category": "sat"
+    },
+    "sat_read_cnf": {
+        "time": 0.0004723,
+        "pct": 1.7073589999820116e-09,
+        "category": "sat"
+    },
+    "eset_new": {
+        "time": 0.00046390000000000005,
+        "pct": 1.6769930978015146e-09,
+        "category": "vtree"
+    },
+    "eset_minus": {
+        "time": 0.00041500000000000006,
+        "pct": 1.5002201672507622e-09,
+        "category": "vtree"
+    },
+    "order2hdtree": {
+        "time": 0.00040239999999999997,
+        "pct": 1.4546713139800159e-09,
+        "category": "vtree"
+    },
+    "sat_index2var": {
+        "time": 0.0003765,
+        "pct": 1.3610431155901491e-09,
+        "category": "sat"
+    },
+    "construct_nnf_manager": {
+        "time": 0.0003539,
+        "pct": 1.2793443787711919e-09,
+        "category": "nnf"
+    },
+    "sat_clause_of_var": {
+        "time": 0.00034290000000000004,
+        "pct": 1.2395795068681598e-09,
+        "category": "sat"
+    },
+    "pass1b": {
+        "time": 0.0003266,
+        "pct": 1.1806551966845756e-09,
+        "category": "vtree"
+    },
+    "p_hdtree2vtree_aux": {
+        "time": 0.0003265,
+        "pct": 1.1802936978490934e-09,
+        "category": "vtree"
+    },
+    "fill_var_map": {
+        "time": 0.0002986,
+        "pct": 1.0794355227495844e-09,
+        "category": "vtree"
+    },
+    "combine_v": {
+        "time": 0.0002898,
+        "pct": 1.0476236252271585e-09,
+        "category": "vtree"
+    },
+    "initialize_watched_literals": {
+        "time": 0.0002785,
+        "pct": 1.00677425681768e-09,
+        "category": "compile"
+    },
+    "declare_in_hgr": {
+        "time": 0.00025580000000000004,
+        "pct": 9.247140211632409e-10,
+        "category": "vtree"
+    },
+    "main": {
+        "time": 0.00024440000000000003,
+        "pct": 8.835031539182802e-10,
+        "category": "utility"
+    },
+    "cset_minus": {
+        "time": 0.00024220000000000003,
+        "pct": 8.755501795376737e-10,
+        "category": "vtree"
+    },
+    "new_literal_node": {
+        "time": 0.0002206,
+        "pct": 7.974664310735375e-10,
+        "category": "nnf"
+    },
+    "sat_index2literal": {
+        "time": 0.000199,
+        "pct": 7.193826826094015e-10,
+        "category": "sat"
+    },
+    "eset_remove": {
+        "time": 0.00015519999999999998,
+        "pct": 5.610461926682366e-10,
+        "category": "vtree"
+    },
+    "find_hdtree_bucket": {
+        "time": 0.000145,
+        "pct": 5.241733114490614e-10,
+        "category": "vtree"
+    },
+    "sat_var_count": {
+        "time": 0.000133,
+        "pct": 4.80793451191208e-10,
+        "category": "sat"
+    },
+    "sat_index2clause": {
+        "time": 0.0001293,
+        "pct": 4.674179942783699e-10,
+        "category": "sat"
+    },
+    "construct_cnf_clauses": {
+        "time": 8.34e-05,
+        "pct": 3.014900287920808e-10,
+        "category": "compile"
+    },
+    "combine_dv": {
+        "time": 5.82e-05,
+        "pct": 2.1039232225058878e-10,
+        "category": "vtree"
+    },
+    "read_line": {
+        "time": 5.13e-05,
+        "pct": 1.854489026023231e-10,
+        "category": "sat"
+    },
+    "compile_vtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "vtree_manager_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "vtree"
+    },
+    "cnf2vtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "p_hdtree2vtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "allocate_nnf_memory_block": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "construct_vtree_cache": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "cnf2hdtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_state_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "initialize_hdtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "vtree_print_widths": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "vtree"
+    },
+    "construct_cnf_vars_and_literals": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "construct_var_map": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "allocate_manager_keys": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "cset_var_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "load_nnf_from_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_assert_unit_clauses": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "print_help": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "ensure_variable_occurences": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_pow_1_highpart.part.0": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bits2bytes": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "new_leaf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "vset_in": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "cset2string": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "hgr_new_finish": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_bc_invertappr": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_var_occurences": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "approx_tab": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_mul_fft_decompose": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "hgr2hdtree_hmetis_external": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_mu_div_qr2": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_fft_mul_modF_K": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "pprint_bytes": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "sift": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "print_vtree_cache_stats": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "vtree_manager_free": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "vtree"
+    },
+    "save_nnf_manager_to_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "free_nnf_manager": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_undeclare_valid_binary_clauses": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "free_manager_keys": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "nnf_entails_clause": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "extended_file_name": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "mpn_sb_get_str": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "cset_adjoin_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "save_nnf_to_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_fft_table3+0x1f4": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "print_hgr_properties": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "hgr_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_declare_valid_binary_clauses": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "clause_order": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "evaluate_nnf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "get_options": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "load_htree_skeleton_from_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "new_zero_node": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "var_order": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    }
+}

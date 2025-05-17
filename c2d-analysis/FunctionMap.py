@@ -1,10 +1,9 @@
 from pathlib import Path
 import json
+from PerfParser import AbstractFunctionMap
 
 
-class FunctionMap:
-    UNCATEGORIZED = "None"
-
+class FunctionMap(AbstractFunctionMap):
     def __init__(self, category_to_file_path, tags_path):
         self.category_to_file_path = Path(category_to_file_path)
         self.tags_path = Path(tags_path)

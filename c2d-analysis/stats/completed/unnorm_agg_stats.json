@@ -1,0 +1,1197 @@
+{
+    "remove_watched_clause": {
+        "time": 12451.531930000006,
+        "pct": 0.15494361032681,
+        "category": "sat"
+    },
+    "set_literal": {
+        "time": 10996.051959999997,
+        "pct": 0.13683199782981192,
+        "category": "sat"
+    },
+    "update_relevance_bit": {
+        "time": 8501.77778,
+        "pct": 0.10579390157251527,
+        "category": "cache"
+    },
+    "same_and_nodes": {
+        "time": 5103.889809999994,
+        "pct": 0.06351147138500049,
+        "category": "nnf"
+    },
+    "subsumed_dtree": {
+        "time": 4395.123949999992,
+        "pct": 0.05469177419093912,
+        "category": "dtree"
+    },
+    "pack_var_2bits": {
+        "time": 4142.319340000005,
+        "pct": 0.05154593967026587,
+        "category": "cache"
+    },
+    "update_subsumption": {
+        "time": 3496.2706100000014,
+        "pct": 0.04350667805683555,
+        "category": "sat"
+    },
+    "erase_level": {
+        "time": 3366.3015300000006,
+        "pct": 0.041889376780232385,
+        "category": "sat"
+    },
+    "eliminated": {
+        "time": 2662.669179999998,
+        "pct": 0.03313355964346197,
+        "category": "compile"
+    },
+    "lookup_cnf_cache": {
+        "time": 2338.8400800000004,
+        "pct": 0.029103914924646947,
+        "category": "cache"
+    },
+    "add_watched_clause": {
+        "time": 2177.5301300000015,
+        "pct": 0.027096616049685378,
+        "category": "sat"
+    },
+    "update_separator_score": {
+        "time": 1894.2316400000004,
+        "pct": 0.023571323652934177,
+        "category": "compile"
+    },
+    "get_and_node": {
+        "time": 1720.8089599999983,
+        "pct": 0.021413297130349385,
+        "category": "nnf"
+    },
+    "same_or_nodes": {
+        "time": 1609.1372400000007,
+        "pct": 0.020023683421331314,
+        "category": "nnf"
+    },
+    "apply_to_vars": {
+        "time": 1445.9809799999987,
+        "pct": 0.017993409547085226,
+        "category": "cache"
+    },
+    "nnf_node_cmp": {
+        "time": 1179.1974300000006,
+        "pct": 0.014673624749103126,
+        "category": "nnf"
+    },
+    "subs_cls": {
+        "time": 918.49494,
+        "pct": 0.011429511073060923,
+        "category": "compile"
+    },
+    "push_items_to_end": {
+        "time": 902.0928899999996,
+        "pct": 0.011225408247958911,
+        "category": "compile"
+    },
+    "conjoin_relevant_lits": {
+        "time": 628.7055899999998,
+        "pct": 0.007823448110231614,
+        "category": "nnf"
+    },
+    "compile_decomposed": {
+        "time": 622.66259,
+        "pct": 0.007748250596988367,
+        "category": "compile"
+    },
+    "conjoin_nnfs_lits": {
+        "time": 515.8038499999992,
+        "pct": 0.006418528353680911,
+        "category": "nnf"
+    },
+    "get_or_node": {
+        "time": 491.04006999999996,
+        "pct": 0.006110374344992701,
+        "category": "nnf"
+    },
+    "literal2nnf_node": {
+        "time": 386.79608999999994,
+        "pct": 0.004813189492009253,
+        "category": "nnf"
+    },
+    "move_watched_literal": {
+        "time": 361.7703199999999,
+        "pct": 0.0045017753482069186,
+        "category": "sat"
+    },
+    "leaf_dtree": {
+        "time": 359.4243300000002,
+        "pct": 0.004472582461545739,
+        "category": "dtree"
+    },
+    "pop_var_relevance": {
+        "time": 350.6522200000001,
+        "pct": 0.004363424616452864,
+        "category": "cache"
+    },
+    "clear_implied_literal_marks": {
+        "time": 349.10225000000014,
+        "pct": 0.004344137194708426,
+        "category": "sat"
+    },
+    "weakly_eliminated": {
+        "time": 347.78977000000026,
+        "pct": 0.004327805036478823,
+        "category": "compile"
+    },
+    "lookup_or_compile_dt": {
+        "time": 340.3063100000001,
+        "pct": 0.004234682815321231,
+        "category": "compile"
+    },
+    "java_hash_code": {
+        "time": 337.80696000000023,
+        "pct": 0.004203581556885933,
+        "category": "cache"
+    },
+    "and_hashcode": {
+        "time": 212.54236000000003,
+        "pct": 0.0026448216003394655,
+        "category": "nnf"
+    },
+    "compile_dt": {
+        "time": 185.69210999999996,
+        "pct": 0.0023107041040694755,
+        "category": "compile"
+    },
+    "active_separator_count": {
+        "time": 167.46947,
+        "pct": 0.0020839463326435357,
+        "category": "compile"
+    },
+    "free_cache_manager": {
+        "time": 163.94964000000007,
+        "pct": 0.002040146487692521,
+        "category": "cache"
+    },
+    "stamp_cache": {
+        "time": 148.78221,
+        "pct": 0.0018514069513213384,
+        "category": "cache"
+    },
+    "set_and_node_children": {
+        "time": 137.20948999999987,
+        "pct": 0.0017073990470584852,
+        "category": "nnf"
+    },
+    "pop_vars_scope": {
+        "time": 130.89326000000008,
+        "pct": 0.0016288015310776164,
+        "category": "cache"
+    },
+    "allocate_nnf_node": {
+        "time": 127.92042999999994,
+        "pct": 0.0015918084112207674,
+        "category": "nnf"
+    },
+    "hash_code": {
+        "time": 126.10864000000007,
+        "pct": 0.0015692629697978025,
+        "category": "cache"
+    },
+    "undo_decide_literal": {
+        "time": 110.82252000000007,
+        "pct": 0.001379046486074835,
+        "category": "sat"
+    },
+    "new_and_node": {
+        "time": 106.01563,
+        "pct": 0.0013192308027331428,
+        "category": "nnf"
+    },
+    "push_vars_scope": {
+        "time": 101.93626,
+        "pct": 0.0012684681882040823,
+        "category": "cache"
+    },
+    "decide_literal": {
+        "time": 96.31168000000008,
+        "pct": 0.0011984773841270167,
+        "category": "sat"
+    },
+    "unstamp_cache": {
+        "time": 90.9535400000001,
+        "pct": 0.0011318020898014865,
+        "category": "cache"
+    },
+    "mark_vars_at_level": {
+        "time": 82.63727000000003,
+        "pct": 0.0010283165985786765,
+        "category": "sat"
+    },
+    "in_dtree_scope": {
+        "time": 66.36194999999995,
+        "pct": 0.0008257907684879732,
+        "category": "cache"
+    },
+    "get_cnf_key": {
+        "time": 62.336039999999954,
+        "pct": 0.0007756933962322842,
+        "category": "cache"
+    },
+    "find_max": {
+        "time": 55.00676000000002,
+        "pct": 0.000684489750714582,
+        "category": "compile"
+    },
+    "score1": {
+        "time": 53.25799999999999,
+        "pct": 0.0006627286381447878,
+        "category": "compile"
+    },
+    "add_cache_entry": {
+        "time": 50.74074000000002,
+        "pct": 0.0006314045123485444,
+        "category": "cache"
+    },
+    "new_or_node": {
+        "time": 49.966630000000045,
+        "pct": 0.0006217716897477287,
+        "category": "nnf"
+    },
+    "sort_nnf_node": {
+        "time": 42.50365000000004,
+        "pct": 0.0005289043163596595,
+        "category": "nnf"
+    },
+    "select_phases": {
+        "time": 41.09594,
+        "pct": 0.0005113871408892544,
+        "category": "compile"
+    },
+    "delete_cache_entry": {
+        "time": 38.672200000000004,
+        "pct": 0.00048122675354055484,
+        "category": "cache"
+    },
+    "complimentary_nnf_nodes": {
+        "time": 35.215610000000005,
+        "pct": 0.00043821385062784893,
+        "category": "nnf"
+    },
+    "push_var_relevance": {
+        "time": 33.432389999999955,
+        "pct": 0.00041602392682086063,
+        "category": "cache"
+    },
+    "disjoin_nnfs_i": {
+        "time": 23.788490000000024,
+        "pct": 0.0002960177547264434,
+        "category": "nnf"
+    },
+    "or_hashcode": {
+        "time": 23.466260000000002,
+        "pct": 0.0002920080087902571,
+        "category": "nnf"
+    },
+    "select_separator": {
+        "time": 23.287200000000006,
+        "pct": 0.00028977983293036367,
+        "category": "compile"
+    },
+    "clause2nnf_node": {
+        "time": 21.998120000000007,
+        "pct": 0.0002737388581874202,
+        "category": "nnf"
+    },
+    "disjoin_nnfs": {
+        "time": 21.816960000000012,
+        "pct": 0.00027148455047615983,
+        "category": "nnf"
+    },
+    "insert_cnf_cache": {
+        "time": 19.44279,
+        "pct": 0.00024194099925710878,
+        "category": "cache"
+    },
+    "neg_literal_nnf_node": {
+        "time": 14.613859999999997,
+        "pct": 0.00018185105591345127,
+        "category": "nnf"
+    },
+    "drop_cache_entries": {
+        "time": 14.093700000000002,
+        "pct": 0.00017537832076723118,
+        "category": "cache"
+    },
+    "zchaff_conflict_clause": {
+        "time": 13.557709999999998,
+        "pct": 0.00016870860123665874,
+        "category": "sat"
+    },
+    "score2": {
+        "time": 11.643349999999998,
+        "pct": 0.00014488680553049522,
+        "category": "compile"
+    },
+    "construct_conflict_report": {
+        "time": 6.4305900000000005,
+        "pct": 8.002058194388621e-05,
+        "category": "sat"
+    },
+    "edges_intersection": {
+        "time": 6.115449999999996,
+        "pct": 7.609906211541065e-05,
+        "category": "hdtree"
+    },
+    "free_cache_entry": {
+        "time": 5.602429999999996,
+        "pct": 6.971517526383832e-05,
+        "category": "cache"
+    },
+    "add_clause": {
+        "time": 4.55459,
+        "pct": 5.667612805602669e-05,
+        "category": "sat"
+    },
+    "clean_cache": {
+        "time": 4.016739999999999,
+        "pct": 4.9983263171386355e-05,
+        "category": "cache"
+    },
+    "edges_union": {
+        "time": 3.7460799999999956,
+        "pct": 4.661524084234151e-05,
+        "category": "hdtree"
+    },
+    "cvar_cmp": {
+        "time": 3.097969999999999,
+        "pct": 3.8550329323545907e-05,
+        "category": "dtree"
+    },
+    "declare_watched_literals": {
+        "time": 2.476089999999998,
+        "pct": 3.081181707206291e-05,
+        "category": "sat"
+    },
+    "assert_cd_literal": {
+        "time": 2.4687999999999994,
+        "pct": 3.0721102216603176e-05,
+        "category": "sat"
+    },
+    "analyze_conflict": {
+        "time": 2.4358199999999997,
+        "pct": 3.031070771275371e-05,
+        "category": "sat"
+    },
+    "hdtree2dtree": {
+        "time": 2.094009999999999,
+        "pct": 2.605731337191721e-05,
+        "category": "dtree"
+    },
+    "disjoin_literals": {
+        "time": 1.37403,
+        "pct": 1.709807034943263e-05,
+        "category": "nnf"
+    },
+    "edges_subset": {
+        "time": 1.2021100000000011,
+        "pct": 1.4958742784187009e-05,
+        "category": "hdtree"
+    },
+    "conjoin_nnfs": {
+        "time": 0.8591400000000001,
+        "pct": 1.0690913706404919e-05,
+        "category": "nnf"
+    },
+    "fill_separators": {
+        "time": 0.5949999999999996,
+        "pct": 7.40402455398529e-06,
+        "category": "dtree"
+    },
+    "initialize_cnf_manager": {
+        "time": 0.5886299999999999,
+        "pct": 7.3247579381720386e-06,
+        "category": "sat"
+    },
+    "index2varp": {
+        "time": 0.5102299999999999,
+        "pct": 6.3491688204704464e-06,
+        "category": "sat"
+    },
+    "free_cnf_manager": {
+        "time": 0.46065999999999996,
+        "pct": 5.732332690821623e-06,
+        "category": "sat"
+    },
+    "traverse_dtree": {
+        "time": 0.4459199999999999,
+        "pct": 5.548911981702726e-06,
+        "category": "dtree"
+    },
+    "initialize_decompose_except_vars": {
+        "time": 0.40183000000000013,
+        "pct": 5.000267540383045e-06,
+        "category": "dtree"
+    },
+    "fill_dfs_edges": {
+        "time": 0.38036999999999993,
+        "pct": 4.7332249068897245e-06,
+        "category": "hdtree"
+    },
+    "edges_minus": {
+        "time": 0.37237,
+        "pct": 4.633674996920175e-06,
+        "category": "hdtree"
+    },
+    "hdtree_sizes_max": {
+        "time": 0.35957999999999996,
+        "pct": 4.474519578356356e-06,
+        "category": "hdtree"
+    },
+    "free_edges": {
+        "time": 0.3543199999999999,
+        "pct": 4.409065512551376e-06,
+        "category": "hdtree"
+    },
+    "edges_concat": {
+        "time": 0.3520300000000003,
+        "pct": 4.380569350822597e-06,
+        "category": "hdtree"
+    },
+    "initialize_clause": {
+        "time": 0.30834999999999985,
+        "pct": 3.837026842388848e-06,
+        "category": "sat"
+    },
+    "trivial_binary_clause": {
+        "time": 0.2813699999999999,
+        "pct": 3.5012947710165405e-06,
+        "category": "sat"
+    },
+    "initialize_hdtree": {
+        "time": 0.27611999999999987,
+        "pct": 3.4359651425990227e-06,
+        "category": "hdtree"
+    },
+    "free_hdtree": {
+        "time": 0.2702900000000001,
+        "pct": 3.3634181457087158e-06,
+        "category": "hdtree"
+    },
+    "add_conflict_driven_clause": {
+        "time": 0.26054000000000005,
+        "pct": 3.242091692933326e-06,
+        "category": "sat"
+    },
+    "cnf2hgr": {
+        "time": 0.22804000000000005,
+        "pct": 2.8376701836820283e-06,
+        "category": "hdtree"
+    },
+    "fill_dfs_nodes": {
+        "time": 0.20068,
+        "pct": 2.497209491586166e-06,
+        "category": "hdtree"
+    },
+    "dtree_skeleton2hdtree": {
+        "time": 0.11927999999999994,
+        "pct": 1.4842891576459923e-06,
+        "category": "hdtree"
+    },
+    "free_dtree": {
+        "time": 0.10736000000000005,
+        "pct": 1.335959791791364e-06,
+        "category": "dtree"
+    },
+    "get_cnf_from_file": {
+        "time": 0.10691000000000002,
+        "pct": 1.3303601093555764e-06,
+        "category": "sat"
+    },
+    "initialize_watched_literals": {
+        "time": 0.1068,
+        "pct": 1.328991298093495e-06,
+        "category": "sat"
+    },
+    "new_hgr_edges": {
+        "time": 0.10439000000000002,
+        "pct": 1.299001887715168e-06,
+        "category": "hdtree"
+    },
+    "construct_nnf_manager": {
+        "time": 0.08662000000000004,
+        "pct": 1.0778766501953051e-06,
+        "category": "nnf"
+    },
+    "node2edges": {
+        "time": 0.06734999999999998,
+        "pct": 8.380858045561503e-07,
+        "category": "hdtree"
+    },
+    "order_var_clauses_based_on_dtree": {
+        "time": 0.05478999999999999,
+        "pct": 6.817924459039566e-07,
+        "category": "dtree"
+    },
+    "bits2bytes": {
+        "time": 0.04705999999999999,
+        "pct": 5.856023453958788e-07,
+        "category": "utility"
+    },
+    "index2literalp": {
+        "time": 0.04490000000000001,
+        "pct": 5.587238697041005e-07,
+        "category": "sat"
+    },
+    "set_validity": {
+        "time": 0.04120999999999999,
+        "pct": 5.128064737306452e-07,
+        "category": "sat"
+    },
+    "compute_clause_size": {
+        "time": 0.03402999999999999,
+        "pct": 4.2346042953297396e-07,
+        "category": "hdtree"
+    },
+    "construct_cnf_vars_and_literals": {
+        "time": 0.02807,
+        "pct": 3.4929574660565917e-07,
+        "category": "sat"
+    },
+    "construct_cnf_clauses": {
+        "time": 0.020089999999999997,
+        "pct": 2.499947114110328e-07,
+        "category": "sat"
+    },
+    "load_dtree_skeleton_from_file": {
+        "time": 0.018610000000000005,
+        "pct": 2.3157797806666616e-07,
+        "category": "dtree"
+    },
+    "free_hgr": {
+        "time": 0.010560000000000002,
+        "pct": 1.3140588115980626e-07,
+        "category": "hdtree"
+    },
+    "assert_unit_clauses": {
+        "time": 0.00901,
+        "pct": 1.1211808610320589e-07,
+        "category": "sat"
+    },
+    "fix_corner_cases": {
+        "time": 0.006119999999999999,
+        "pct": 7.615568112670586e-08,
+        "category": "sat"
+    },
+    "determined_index": {
+        "time": 0.00493,
+        "pct": 6.13476320187353e-08,
+        "category": "compile"
+    },
+    "new_literal_node": {
+        "time": 0.00484,
+        "pct": 6.022769553157785e-08,
+        "category": "nnf"
+    },
+    "at_assertion_level": {
+        "time": 0.00391,
+        "pct": 4.865501849761765e-08,
+        "category": "sat"
+    },
+    "index2clausep": {
+        "time": 0.0038400000000000005,
+        "pct": 4.778395678538409e-08,
+        "category": "sat"
+    },
+    "read_line": {
+        "time": 0.0033,
+        "pct": 4.1064337862439445e-08,
+        "category": "sat"
+    },
+    "decompose_except_index": {
+        "time": 0.0028499999999999997,
+        "pct": 3.546465542665225e-08,
+        "category": "compile"
+    },
+    "declare_valid_binary_clauses": {
+        "time": 0.0028,
+        "pct": 3.484246848934256e-08,
+        "category": "sat"
+    },
+    "undeclare_valid_binary_clauses": {
+        "time": 0.0027199999999999998,
+        "pct": 3.384696938964706e-08,
+        "category": "sat"
+    },
+    "hdtree2edge_order": {
+        "time": 0.00237,
+        "pct": 2.949166082847924e-08,
+        "category": "hdtree"
+    },
+    "assert_unit_clause": {
+        "time": 0.00214,
+        "pct": 2.6629600916854673e-08,
+        "category": "sat"
+    },
+    "main": {
+        "time": 0.00141,
+        "pct": 1.754567163213322e-08,
+        "category": "compile"
+    },
+    "cnf2ddnnf_cmd_line": {
+        "time": 0.00095,
+        "pct": 1.1821551808884083e-08,
+        "category": "compile"
+    },
+    "construct_dtree_manager": {
+        "time": 0.00056,
+        "pct": 6.968493697868512e-09,
+        "category": "dtree"
+    },
+    "print_bytes": {
+        "time": 0.00028000000000000003,
+        "pct": 3.4842468489342564e-09,
+        "category": "compile"
+    },
+    "load_hdtree_from_file": {
+        "time": 0.00026,
+        "pct": 3.2353720740103806e-09,
+        "category": "hdtree"
+    },
+    "hit_rate": {
+        "time": 0.00023999999999999998,
+        "pct": 2.986497299086505e-09,
+        "category": "cache"
+    },
+    "construct_cache_manager": {
+        "time": 0.0002,
+        "pct": 2.4887477492387546e-09,
+        "category": "cache"
+    },
+    "new_zero_node": {
+        "time": 0.00017,
+        "pct": 2.115435586852941e-09,
+        "category": "nnf"
+    },
+    "compile_cnf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "allocate_nnf_memory_block": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "construct_cnf_manager": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "initialize_dtree_separators": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "dtree"
+    },
+    "mpn_mul_fft_internal.isra.0": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PrepareHypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "GreedyCutMatching": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "pr_detailinfo_hypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "u_MaxHeapify": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PaToH_Partition_NetBalance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sDblLL_AddPtr_inc": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PATOH_Order": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_ghgp_visit": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bi_component_ghgp": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "CanberraMetric": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "collision_list_size": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "cache"
+    },
+    "print_hgr_properties": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "minFillScore": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "UPAT_RecursiveMultilevelPartition": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "declare_force_order_vars_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "free_nnf_manager": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "max_item": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "hdtree2node_order": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "extract_nnf_nodes": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "PA_HeavyConnectCluster": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "fold_in_grandchildren": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "save_nnf_as_gv": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "smooth_nnf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "UPAT_Hygr_ReducePinsXPins": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "Coarsening": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_fcheckweight": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "free_dtree_manager": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "dtree"
+    },
+    "allocInitFix": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "cnf_rsplit_clauses": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "Improve_ByMoveAll": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "DoRefinement": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "RefinementInit": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UnCoarsening": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "CopyConsHypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "prinfo_hypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "CheckListsofHypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "decided_var": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "UPAT_Partitioning": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "AggAbsorbHPC": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PATOH_RecursivePart": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "read_part_info": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_ghgp": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PATOH_ReduceHypergraphforNetBalance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_HelpToBalance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "compute_context_sizes": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "UPAT_heap_move_cell": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bi_ghg_maxposgain": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "ScaledHCC": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "Graph::Graph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "nnf_weakly_decomposable": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "compile"
+    },
+    "bi_fm_balanceonboth": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "std::_Rb_tree_node_base::_S_maximum": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PaToH_Alloc": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "undo_assert_unit_clauses": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "exist_quantify_nnf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "Split_NetBalance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mlg4_heap_bi_bound_fm": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "hypergraph_LoadFromArr": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "load_nnf_from_file": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "ManathanDistance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "ProcessOneArg": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "ComputeGain4": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "cnf_extended_resolution": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "cnf2hdtree": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "disjoin_e_literals": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "heap_bi_ghgp_move_cell_balanceonboth.isra.0": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "partition_hgr": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "bi_fm": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PA_AggAbsorbHCC": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bi_fast_init_bal_balanceonnets": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_Hygr_Done": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "write_ali_hypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_HeavyConnectCluster": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "save_nnf_to_file_old": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "utility"
+    },
+    "mlg2_heap_bound_move_cell": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_fft_fft": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "read_hypergraphFromFile": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bi_ghg_maxpin": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "has_conflicting_literals": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "replace_duplicate_children": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
+    "check_boundary": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UGraphCompress": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "fsumof": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "PA_Absorb": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "bi_ghgp": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "Graph::removeAndConnect": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "HygrInfo": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "alloc_bi_fm_data": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mpn_dc_mullo_n": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "CountSortCell_MaxNetSize": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "declare_decompose_except_vars_array": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "sat"
+    },
+    "allocate_patoh": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "uqsorti": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "uqsort_dec": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "CheckListsofContinuesHypergraph": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "mord_2exp.isra.0": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "UPAT_Hygr_Check": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "balanced_compose_hdtrees": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "hdtree"
+    },
+    "bi_RML_NetBalance": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "FillMapAndPerm": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    }
+}

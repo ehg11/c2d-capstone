@@ -2,7 +2,7 @@
     "get_and_node": {
         "time": 123620.80062719993,
         "pct": 0.22374526317395538,
-        "category": "compile"
+        "category": "nnf"
     },
     "remove_watched_clause": {
         "time": 80225.02820930006,
@@ -37,7 +37,7 @@
     "get_or_node": {
         "time": 13573.54451770001,
         "pct": 0.02456719479980428,
-        "category": "compile"
+        "category": "nnf"
     },
     "lookup_cache": {
         "time": 8239.957588900003,
@@ -82,7 +82,7 @@
     "nnf_node_cmp": {
         "time": 5302.900025099997,
         "pct": 0.009597889317019288,
-        "category": "compile"
+        "category": "nnf"
     },
     "sat_is_instantiated_var": {
         "time": 4673.8533096,
@@ -97,7 +97,7 @@
     "literal2nnf_node": {
         "time": 4132.504341900005,
         "pct": 0.007479552525584327,
-        "category": "compile"
+        "category": "nnf"
     },
     "set_vtree_hashcode": {
         "time": 3176.527508299996,
@@ -137,7 +137,7 @@
     "conjoin_nnfs": {
         "time": 1343.8470232,
         "pct": 0.0024322719505609066,
-        "category": "compile"
+        "category": "nnf"
     },
     "zchaff_conflict_clause": {
         "time": 1339.7376634000013,
@@ -217,7 +217,7 @@
     "new_and_node": {
         "time": 263.5552921000004,
         "pct": 0.000477017200120191,
-        "category": "compile"
+        "category": "nnf"
     },
     "nnf_conjoin": {
         "time": 216.69951730000008,
@@ -227,7 +227,7 @@
     "sort_nnf_node": {
         "time": 210.95583670000013,
         "pct": 0.0003818157539916314,
-        "category": "compile"
+        "category": "nnf"
     },
     "nnf_literal2node": {
         "time": 207.88245239999995,
@@ -257,7 +257,7 @@
     "count_nnf_nodes": {
         "time": 175.62508459999984,
         "pct": 0.0003178694893934307,
-        "category": "compile"
+        "category": "nnf"
     },
     "free_vtree_cache": {
         "time": 126.1854769,
@@ -277,7 +277,7 @@
     "disjoin_nnfs_i": {
         "time": 60.44451299999996,
         "pct": 0.00010940046820592159,
-        "category": "compile"
+        "category": "nnf"
     },
     "sat_undo_decide_literal": {
         "time": 49.91680599999995,
@@ -287,17 +287,17 @@
     "new_or_node": {
         "time": 37.505150600000015,
         "pct": 6.788177838034042e-05,
-        "category": "compile"
+        "category": "nnf"
     },
     "disjoin_nnfs": {
         "time": 27.489477599999983,
         "pct": 4.9754089675206644e-05,
-        "category": "compile"
+        "category": "nnf"
     },
     "complimentary_nnf_nodes": {
         "time": 20.635612900000012,
         "pct": 3.734905950811711e-05,
-        "category": "compile"
+        "category": "nnf"
     },
     "add_watched_clause": {
         "time": 19.626754999999985,

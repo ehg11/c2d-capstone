@@ -934,22 +934,12 @@
         "pct": 0.0,
         "category": null
     },
-    "Graph::Graph": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "nnf_weakly_decomposable": {
         "time": 0.0,
         "pct": 0.0,
         "category": "compile"
     },
     "bi_fm_balanceonboth": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "std::_Rb_tree_node_base::_S_maximum": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -1115,11 +1105,6 @@
         "category": null
     },
     "bi_ghgp": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "Graph::removeAndConnect": {
         "time": 0.0,
         "pct": 0.0,
         "category": null

@@ -1239,11 +1239,6 @@
         "pct": 0.0,
         "category": null
     },
-    "std::_Rb_tree_node<int>::_M_valptr": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "sDblLL_Add_dec": {
         "time": 0.0,
         "pct": 0.0,
@@ -1529,11 +1524,6 @@
         "pct": 0.0,
         "category": null
     },
-    "Graph::~Graph": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "RefinementInit": {
         "time": 0.0,
         "pct": 0.0,
@@ -1625,11 +1615,6 @@
         "category": null
     },
     "mlg2_heap_bi_fm": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "Graph::removeAndConnect": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -1750,11 +1735,6 @@
         "category": "hdtree"
     },
     "InitTimers": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "std::log10<long>": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -2138,11 +2118,6 @@
         "time": 0.0,
         "pct": 0.0,
         "category": "sat"
-    },
-    "Graph::Graph": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
     },
     "cnf_split_clauses": {
         "time": 0.0,

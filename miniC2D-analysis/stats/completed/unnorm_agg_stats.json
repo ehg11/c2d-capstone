@@ -1,772 +1,787 @@
 {
     "get_and_node": {
-        "time": 9691.240627199993,
-        "pct": 0.16340832928785082,
+        "time": 12535.204062199997,
+        "pct": 0.16694724795504598,
         "category": "nnf"
     },
-    "remove_watched_clause": {
-        "time": 7570.548209300002,
-        "pct": 0.12765038886793859,
+    "set_literal": {
+        "time": 10220.760088100003,
+        "pct": 0.13612285530017923,
         "category": "sat"
     },
-    "set_literal": {
-        "time": 7560.5462796000065,
-        "pct": 0.12748174187166614,
+    "remove_watched_clause": {
+        "time": 8853.990980299997,
+        "pct": 0.11791985357759394,
         "category": "sat"
     },
     "construct_vtree_key": {
-        "time": 4386.221734200001,
-        "pct": 0.07395804036276055,
+        "time": 5869.973884399999,
+        "pct": 0.07817790446058204,
         "category": "cache"
     },
     "get_or_node": {
-        "time": 2241.824517700001,
-        "pct": 0.037800402764299176,
+        "time": 3163.4956496000004,
+        "pct": 0.04213229317989975,
         "category": "nnf"
     },
     "sat_is_implied_literal": {
-        "time": 2022.9920049999987,
-        "pct": 0.034110570195927455,
-        "category": "sat"
-    },
-    "move_watched_literal": {
-        "time": 1866.0020656999995,
-        "pct": 0.031463492831651355,
+        "time": 2584.7190044999957,
+        "pct": 0.034423988823573066,
         "category": "sat"
     },
     "sat_is_subsumed_clause": {
-        "time": 1801.4049103999994,
-        "pct": 0.03037429139394331,
+        "time": 2397.4038663999986,
+        "pct": 0.03192927500392221,
+        "category": "sat"
+    },
+    "move_watched_literal": {
+        "time": 2300.1789808,
+        "pct": 0.030634407604626337,
         "category": "sat"
     },
     "erase_level": {
-        "time": 1311.0684969999984,
-        "pct": 0.022106510499327246,
+        "time": 2293.8492314999985,
+        "pct": 0.03055010628646374,
         "category": "compile"
     },
     "lookup_cache": {
-        "time": 1129.5975889000008,
-        "pct": 0.01904664860468586,
+        "time": 1491.2065615000008,
+        "pct": 0.019860293485420896,
         "category": "cache"
     },
     "sat_var2pliteral": {
-        "time": 685.0923142999995,
-        "pct": 0.011551646976291704,
+        "time": 906.5545125999996,
+        "pct": 0.012073738907544821,
         "category": "sat"
     },
     "nnf_node_cmp": {
-        "time": 657.8200251000003,
-        "pct": 0.011091796748084692,
+        "time": 822.5982026000005,
+        "pct": 0.010955585997276153,
         "category": "nnf"
     },
     "vtree_is_shannon_node": {
-        "time": 594.1265068999994,
-        "pct": 0.01001783193842806,
+        "time": 704.7813920999997,
+        "pct": 0.009386469756470079,
         "category": "vtree"
     },
     "compile_dispatcher": {
-        "time": 545.9653688999996,
-        "pct": 0.00920576551680879,
+        "time": 689.5716445999993,
+        "pct": 0.00918390221352331,
         "category": "compile"
     },
     "should_cache": {
-        "time": 540.6525656,
-        "pct": 0.009116183971526415,
+        "time": 652.1074525000001,
+        "pct": 0.008684943940732628,
         "category": "cache"
     },
     "sat_is_instantiated_var": {
-        "time": 493.17330960000004,
-        "pct": 0.008315615066342624,
+        "time": 595.9363470000005,
+        "pct": 0.007936841920910251,
         "category": "sat"
     },
     "literal2nnf_node": {
-        "time": 445.7443419,
-        "pct": 0.007515894094607381,
+        "time": 573.6245895000002,
+        "pct": 0.007639687882317626,
         "category": "nnf"
     },
     "compile_vtree_shannon": {
-        "time": 381.5791397000001,
-        "pct": 0.006433976010715114,
+        "time": 485.59927770000036,
+        "pct": 0.006467342902333658,
         "category": "compile"
     },
     "set_vtree_hashcode": {
-        "time": 328.92750830000034,
-        "pct": 0.005546193377684001,
+        "time": 436.3112338000003,
+        "pct": 0.005810911363974772,
         "category": "cache"
-    },
-    "zchaff_conflict_clause": {
-        "time": 305.45766340000006,
-        "pct": 0.005150457858230482,
-        "category": "sat"
     },
     "save_nnf_nodes": {
-        "time": 296.09037820000015,
-        "pct": 0.0049925118858439674,
+        "time": 412.02600140000004,
+        "pct": 0.005487474051346197,
         "category": "nnf"
     },
-    "match_keys": {
-        "time": 254.98531399999985,
-        "pct": 0.004299421070686636,
-        "category": "cache"
+    "zchaff_conflict_clause": {
+        "time": 371.4395624000003,
+        "pct": 0.00494693284741177,
+        "category": "sat"
     },
-    "drop_vtree_cache_entries": {
-        "time": 235.5709931,
-        "pct": 0.003972067549650003,
+    "match_keys": {
+        "time": 347.14920040000044,
+        "pct": 0.004623427217378964,
         "category": "cache"
     },
     "sat_var2nliteral": {
-        "time": 229.1195203000001,
-        "pct": 0.0038632863902249496,
+        "time": 301.43154860000016,
+        "pct": 0.0040145471294996795,
         "category": "sat"
     },
-    "insert_cache": {
-        "time": 226.08999149999988,
-        "pct": 0.003812204154339894,
-        "category": "cache"
-    },
     "var2nnf": {
-        "time": 225.17223500000011,
-        "pct": 0.0037967294527895975,
+        "time": 289.16408810000024,
+        "pct": 0.0038511657629331764,
         "category": "compile"
     },
+    "insert_cache": {
+        "time": 279.9005684000003,
+        "pct": 0.003727791694779321,
+        "category": "cache"
+    },
     "count_nnf_nodes": {
-        "time": 175.62508459999984,
-        "pct": 0.0029612928581069678,
+        "time": 243.88356999999988,
+        "pct": 0.003248107540245816,
         "category": "nnf"
     },
+    "drop_vtree_cache_entries": {
+        "time": 238.6011703999999,
+        "pct": 0.003177755109488174,
+        "category": "cache"
+    },
     "conjoin_nnfs": {
-        "time": 138.5670232,
-        "pct": 0.0023364403616139406,
+        "time": 173.7687052999999,
+        "pct": 0.002314298753063534,
         "category": "nnf"
     },
     "free_vtree_cache": {
-        "time": 126.1854769,
-        "pct": 0.002127669588839544,
+        "time": 159.56460859999993,
+        "pct": 0.0021251247402604137,
         "category": "cache"
     },
     "clist_size": {
-        "time": 119.31924370000009,
-        "pct": 0.0020118949693791943,
+        "time": 150.94225320000012,
+        "pct": 0.0020102898721738975,
         "category": "cache"
     },
     "sat_literal2var": {
-        "time": 111.56722099999998,
-        "pct": 0.0018811846582087964,
+        "time": 134.46435479999997,
+        "pct": 0.00179083275154685,
         "category": "sat"
     },
-    "vtree_shannon_var": {
-        "time": 109.48784209999998,
-        "pct": 0.0018461233234348213,
-        "category": "vtree"
-    },
     "compile_vtree_decomposed": {
-        "time": 106.90124449999992,
-        "pct": 0.001802509548004493,
+        "time": 133.5416778999997,
+        "pct": 0.0017785442903106073,
         "category": "compile"
     },
+    "vtree_shannon_var": {
+        "time": 132.44580289999988,
+        "pct": 0.0017639491297974726,
+        "category": "vtree"
+    },
     "copy_key": {
-        "time": 90.56278529999997,
-        "pct": 0.0015270195025384483,
+        "time": 107.17562169999998,
+        "pct": 0.0014273940018768104,
         "category": "cache"
     },
     "sat_var2index": {
-        "time": 71.6963344,
-        "pct": 0.001208903861852825,
+        "time": 97.12472950000002,
+        "pct": 0.0012935334931881038,
         "category": "sat"
     },
     "compile_with_literal": {
-        "time": 63.39551620000002,
-        "pct": 0.0010689400650632616,
+        "time": 85.94670550000001,
+        "pct": 0.0011446615374452519,
         "category": "compile"
     },
     "sat_decide_literal": {
-        "time": 54.36721790000003,
-        "pct": 0.0009167099019431051,
+        "time": 72.65696830000006,
+        "pct": 0.0009676652124890232,
         "category": "sat"
     },
     "new_and_node": {
-        "time": 50.43529210000003,
-        "pct": 0.0008504119478856553,
+        "time": 68.37271200000004,
+        "pct": 0.0009106063249535662,
         "category": "nnf"
     },
     "mark_vars_at_level": {
-        "time": 49.33143239999999,
-        "pct": 0.0008317992773015682,
+        "time": 68.09526239999998,
+        "pct": 0.0009069111759207783,
+        "category": "sat"
+    },
+    "sat_is_irrelevant_var": {
+        "time": 62.45672680000001,
+        "pct": 0.000831815629310958,
         "category": "sat"
     },
     "vtree_is_leaf": {
-        "time": 46.98515100000001,
-        "pct": 0.0007922375804701968,
+        "time": 59.00087850000001,
+        "pct": 0.0007857897042304957,
         "category": "vtree"
     },
-    "sat_is_irrelevant_var": {
-        "time": 44.089403600000004,
-        "pct": 0.0007434110924201985,
-        "category": "sat"
-    },
     "allocate_nnf_node": {
-        "time": 37.729703200000024,
-        "pct": 0.0006361773483504747,
+        "time": 50.94755060000001,
+        "pct": 0.0006785332987413434,
         "category": "nnf"
     },
     "vset_union": {
-        "time": 30.56438340000002,
-        "pct": 0.0005153596963725722,
+        "time": 36.38253410000004,
+        "pct": 0.00048455245814000805,
         "category": "vtree"
     },
     "sat_literal2index": {
-        "time": 27.42978070000001,
-        "pct": 0.0004625057626098957,
+        "time": 34.38615249999998,
+        "pct": 0.00045796410645986734,
         "category": "sat"
     },
     "sat_mark_var": {
-        "time": 21.820501800000027,
-        "pct": 0.0003679252100451394,
+        "time": 33.855910100000024,
+        "pct": 0.00045090219434500904,
         "category": "sat"
     },
-    "unmark_vset": {
-        "time": 21.807822,
-        "pct": 0.0003677114102837453,
-        "category": "vtree"
-    },
     "sat_unmark_var": {
-        "time": 21.7050359,
-        "pct": 0.0003659782880219914,
+        "time": 33.51575349999993,
+        "pct": 0.00044637189647654386,
         "category": "sat"
     },
     "mark_vset": {
-        "time": 21.643673600000017,
-        "pct": 0.00036494363092183496,
+        "time": 32.355145700000044,
+        "pct": 0.0004309146069738203,
+        "category": "vtree"
+    },
+    "unmark_vset": {
+        "time": 31.556458700000004,
+        "pct": 0.0004202774768588378,
         "category": "vtree"
     },
     "nnf_conjoin": {
-        "time": 21.2195173,
-        "pct": 0.0003577917424272507,
+        "time": 27.181700799999998,
+        "pct": 0.0003620132644654405,
         "category": "nnf"
     },
     "sort_nnf_node": {
-        "time": 20.51583670000001,
-        "pct": 0.0003459266700777373,
+        "time": 26.027562300000017,
+        "pct": 0.0003466421348549549,
+        "category": "nnf"
+    },
+    "nnf_literal2node": {
+        "time": 25.068342000000012,
+        "pct": 0.00033386697870488346,
         "category": "nnf"
     },
     "sat_is_marked_var": {
-        "time": 19.84996059999999,
-        "pct": 0.0003346990362587687,
+        "time": 24.152127599999986,
+        "pct": 0.00032166458679663856,
         "category": "sat"
     },
-    "nnf_literal2node": {
-        "time": 19.602452400000008,
-        "pct": 0.0003305256901410875,
-        "category": "nnf"
-    },
     "compile_vtree_leaf": {
-        "time": 19.115893999999994,
-        "pct": 0.00032232161201492667,
+        "time": 23.417991099999984,
+        "pct": 0.00031188715775039457,
         "category": "compile"
     },
-    "drop_cache_entry": {
-        "time": 11.850881999999991,
-        "pct": 0.00019982300540266005,
-        "category": "cache"
-    },
     "disjoin_nnfs_i": {
-        "time": 10.764512999999987,
-        "pct": 0.0001815052533099227,
+        "time": 15.203431299999988,
+        "pct": 0.00020248342208185337,
         "category": "nnf"
     },
     "new_or_node": {
-        "time": 9.7851506,
-        "pct": 0.0001649917872112509,
+        "time": 13.579957400000001,
+        "pct": 0.00018086155630392403,
         "category": "nnf"
     },
+    "drop_cache_entry": {
+        "time": 13.467192399999986,
+        "pct": 0.00017935972144569282,
+        "category": "cache"
+    },
     "sat_undo_decide_literal": {
-        "time": 7.076806,
-        "pct": 0.00011932518133009662,
+        "time": 9.819981999999989,
+        "pct": 0.000130785184009231,
         "category": "sat"
     },
     "disjoin_nnfs": {
-        "time": 5.889477600000001,
-        "pct": 9.930510777878359e-05,
+        "time": 8.32726539999999,
+        "pct": 0.00011090477942145947,
         "category": "nnf"
     },
     "complimentary_nnf_nodes": {
-        "time": 4.0756128999999985,
-        "pct": 6.872072631689787e-05,
+        "time": 5.7496158,
+        "pct": 7.65749428446389e-05,
         "category": "nnf"
     },
     "free_cache_entry": {
-        "time": 3.1216422999999995,
-        "pct": 5.2635402679570386e-05,
+        "time": 4.146301099999996,
+        "pct": 5.522156276062186e-05,
         "category": "cache"
     },
     "add_watched_clause": {
-        "time": 1.9867549999999998,
-        "pct": 3.3499561897482575e-05,
-        "category": "sat"
-    },
-    "sat_assert_clause": {
-        "time": 1.5927350999999996,
-        "pct": 2.685581668033708e-05,
+        "time": 2.555956499999999,
+        "pct": 3.4040921986627906e-05,
         "category": "sat"
     },
     "analyze_conflict": {
-        "time": 1.5866274999999996,
-        "pct": 2.675283371351678e-05,
-        "category": "sat"
-    },
-    "sat_state_free": {
-        "time": 1.5640341999999998,
-        "pct": 2.6371878008450787e-05,
+        "time": 2.384417,
+        "pct": 3.175631239443605e-05,
         "category": "sat"
     },
     "cset_subset": {
-        "time": 1.3475553000000002,
-        "pct": 2.2721730753228614e-05,
+        "time": 2.314207400000001,
+        "pct": 3.082124189683082e-05,
         "category": "vtree"
     },
+    "sat_assert_clause": {
+        "time": 2.0223376999999996,
+        "pct": 2.6934042060698813e-05,
+        "category": "sat"
+    },
+    "sat_state_free": {
+        "time": 2.0015343000000003,
+        "pct": 2.665697673644287e-05,
+        "category": "sat"
+    },
     "vset_minus": {
-        "time": 1.1814703999999991,
-        "pct": 1.9921299201382895e-05,
+        "time": 1.4064138999999996,
+        "pct": 1.873100181900948e-05,
         "category": "vtree"
     },
     "sat_clause2literals": {
-        "time": 1.1103425000000002,
-        "pct": 1.8721979965398633e-05,
+        "time": 1.3178841000000006,
+        "pct": 1.755193792833226e-05,
         "category": "sat"
     },
-    "eset_free": {
-        "time": 1.0065890000000004,
-        "pct": 1.6972545940906204e-05,
+    "vset_intersection": {
+        "time": 1.2134191,
+        "pct": 1.6160644721529596e-05,
         "category": "vtree"
     },
-    "vset_intersection": {
-        "time": 0.9734644,
-        "pct": 1.6414017290906902e-05,
+    "eset_free": {
+        "time": 1.0829174000000004,
+        "pct": 1.4422587681504735e-05,
         "category": "vtree"
     },
     "vset_new": {
-        "time": 0.8400312999999995,
-        "pct": 1.416414229745124e-05,
+        "time": 1.0571771999999997,
+        "pct": 1.407977271571004e-05,
         "category": "vtree"
     },
     "nnf_disjoin": {
-        "time": 0.7770289999999999,
-        "pct": 1.3101832426061082e-05,
+        "time": 0.9637844999999997,
+        "pct": 1.2835943403739926e-05,
         "category": "nnf"
     },
-    "free_hdtree": {
-        "time": 0.7713450000000001,
-        "pct": 1.300599196771303e-05,
+    "pass2": {
+        "time": 0.9537402999999993,
+        "pct": 1.2702172023586115e-05,
         "category": "vtree"
     },
-    "pass2": {
-        "time": 0.7663504,
-        "pct": 1.2921775790150538e-05,
+    "free_hdtree": {
+        "time": 0.8581602999999995,
+        "pct": 1.142921165689682e-05,
         "category": "vtree"
     },
     "vset_clause_new": {
-        "time": 0.6594957999999999,
-        "pct": 1.1120052735858114e-05,
+        "time": 0.7871570999999997,
+        "pct": 1.048357177922248e-05,
         "category": "vtree"
     },
     "classify_clause_vars": {
-        "time": 0.5436351999999995,
-        "pct": 9.166475500024063e-06,
+        "time": 0.7040902999999995,
+        "pct": 9.377265604419101e-06,
         "category": "vtree"
     },
     "add_clause": {
-        "time": 0.4438002999999999,
-        "pct": 7.48311473733366e-06,
+        "time": 0.5916622000000001,
+        "pct": 7.879917671774402e-06,
         "category": "sat"
     },
     "vset_free": {
-        "time": 0.40872090000000005,
-        "pct": 6.891625332939788e-06,
-        "category": "vtree"
-    },
-    "free_dvtree": {
-        "time": 0.31337020000000004,
-        "pct": 5.283874665837759e-06,
+        "time": 0.5247502999999996,
+        "pct": 6.988766837291472e-06,
         "category": "vtree"
     },
     "free_vtree_keys": {
-        "time": 0.3055443,
-        "pct": 5.151918676572092e-06,
+        "time": 0.3224602000000001,
+        "pct": 4.294612413001723e-06,
         "category": "cache"
     },
-    "sat_clause_size": {
-        "time": 0.18591230000000006,
-        "pct": 3.1347501837686844e-06,
-        "category": "sat"
-    },
-    "is_trivial_binary_clause": {
-        "time": 0.16817420000000008,
-        "pct": 2.835660170710338e-06,
-        "category": "sat"
-    },
-    "min2": {
-        "time": 0.0938576,
-        "pct": 1.582574842267497e-06,
-        "category": "vtree"
-    },
-    "adjust_positions_and_var_counts": {
-        "time": 0.07091719999999999,
-        "pct": 1.1957665293386206e-06,
-        "category": "vtree"
-    },
-    "free_hgr": {
-        "time": 0.0414084,
-        "pct": 6.982054953306863e-07,
-        "category": "vtree"
-    },
-    "allocate_vtree_keys": {
-        "time": 0.0410538,
-        "pct": 6.92226426623751e-07,
-        "category": "cache"
-    },
-    "declare_watched_literals": {
-        "time": 0.03877119999999999,
-        "pct": 6.537384902716623e-07,
-        "category": "sat"
-    },
-    "sat_free_cnf": {
-        "time": 0.0374031,
-        "pct": 6.306703461713853e-07,
-        "category": "sat"
-    },
-    "vtree_widths": {
-        "time": 0.03306499999999999,
-        "pct": 5.57523707825203e-07,
+    "free_dvtree": {
+        "time": 0.31399040000000006,
+        "pct": 4.181809319114037e-06,
         "category": "vtree"
     },
     "sat_at_assertion_level": {
-        "time": 0.027315,
-        "pct": 4.6057039404946085e-07,
+        "time": 0.3071546,
+        "pct": 4.090768280459352e-06,
         "category": "sat"
     },
-    "vset_adjoin": {
-        "time": 0.027074199999999996,
-        "pct": 4.565101578829915e-07,
+    "sat_clause_size": {
+        "time": 0.20544320000000008,
+        "pct": 2.7361482653883976e-06,
+        "category": "sat"
+    },
+    "is_trivial_binary_clause": {
+        "time": 0.17786820000000006,
+        "pct": 2.3688969354924212e-06,
+        "category": "sat"
+    },
+    "min2": {
+        "time": 0.11150209999999998,
+        "pct": 1.4850152134612558e-06,
+        "category": "vtree"
+    },
+    "adjust_positions_and_var_counts": {
+        "time": 0.0929319,
+        "pct": 1.237692252575154e-06,
+        "category": "vtree"
+    },
+    "allocate_vtree_keys": {
+        "time": 0.05621629999999999,
+        "pct": 7.487039324326806e-07,
+        "category": "cache"
+    },
+    "vtree_widths": {
+        "time": 0.04852859999999998,
+        "pct": 6.463170584946461e-07,
+        "category": "vtree"
+    },
+    "free_hgr": {
+        "time": 0.048459999999999996,
+        "pct": 6.454034250864554e-07,
         "category": "vtree"
     },
     "vset_duplicate": {
-        "time": 0.026990500000000004,
-        "pct": 4.5509885486333427e-07,
+        "time": 0.04839510000000001,
+        "pct": 6.445390692819135e-07,
+        "category": "vtree"
+    },
+    "declare_watched_literals": {
+        "time": 0.04028729999999999,
+        "pct": 5.365571895890539e-07,
+        "category": "sat"
+    },
+    "sat_free_cnf": {
+        "time": 0.038081000000000004,
+        "pct": 5.07173087715999e-07,
+        "category": "sat"
+    },
+    "vset_adjoin": {
+        "time": 0.030067199999999995,
+        "pct": 4.0044312552124376e-07,
         "category": "vtree"
     },
     "sat_unmark_clause": {
-        "time": 0.016926999999999994,
-        "pct": 2.854136943099111e-07,
+        "time": 0.0241713,
+        "pct": 3.2191993002047546e-07,
         "category": "sat"
     },
-    "add_conflict_driven_clause": {
-        "time": 0.016889099999999997,
-        "pct": 2.8477464551128496e-07,
-        "category": "compile"
-    },
     "mark_cset": {
-        "time": 0.015288700000000004,
-        "pct": 2.57789587534468e-07,
-        "category": "vtree"
-    },
-    "unmark_cset": {
-        "time": 0.0143582,
-        "pct": 2.4210001214867177e-07,
+        "time": 0.022105599999999993,
+        "pct": 2.94408377086074e-07,
         "category": "vtree"
     },
     "sat_mark_clause": {
-        "time": 0.013494500000000001,
-        "pct": 2.275367813472616e-07,
+        "time": 0.02047580000000001,
+        "pct": 2.727022585923494e-07,
+        "category": "sat"
+    },
+    "unmark_cset": {
+        "time": 0.020170000000000004,
+        "pct": 2.6862953124213393e-07,
+        "category": "vtree"
+    },
+    "add_conflict_driven_clause": {
+        "time": 0.017593399999999995,
+        "pct": 2.3431367352282383e-07,
+        "category": "compile"
+    },
+    "fill_var_map": {
+        "time": 0.014840900000000002,
+        "pct": 1.9765513188950845e-07,
+        "category": "vtree"
+    },
+    "sat_is_marked_clause": {
+        "time": 0.0094384,
+        "pct": 1.257031714266612e-07,
         "category": "sat"
     },
     "vset_empty_new": {
         "time": 0.0093872,
-        "pct": 1.5828176470880832e-07,
+        "pct": 1.2502127593833212e-07,
         "category": "vtree"
-    },
-    "sat_is_marked_clause": {
-        "time": 0.006773100000000001,
-        "pct": 1.1420425904947479e-07,
-        "category": "sat"
-    },
-    "fill_var_map": {
-        "time": 0.0067466,
-        "pct": 1.1375743073381266e-07,
-        "category": "vtree"
-    },
-    "sat_undeclare_valid_binary_clauses": {
-        "time": 0.0060032,
-        "pct": 1.0122263187104974e-07,
-        "category": null
-    },
-    "assert_unit_clause": {
-        "time": 0.0060032,
-        "pct": 1.0122263187104974e-07,
-        "category": null
     },
     "mark_eset": {
-        "time": 0.005771899999999999,
-        "pct": 9.732257944038377e-08,
+        "time": 0.0089108,
+        "pct": 1.1867645151177027e-07,
         "category": "vtree"
     },
     "cset_intersection": {
-        "time": 0.0051676000000000005,
-        "pct": 8.713320769870014e-08,
+        "time": 0.008705099999999997,
+        "pct": 1.1593688311432319e-07,
         "category": "vtree"
     },
     "eset_intersection": {
-        "time": 0.0051033000000000025,
-        "pct": 8.604901672899926e-08,
+        "time": 0.0078188,
+        "pct": 1.0413289929975194e-07,
         "category": "vtree"
+    },
+    "construct_nnf_manager": {
+        "time": 0.0069232,
+        "pct": 9.220505556249585e-08,
+        "category": "nnf"
     },
     "unmark_eset": {
-        "time": 0.0045278,
-        "pct": 7.634525462848797e-08,
-        "category": "vtree"
-    },
-    "eset_union": {
-        "time": 0.004155500000000001,
-        "pct": 7.006773832958211e-08,
+        "time": 0.006883,
+        "pct": 9.166966105798748e-08,
         "category": "vtree"
     },
     "cset_union": {
-        "time": 0.0035548999999999997,
-        "pct": 5.994075393763238e-08,
+        "time": 0.006636100000000002,
+        "pct": 8.838137988477566e-08,
         "category": "vtree"
+    },
+    "eset_union": {
+        "time": 0.006304400000000001,
+        "pct": 8.39637093090188e-08,
+        "category": "vtree"
+    },
+    "sat_undeclare_valid_binary_clauses": {
+        "time": 0.0062120000000000005,
+        "pct": 8.273310104492492e-08,
+        "category": null
+    },
+    "assert_unit_clause": {
+        "time": 0.0061749000000000005,
+        "pct": 8.223899318131148e-08,
+        "category": null
     },
     "max3": {
         "time": 0.0032684999999999997,
-        "pct": 5.5111635839306707e-08,
-        "category": "vtree"
-    },
-    "minFillScore": {
-        "time": 0.0020881000000000003,
-        "pct": 3.5208385129587386e-08,
+        "pct": 4.3530769601631856e-08,
         "category": "vtree"
     },
     "cset_free": {
-        "time": 0.0017859000000000002,
-        "pct": 3.011285618645185e-08,
+        "time": 0.0028279,
+        "pct": 3.766273928605009e-08,
+        "category": "vtree"
+    },
+    "minFillScore": {
+        "time": 0.0027921999999999995,
+        "pct": 3.718727700219564e-08,
         "category": "vtree"
     },
     "eset_node_new": {
-        "time": 0.0016606,
-        "pct": 2.8000117018434365e-08,
+        "time": 0.0023645000000000003,
+        "pct": 3.14910523858218e-08,
         "category": "vtree"
     },
     "cutset2vtree_rl": {
-        "time": 0.0014427,
-        "pct": 2.4326007962480588e-08,
-        "category": "vtree"
-    },
-    "cnf2minfill_order": {
-        "time": 0.0013276000000000002,
-        "pct": 2.238525554237834e-08,
-        "category": "vtree"
-    },
-    "sift_down": {
-        "time": 0.0011511,
-        "pct": 1.94092103456099e-08,
-        "category": "vtree"
-    },
-    "eset_minus": {
-        "time": 0.0011287,
-        "pct": 1.903151395803136e-08,
-        "category": "vtree"
-    },
-    "vset_paste": {
-        "time": 0.0010927999999999999,
-        "pct": 1.8426188051153242e-08,
-        "category": "vtree"
-    },
-    "sat_read_cnf": {
-        "time": 0.0010499,
-        "pct": 1.7702832023156838e-08,
-        "category": "sat"
-    },
-    "initialize_clause": {
-        "time": 0.0010103,
-        "pct": 1.7035118766544768e-08,
-        "category": "compile"
-    },
-    "fill_esets": {
-        "time": 0.0009892,
-        "pct": 1.6679342258602477e-08,
+        "time": 0.0020928,
+        "pct": 2.787247808545056e-08,
         "category": "vtree"
     },
     "eset_new": {
-        "time": 0.0009626000000000002,
-        "pct": 1.623082779835296e-08,
+        "time": 0.0018271000000000003,
+        "pct": 2.433381341261789e-08,
+        "category": "vtree"
+    },
+    "vset_paste": {
+        "time": 0.0017928,
+        "pct": 2.387699670852244e-08,
+        "category": "vtree"
+    },
+    "cnf2minfill_order": {
+        "time": 0.0017684,
+        "pct": 2.355203088986562e-08,
+        "category": "vtree"
+    },
+    "sat_read_cnf": {
+        "time": 0.0017189,
+        "pct": 2.289277646267248e-08,
+        "category": "sat"
+    },
+    "sift_down": {
+        "time": 0.0016366,
+        "pct": 2.179668273826853e-08,
+        "category": "vtree"
+    },
+    "fill_esets": {
+        "time": 0.0015852,
+        "pct": 2.111212359568818e-08,
         "category": "vtree"
     },
     "initialize_sat_state": {
-        "time": 0.0009436,
-        "pct": 1.5910460326746158e-08,
+        "time": 0.0015692,
+        "pct": 2.0899031255585347e-08,
         "category": "sat"
     },
-    "pass1b": {
-        "time": 0.0008779,
-        "pct": 1.4802663332821589e-08,
+    "eset_minus": {
+        "time": 0.0015579000000000003,
+        "pct": 2.0748534790387728e-08,
         "category": "vtree"
     },
-    "p_hdtree2vtree_aux": {
-        "time": 0.0008609000000000001,
-        "pct": 1.4516018752962874e-08,
+    "pass1b": {
+        "time": 0.0014915,
+        "pct": 1.9864201578960965e-08,
+        "category": "vtree"
+    },
+    "fill_edges_etc": {
+        "time": 0.0014020000000000003,
+        "pct": 1.8672216301510747e-08,
         "category": "vtree"
     },
     "cnf2hgr_primal": {
-        "time": 0.0008066,
-        "pct": 1.3600442242002385e-08,
+        "time": 0.0013988,
+        "pct": 1.8629597833490177e-08,
         "category": "vtree"
     },
-    "cset_new": {
-        "time": 0.0007642000000000001,
-        "pct": 1.2885516936943001e-08,
+    "p_hdtree2vtree_aux": {
+        "time": 0.0013478000000000001,
+        "pct": 1.7950365999412397e-08,
+        "category": "vtree"
+    },
+    "initialize_clause": {
+        "time": 0.0013028000000000002,
+        "pct": 1.7351043792873182e-08,
+        "category": "compile"
+    },
+    "sift_up": {
+        "time": 0.0012764999999999996,
+        "pct": 1.7000773258829143e-08,
+        "category": "vtree"
+    },
+    "cset_minus": {
+        "time": 0.001179,
+        "pct": 1.5702241811327506e-08,
         "category": "vtree"
     },
     "order2hdtree": {
-        "time": 0.00076,
-        "pct": 1.2814698864272022e-08,
+        "time": 0.0011741000000000002,
+        "pct": 1.5636982282171018e-08,
         "category": "vtree"
     },
     "balanced_compose_hdtrees": {
-        "time": 0.0006628000000000001,
-        "pct": 1.1175766325315127e-08,
+        "time": 0.0010992999999999999,
+        "pct": 1.464077559219027e-08,
         "category": "vtree"
     },
-    "sift_up": {
-        "time": 0.0006421,
-        "pct": 1.0826734395722455e-08,
+    "cset_new": {
+        "time": 0.0010078,
+        "pct": 1.3422153772227196e-08,
+        "category": "vtree"
+    },
+    "sat_var_occurences": {
+        "time": 0.0008407,
+        "pct": 1.1196670645278232e-08,
+        "category": "sat"
+    },
+    "find_hdtree_bucket": {
+        "time": 0.0008211,
+        "pct": 1.093563252865226e-08,
+        "category": "vtree"
+    },
+    "sat_index2var": {
+        "time": 0.0006942000000000001,
+        "pct": 9.245543906211669e-09,
+        "category": "sat"
+    },
+    "declare_in_hgr": {
+        "time": 0.0006831000000000001,
+        "pct": 9.097711095265328e-09,
         "category": "vtree"
     },
     "sat_clause_of_var": {
         "time": 0.0006201,
-        "pct": 1.0455782586493527e-08,
+        "pct": 8.258660006110422e-09,
         "category": "sat"
     },
-    "fill_edges_etc": {
-        "time": 0.0005920999999999999,
-        "pct": 9.983662102020346e-09,
-        "category": "vtree"
-    },
-    "cset_minus": {
-        "time": 0.0005434,
-        "pct": 9.162509687954495e-09,
-        "category": "vtree"
-    },
-    "find_hdtree_bucket": {
-        "time": 0.0005386,
-        "pct": 9.081574747759092e-09,
-        "category": "vtree"
-    },
-    "construct_nnf_manager": {
-        "time": 0.0005068,
-        "pct": 8.545380768964553e-09,
-        "category": "nnf"
-    },
-    "declare_in_hgr": {
-        "time": 0.00047420000000000003,
-        "pct": 7.99569763347078e-09,
-        "category": "vtree"
-    },
-    "sat_index2var": {
-        "time": 0.00046049999999999997,
-        "pct": 7.764695824996402e-09,
-        "category": "sat"
+    "bits2bytes": {
+        "time": 0.0006016999999999999,
+        "pct": 8.013603814992163e-09,
+        "category": "cache"
     },
     "combine_v": {
-        "time": 0.00043369999999999997,
-        "pct": 7.312809075572073e-09,
+        "time": 0.0004912,
+        "pct": 6.541934841156973e-09,
         "category": "vtree"
     },
-    "sat_var_occurences": {
-        "time": 0.00037380000000000003,
-        "pct": 6.30280846771695e-09,
+    "main": {
+        "time": 0.00047620000000000003,
+        "pct": 6.342160772310568e-09,
+        "category": "utility"
+    },
+    "sat_assert_unit_clauses": {
+        "time": 0.00045080000000000006,
+        "pct": 6.003876682397321e-09,
         "category": "sat"
+    },
+    "new_literal_node": {
+        "time": 0.00044879999999999996,
+        "pct": 5.977240139884465e-09,
+        "category": "nnf"
+    },
+    "ensure_variable_occurences": {
+        "time": 0.000415,
+        "pct": 5.527082571417232e-09,
+        "category": null
     },
     "sat_index2literal": {
         "time": 0.00036429999999999996,
-        "pct": 6.142624731913549e-09,
+        "pct": 4.851846218716379e-09,
         "category": "sat"
     },
     "initialize_watched_literals": {
         "time": 0.00035409999999999993,
-        "pct": 5.970637983998318e-09,
+        "pct": 4.715999851900822e-09,
         "category": "compile"
-    },
-    "ensure_variable_occurences": {
-        "time": 0.0003274,
-        "pct": 5.520437379161394e-09,
-        "category": null
     },
     "eset_remove": {
         "time": 0.00030649999999999997,
-        "pct": 5.168033160393913e-09,
+        "pct": 4.082050140094894e-09,
         "category": "vtree"
     },
-    "main": {
-        "time": 0.00024440000000000003,
-        "pct": 4.120937371615898e-09,
-        "category": "utility"
+    "sift": {
+        "time": 0.00030179999999999996,
+        "pct": 4.0194542651896875e-09,
+        "category": null
+    },
+    "vtree_manager_new": {
+        "time": 0.0002385,
+        "pct": 3.1764076946578545e-09,
+        "category": "vtree"
     },
     "cset_var_new": {
         "time": 0.00022909999999999999,
-        "pct": 3.862957249743053e-09,
+        "pct": 3.05121594484744e-09,
         "category": null
     },
-    "new_literal_node": {
-        "time": 0.0002206,
-        "pct": 3.7196349598136946e-09,
-        "category": "nnf"
-    },
-    "bits2bytes": {
-        "time": 0.00017549999999999998,
-        "pct": 2.959183750894394e-09,
-        "category": "cache"
-    },
-    "sift": {
-        "time": 0.0001624,
-        "pct": 2.7382988099444422e-09,
+    "hgr_new": {
+        "time": 0.00015470000000000002,
+        "pct": 2.060336563369267e-09,
         "category": null
     },
     "sat_var_count": {
         "time": 0.000133,
-        "pct": 2.2425723012476038e-09,
+        "pct": 1.7713300771047995e-09,
         "category": "sat"
     },
     "sat_index2clause": {
         "time": 0.0001293,
-        "pct": 2.180184951513648e-09,
+        "pct": 1.7220524734560192e-09,
         "category": "sat"
+    },
+    "hgr_new_finish": {
+        "time": 0.00012379999999999997,
+        "pct": 1.6488019815456702e-09,
+        "category": null
     },
     "free_nnf_manager": {
         "time": 0.0001066,
-        "pct": 1.7974301301728915e-09,
+        "pct": 1.419727715935125e-09,
         "category": null
     },
     "construct_cnf_clauses": {
         "time": 8.34e-05,
-        "pct": 1.4062445858951138e-09,
+        "pct": 1.110743822786017e-09,
         "category": "compile"
     },
     "sat_clause_count": {
         "time": 7.4e-05,
-        "pct": 1.247746994679118e-09,
+        "pct": 9.855520729756026e-10,
         "category": "sat"
     },
     "combine_dv": {
         "time": 5.82e-05,
-        "pct": 9.813361498692522e-10,
+        "pct": 7.75123387124055e-10,
         "category": "vtree"
-    },
-    "hgr_new_finish": {
-        "time": 5.279999999999999e-05,
-        "pct": 8.902843421494245e-10,
-        "category": null
     },
     "read_line": {
         "time": 5.13e-05,
-        "pct": 8.649921733383614e-10,
+        "pct": 6.832273154547084e-10,
         "category": "sat"
     },
     "allocate_nnf_memory_block": {
@@ -778,11 +793,6 @@
         "time": 0.0,
         "pct": 0.0,
         "category": "compile"
-    },
-    "vtree_manager_new": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": "vtree"
     },
     "cnf2vtree": {
         "time": 0.0,
@@ -879,6 +889,26 @@
         "pct": 0.0,
         "category": null
     },
+    "hgr2hdtree_hmetis_external": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "extract_nnf_from_manager": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "hgcd_step": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "nnf_manager_new": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": "nnf"
+    },
     "mpn_fft_fft": {
         "time": 0.0,
         "pct": 0.0,
@@ -889,10 +919,10 @@
         "pct": 0.0,
         "category": null
     },
-    "hgcd_step": {
+    "pprint_bytes": {
         "time": 0.0,
         "pct": 0.0,
-        "category": null
+        "category": "utility"
     },
     "extended_file_name": {
         "time": 0.0,
@@ -909,17 +939,22 @@
         "pct": 0.0,
         "category": null
     },
-    "sat_assert_unit_clauses": {
+    "mpn_bc_invertappr": {
         "time": 0.0,
         "pct": 0.0,
-        "category": "sat"
+        "category": null
     },
-    "pprint_bytes": {
+    "count_vtree_shannon": {
         "time": 0.0,
         "pct": 0.0,
-        "category": "utility"
+        "category": "compile"
     },
-    "hgr_new": {
+    "clause_order": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "sat_declare_valid_binary_clauses": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -949,17 +984,12 @@
         "pct": 0.0,
         "category": null
     },
-    "sat_declare_valid_binary_clauses": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
-    "clause_order": {
-        "time": 0.0,
-        "pct": 0.0,
-        "category": null
-    },
     "evaluate_nnf": {
+        "time": 0.0,
+        "pct": 0.0,
+        "category": null
+    },
+    "print_vtree_as_dot": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
@@ -979,12 +1009,12 @@
         "pct": 0.0,
         "category": null
     },
-    "new_leaf": {
+    "new_zero_node": {
         "time": 0.0,
         "pct": 0.0,
         "category": null
     },
-    "new_zero_node": {
+    "new_leaf": {
         "time": 0.0,
         "pct": 0.0,
         "category": null

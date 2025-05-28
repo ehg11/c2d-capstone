@@ -12,7 +12,7 @@ def log(msg):
 
 def ensure_directories():
     Path("./stdout").mkdir(parents=True, exist_ok=True)
-    Path("./perf-report-1hr").mkdir(parents=True, exist_ok=True)
+    Path("./perf-report").mkdir(parents=True, exist_ok=True)
 
 def get_delay_range(log_path):
     try:
@@ -41,8 +41,7 @@ def run_profiling(use_vtree_input=False):
         vtree_path = os.path.join(vtree_dir, f"{cnf_file}.vtree")
         vtree_log_path = os.path.join(vtree_logs_dir, f"{cnf_file}.log")
         stdout_log = os.path.join("./stdout", f"{cnf_file}.log")
-        og_perf_report_log = os.path.join("./perf-report", f"{cnf_file}.log")
-        perf_report_log = os.path.join("./perf-report-1hr", f"{cnf_file}.log")
+        perf_report_log = os.path.join("./perf-report", f"{cnf_file}.log")
 
         if not os.path.exists(vtree_log_path):
             continue
@@ -51,7 +50,7 @@ def run_profiling(use_vtree_input=False):
             log(f"⚠️ Skipping {cnf_file}: VTree not found.")
             continue
 
-        if os.path.exists(og_perf_report_log) or os.path.exists(perf_report_log):
+        if os.path.exists(perf_report_log):
             log(f"⏭️ Skipping {cnf_file}: Perf report already exists.")
             continue
 
